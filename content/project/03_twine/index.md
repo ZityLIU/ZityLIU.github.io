@@ -45,9 +45,9 @@ sections:
         使用 **Twine** 进行分支叙事脚本设计，重点在于把剧情结构做成"**可管理、可复用、可导出**"的节点系统。
 
         将分支逻辑与 HUD 变量结合，用可视化节点图表达全局结构，并准备了可试玩的打包文件，便于向导师/HR 展示完整交互体验。
-
+        
         > A Twine-based branching narrative prototype with a reusable node/variable structure. Focus: clear branching design, HUD variables, and exportability for engine integration (UE/Unity).
-
+        
         <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; margin-top:1.5rem; text-align:center;">
           <div style="background:#0d0d1a; border:1px solid #2d2d4a; border-radius:8px; padding:1.1rem 0.6rem;">
             <div style="font-size:1.4rem; margin-bottom:0.35rem;">🗺</div>
@@ -193,3 +193,4 @@ sections:
         </div>
     design:
       columns: '1'
+---
