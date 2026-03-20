@@ -51,12 +51,18 @@ work:
       Focused on UE Technical Art, UMG motion design, and real-time rendering pipelines.
 
 education:
-  - area: Undergraduate — Business & Media Arts
-    institution: Cross-disciplinary Background
-    date_start: 2020-09-01
-    date_end: 2024-06-30
+  - area: The Hong Kong University of Science and Technology (Guangzhou)
+    institution: Master of Philosophy in Computational Media and Arts (CMA)
+    date_start: 2025-09-01
+    date_end: 2027-06-30
     summary: |
-      Cross-disciplinary background bridging business strategy and digital media arts.
+
+  - area: The University of Nottingham-Ningbo
+    institution: Bachelor of International Business of Economic
+    date_start: 2021-09-01
+    date_end: 2025-06-30
+    summary: |
+      
 
 # Skills
 skills:
@@ -111,5 +117,20 @@ I'm **Zhiting Liu (刘芷汀)**, a Technical Artist candidate at [HKUST (Guangzh
 
 I'm passionate about making illustrated stories **interactive, cinematic, and technically polished** — from ink-dissolve transitions to branching narrative prototypes and XR virtual production.
 
-> **Open to internships** in UE Technical Art / UI Motion Design.
-> 📮 [zliu256@connect.hkust-gz.edu.cn](mailto:zliu256@connect.hkust-gz.edu.cn)
+<div style="border: 2px solid #000000; background-color: #99FFFC; color: #000000; padding: 15px; margin-top: 20px; margin-bottom: 20px; border-radius: 10px; font-size: 16px;">
+  <strong style="color: #111111;">📢 News:</strong>
+  <div style="max-height: 180px; overflow-y: auto; margin-top: 10px; padding-right: 5px;">
+    <ul style="margin: 0; padding-left: 20px; list-style-type: disc;">
+		    <li style="margin-bottom: 8px; line-height: 1.4;">
+        <strong style="color: #111111;">[Pinned]</strong> 
+        <span style="color: #EA517F; font-weight: bold;">
+            Open to internships in UE Technical Art / UI Motion Design.
+						Feel free to reach out via 📮 zliu256@connect.hkust-gz.edu.cn
+        </span>
+    </li>
+    </ul>
+  </div>
+  <div style="text-align: center; margin-top: 8px; font-size: 12px; color: #666;">
+    ↕️ Scroll down to view more messages
+  </div>
+</div>
