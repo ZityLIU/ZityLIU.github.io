@@ -73,12 +73,12 @@ sections:
     content:
       title: Demo 演示
       text: |-
-        {{</* media-gif
+        {{< media-gif
           src      = "/media/shotademo.gif"
           caption  = "《寿塔》完整演示demo移步youtube/bilibili链接- 对话交互·分支选择·转场动效·HUD变量反馈"
           youtube  = "https://youtu.be/J-VjvylSdaQ"
           bilibili = "https://www.bilibili.com/video/BV1kMAwziEfx/?share_source=copy_web&vd_source=99833786c26a35502e644b54c08f7345"
-        */>}}
+        >}}
     design:
       columns: '1'
 
@@ -153,10 +153,10 @@ sections:
           </div>
         </div>
 
-        {{</* media-gif
+        {{< media-gif
           src="/media/shadermake.gif"
           caption="材质 Demo：墨晕 shader 制作流程，展示参数驱动与 UI/关卡切换的触发联动"
-        */>}}
+        >}}
     design:
       columns: '1'
 
