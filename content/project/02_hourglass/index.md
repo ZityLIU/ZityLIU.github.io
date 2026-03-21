@@ -65,7 +65,7 @@ sections:
   # 花絮 GIF + 视频链接
   # ← 修改：src 换成花絮的 GIF 预览；填入 YouTube / Bilibili 链接
   # ────────────────────────────────────────────────────────────
-    - block: markdown
+  - block: markdown
     content:
       title: 录制花絮 · Behind the Scenes
       text: |-
