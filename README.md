@@ -116,6 +116,8 @@ sections:
         */>}}
     design:
       columns: '1'
+ 
+ 
 
   # ── GIF 展示区（可复制多个此区块） ─────────────────────────
   # 修改：src 换成 /media/你的文件名.gif
@@ -133,6 +135,9 @@ sections:
         */>}}
     design:
       columns: '1'
+      
+
+      
 
   # ── 单张图片（可复制多个此区块） ───────────────────────────
   - block: markdown
@@ -216,7 +221,7 @@ title4="你的项目标题"
 desc4="你的项目一句话描述"
 ```
 
-目前最多支持 **4 个**卡片。如需更多，告知即可扩展。
+目前支持**任意数量**的项目卡片，填写 `link5/gif5/...`、`link6/gif6/...` 以此类推即可，没有上限。
 
 ---
 
@@ -348,11 +353,11 @@ bilibili = "https://www.bilibili.com/video/BVxxxxxx"      ← 不填则不显示
 ### `project-grid` — 首页项目卡片网格
 | 参数 | 说明 |
 |------|------|
-| `link1`…`link4` | 项目详情页路径 |
-| `gif1`…`gif4` | 卡片封面图路径 |
-| `tags1`…`tags4` | 技术标签 |
-| `title1`…`title4` | 项目标题 |
-| `desc1`…`desc4` | 一句话描述 |
+| `link1`…`linkN` | 项目详情页路径 |
+| `gif1`…`gifN` | 卡片封面图路径 |
+| `tags1`…`tagsN` | 技术标签 |
+| `title1`…`titleN` | 项目标题 |
+| `desc1`…`descN` | 一句话描述 |
 
 ---
 
@@ -360,5 +365,3 @@ bilibili = "https://www.bilibili.com/video/BVxxxxxx"      ← 不填则不显示
 > 1. 图片路径是否以 `/media/` 开头，文件名拼写是否正确
 > 2. shortcode 的引号是否完整（必须是英文双引号 `"`）
 > 3. 新项目文件夹里是否有 `index.md`
-
- 

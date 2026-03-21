@@ -1,7 +1,7 @@
 {{/*
-  首页项目卡片网格，支持 2–4 个项目。
+  首页项目卡片网格，项目数量无上限。
   每个项目填写：link / gif / tags / title / desc
-  不填 link3 则只显示两个卡片。
+  不填某个 link 则该卡片不显示，填多少显示多少。
 
   用法：
   {{< project-grid
@@ -22,7 +22,7 @@
   >}}
 */}}
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:1.5rem;">
-  {{ range $i, $n := slice 1 2 3 4 }}
+  {{ range $i, $n := seq 1 99 }}
   {{ $link  := $.Get (printf "link%d"  $n) }}
   {{ $gif   := $.Get (printf "gif%d"   $n) }}
   {{ $tags  := $.Get (printf "tags%d"  $n) }}

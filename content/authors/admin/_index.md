@@ -11,7 +11,7 @@ last_name: Liu
 
 # Status emoji
 status:
-  icon: 🎮
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -58,6 +58,9 @@ work:
     summary: |
       ICBC Official Account Image Rendering
 
+
+
+
 education:
   - area: The Hong Kong University of Science and Technology (Guangzhou)
     institution: Master of Philosophy in Computational Media and Arts (CMA)
@@ -88,6 +91,7 @@ skills:
         description: 'Motion Graphics & Post'
         percent: 75
         icon: film
+
   - name: Creative Interests
     color: '#a78bfa'
     color_border: '#ddd6fe'
@@ -104,6 +108,7 @@ skills:
         description: ''
         percent: 80
         icon: camera
+
 
 languages:
   - name: Chinese
