@@ -65,18 +65,18 @@ sections:
   # 花絮 GIF + 视频链接
   # ← 修改：src 换成花絮的 GIF 预览；填入 YouTube / Bilibili 链接
   # ────────────────────────────────────────────────────────────
-  - block: markdown
+    - block: markdown
     content:
       title: 录制花絮 · Behind the Scenes
       text: |-
-        {{< media-gif
-          src      = "/media/hourglass-bts.gif"
+        {{< media-row
+          src1     = "/media/huaxv2.gif"
+          src2     = "/media/huaxv1.gif"
           caption  = "拍摄花絮——LED 现场流程、UE 虚拟场景与摄影机配合的完整工作方式"
-          youtube  = "https://youtu.be/your-bts-video-id"
-          bilibili = "https://www.bilibili.com/video/BVxxxxxxxx"
         >}}
     design:
       columns: '1'
+
 
   # ────────────────────────────────────────────────────────────
   # BREAKDOWN  ← 修改：四格卡片文字
