@@ -68,36 +68,21 @@ sections:
     design:
       columns: '1'
 
-
-  # ── INK SHADER ────────────────────────────────────────────────
+  # ── DEMO VIDEO ────────────────────────────────────────────────
   - block: markdown
     content:
-      title: 水墨转场材质
-      subtitle: Ink Dissolve Shader · Material Parameter Control
+      title: Demo 演示
       text: |-
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:1.25rem;">
-          <div>
-            <img src="/media/ink-material-flow.png" alt="水墨转场材质制作流程图"
-                 style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
-            <p style="font-size:0.8rem; color:#64748b; margin-top:0.5rem; text-align:center;">
-              材质节点流程：Noise 贴图 → 遮罩演化 → 边缘颜色参数 → 与 UI 淡出同步
-            </p>
-          </div>
-          <div>
-            <img src="/media/ink-dissolve.gif" alt="水墨材质动图"
-                 style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
-            <p style="font-size:0.8rem; color:#64748b; margin-top:0.5rem; text-align:center;">
-              墨晕遮罩演化预览：边缘扩散速率 · 墨迹纹理密度 · 过场触发时序
-            </p>
-          </div>
-        </div>
-
         {{</* media-gif
-          src="/media/shadermake.gif"
-          caption="材质 Demo：墨晕 shader 制作流程，展示参数驱动与 UI/关卡切换的触发联动"
+          src      = "/media/shotademo.gif"
+          caption  = "《寿塔》完整演示demo移步youtube/bilibili链接- 对话交互·分支选择·转场动效·HUD变量反馈"
+          youtube  = "https://youtu.be/J-VjvylSdaQ"
+          bilibili = "https://www.bilibili.com/video/BV1kMAwziEfx/?share_source=copy_web&vd_source=99833786c26a35502e644b54c08f7345"
         */>}}
     design:
       columns: '1'
+
+      
 
   # ── UMG DESIGN ────────────────────────────────────────────────
   - block: markdown
@@ -145,7 +130,7 @@ sections:
     design:
       columns: '1'
 
-  # ── INK SHADER ────────────────────────────────────────────────
+   # ── INK SHADER ────────────────────────────────────────────────
   - block: markdown
     content:
       title: 水墨转场材质
@@ -168,12 +153,12 @@ sections:
           </div>
         </div>
 
-       {{</* media-gif
-      src="/media/shadermake.gif"
-      caption="材质 Demo：墨晕shader制作流程，展示参数驱动与 UI/关卡切换的触发联动"
-    */>}}
-design:
-  columns: '1'
+        {{</* media-gif
+          src="/media/shadermake.gif"
+          caption="材质 Demo：墨晕 shader 制作流程，展示参数驱动与 UI/关卡切换的触发联动"
+        */>}}
+    design:
+      columns: '1'
 
   # ── BREAKDOWN ─────────────────────────────────────────────────
   - block: markdown
