@@ -75,7 +75,7 @@ sections:
           desc1="UE5 插画式视觉小说 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
 
           link2="/project/02_hourglass/"
-          gif2="/media/hourglass-bts.gif"
+          gif2="/media/pianduan5.gif"
           tags2="XR · Virtual Production · Sequencer"
           title2="古罗马的沙漏 · The Hourglass of Ancient Rome"
           desc2="XR 虚拟制片实践 — 虚拟场景搭建 + LED 拍摄流程 + 镜头调度"
