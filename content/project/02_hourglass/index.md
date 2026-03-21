@@ -53,7 +53,10 @@ sections:
       title: 成片 · Final Film
       text: |-
         {{< media-gif
-          src      = "/media/hourglass-bts.gif"
+          src1     = "/media/pianduan1.gif"
+          src2     = "/media/pianduan2.gif"
+          src3     = "/media/pianduan3.gif"
+          src4     = "/media/pianduan5.gif"
           caption  = "最终成片——虚拟场景与真实表演融合呈现，光照氛围与镜头节奏"
           youtube  = "https://youtu.be/your-final-film-id"
           bilibili = "https://www.bilibili.com/video/BVxxxxxxxx"
