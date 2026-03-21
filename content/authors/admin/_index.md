@@ -42,13 +42,21 @@ interests:
   - XR / Virtual Production
 
 work:
-  - position: MSc Computational Media Arts
-    company_name: HKUST (Guangzhou)
-    company_url: 'https://www.hkust-gz.edu.cn/'
-    date_start: 2024-09-01
-    date_end: ''
+  - position: Art & Promotional Design Intern
+    company_name: NIO
+    company_url: 'www.icbc.com'
+    date_start: 2023-05-01
+    date_end: '2023-06-31'
     summary: |
-      Focused on UE Technical Art, UMG motion design, and real-time rendering pipelines.
+      Responsible for producing promotional animations for NIO.
+
+  - position: Art & Promotional Design Intern
+    company_name: Industrial and Commercial Bank of China, Jizhou Branch
+    company_url: 'https://www.nio.cn/'
+    date_start: 2022-06-11
+    date_end: '2022-08-13'
+    summary: |
+      ICBC Official Account Image Rendering
 
 education:
   - area: The Hong Kong University of Science and Technology (Guangzhou)
