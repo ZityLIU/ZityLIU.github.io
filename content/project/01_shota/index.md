@@ -1,140 +1,135 @@
 ---
-title: "寿塔 · The Longevity Pagoda"
-date: 2024-12-01
+title: "Twine 互动叙事脚本设计"
+date: 2024-11-01
 type: landing
+
 design:
   spacing: "4rem"
+
 sections:
 
-  # ────────────────────────────────────────────────────────────
-  # HERO  ← 修改这里：副标题、主标题、一句话描述、技能标签
-  # ────────────────────────────────────────────────────────────
+  # ── HERO ─────────────────────────────────────────────
   - block: markdown
     content:
-      title: ''
+      title: ""
       text: |-
-        {{< project-hero
-          subtitle = "UE5 · UMG Motion · Blueprint · Shader · Data-Driven Narrative"
-          title    = "寿塔 · The Longevity Pagoda"
-          desc     = "UE5 插画式视觉小说 | 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
-          tags     = "Unreal Engine 5, UMG Widget, Material Shader, Blueprint, DataTable"
-        >}}
+        <div style="padding: 3rem 0 2rem; text-align:center;">
+          <a href="/" style="display:inline-flex; align-items:center; gap:0.4rem; color:#94a3b8; font-size:0.82rem; text-decoration:none; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:2rem;">
+            ← Back to Portfolio
+          </a>
+
+          <p style="font-size:0.8rem; color:#a78bfa; letter-spacing:0.2em; text-transform:uppercase; margin-bottom:1rem;">
+            Twine · Narrative Design · Branching Logic · Data-Driven
+          </p>
+
+          <h1 style="font-size:2.6rem; font-weight:700; color:#f1f5f9; margin:0 0 0.75rem;">
+            Twine 互动叙事设计
+          </h1>
+
+          <p style="font-size:1.05rem; color:#94a3b8; max-width:620px; margin:0 auto 2rem; line-height:1.8;">
+            分支叙事结构设计 &emsp;|&emsp;变量驱动剧情逻辑 &emsp;|&emsp;UE 数据对接
+          </p>
+        </div>
     design:
       columns: '1'
 
-  # ────────────────────────────────────────────────────────────
-  # OVERVIEW  ← 修改这里：项目简介文字
-  # ────────────────────────────────────────────────────────────
+  # ── OVERVIEW ─────────────────────────────────────────
   - block: markdown
     content:
-      title: Overview
+      title: "Overview"
       text: |-
-        《寿塔》是我在 Unreal Engine 5 中开发的**分幕式插画互动叙事 Demo**。
+        本项目使用 **Twine** 设计互动叙事结构，构建分支剧情与变量系统，并作为 UE5 项目的前置叙事原型。
 
-        项目核心目标是将"脚本—演出—交互"整合成**可复用的三层叙事系统**：通过 **DataTable** 管理剧情节点与变量，**UMG** 完成对话与选项交互，并用**材质驱动墨晕转场**增强沉浸感。
+        核心目标：
+        - 把“线性剧情”转为“可交互分支结构”
+        - 用变量控制剧情推进与状态变化
+        - 为后续 UE DataTable 提供结构化输入
 
-        > A scene-based illustrated narrative demo built in UE5. Focus: a reusable pipeline — DataTable-driven story nodes, UMG dialogue UI, and a material-based ink transition for cinematic scene changes.
+        > A branching narrative prototype built with Twine. It focuses on variable-driven storytelling and serves as a structured narrative source for UE implementation.
 
-        {{< highlight-cards
-          icon1="📊" title1="DATA-DRIVEN"  desc1="DataTable 管理剧情节点、分支与变量，内容与逻辑解耦"
-          icon2="🎬" title2="UMG MOTION"   desc2="统一的动效语言：对话框、选项、打字机效果、HUD 提示"
-          icon3="🖋" title3="INK SHADER"   desc3="Noise 贴图驱动墨晕遮罩，参数化控制过场节奏"
-        >}}
     design:
       columns: '1'
 
-  # ────────────────────────────────────────────────────────────
-  # DEMO GIF + 视频链接
-  # ← 修改：src 换成你的 GIF 路径；填入 YouTube / Bilibili 链接
-  #   不填 youtube 或 bilibili 则不显示对应按钮
-  # ────────────────────────────────────────────────────────────
+  # ── SCRIPT STRUCTURE ─────────────────────────────────
   - block: markdown
     content:
-      title: Demo 演示
-      subtitle: Full Playthrough
+      title: "Script Structure"
       text: |-
-        {{< media-gif
-          src      = "/media/umg-widget.gif"
-          caption  = "《寿塔》完整演示 — 对话交互 · 分支选择 · 转场动效 · HUD 变量反馈"
-          youtube  = "https://youtu.be/your-video-id"
-          bilibili = "https://www.bilibili.com/video/BVxxxxxxxx"
-        >}}
-    design:
-      columns: '1'
+        <img src="/media/twine-overview.png" style="width:100%; border-radius:10px; border:1px solid #2d2d4a;"/>
 
-  # ────────────────────────────────────────────────────────────
-  # UMG 界面设计  ← 修改：替换图片路径和图注文字
-  # ────────────────────────────────────────────────────────────
-  - block: markdown
-    content:
-      title: UMG 界面设计
-      subtitle: Widget Layout · Motion Design · Character Management
-      text: |-
-        {{< media-row
-          src1     = "/media/umg-design.png"
-          caption1 = "UI 版式设计：对话框 · 名字栏 · 选项按钮 · HUD 提示层级"
-          src2     = "/media/umg-widget.gif"
-          caption2 = "动效演示：立绘入场动画 · 对话框渐显 · 选项 hover/click 反馈"
-        >}}
-
-        **设计原则：** 对话框、选项面板与 HUD 提示形成**统一的动效语言**——入场/退场曲线、时序节奏与打字机速率保持视觉一致性，避免界面跳切割裂沉浸感。
+        <p style="text-align:center; font-size:0.82rem; color:#64748b; margin-top:0.5rem;">
+          Twine 分支结构总览：节点关系与剧情流向
+        </p>
 
         ---
 
-        {{< media-row
-          src1     = "/media/character-design.png"
-          caption1 = "角色立绘管理：在 UE Widget 中控制立绘切换与情绪状态动画"
-          src2     = "/media/widget-blueprint.png"
-          caption2 = "Widget 蓝图：显示文本 → 生成选项 → 写回变量 → 跳转节点"
-        >}}
+        <img src="/media/twine-script.png" style="width:100%; border-radius:10px; border:1px solid #2d2d4a;"/>
+
+        <p style="text-align:center; font-size:0.82rem; color:#64748b; margin-top:0.5rem;">
+          剧本节点内容：文本、变量、跳转逻辑
+        </p>
+
     design:
       columns: '1'
 
-  # ────────────────────────────────────────────────────────────
-  # 水墨转场材质  ← 修改：替换图片/GIF 路径；填入视频链接
-  # ────────────────────────────────────────────────────────────
+  # ── DESIGN LOGIC ─────────────────────────────────────
   - block: markdown
     content:
-      title: 水墨转场材质
-      subtitle: Ink Dissolve Shader · Material Parameter Control
+      title: "Design Logic"
       text: |-
-        {{< media-row
-          src1     = "/media/ink-material-flow.png"
-          caption1 = "材质节点流程：Noise 贴图 → 遮罩演化 → 边缘颜色参数 → 与 UI 淡出同步"
-          src2     = "/media/ink-dissolve.gif"
-          caption2 = "墨晕遮罩演化预览：边缘扩散速率 · 墨迹纹理密度 · 过场触发时序"
-        >}}
+        该系统将剧情抽象为：
 
-        {{< media-gif
-          src      = "/media/ink-dissolve.gif"
-          caption  = "材质 Demo：墨晕转场完整演示，展示参数驱动与 UI / 关卡切换的触发联动"
-          youtube  = "https://youtu.be/your-shader-demo-id"
-          bilibili = "https://www.bilibili.com/video/BVxxxxxxxx"
-        >}}
+        - **Node（节点）**
+        - **Choice（选项）**
+        - **Variable（变量）**
+        - **Transition（跳转）**
+
+        逻辑流程：
+
+        ```
+        Node → Display Text → Player Choice → Update Variable → Jump to Next Node
+        ```
+
+        这种结构使得剧情可以：
+        - 动态分支
+        - 可复用
+        - 易于迁移到 UE
+
     design:
       columns: '1'
 
-  # ────────────────────────────────────────────────────────────
-  # BREAKDOWN  ← 修改：四格卡片文字
-  # ────────────────────────────────────────────────────────────
+  # ── UE MAPPING ───────────────────────────────────────
   - block: markdown
     content:
-      title: Breakdown
-      subtitle: Problem → Solution → Implementation → Outcome
+      title: "UE Integration Mapping"
       text: |-
-        {{< breakdown
-          problem        = "叙事内容与演出逻辑耦合在同一 Blueprint 中，新增剧情须修改蓝图，扩展成本高、协作困难。"
-          solution       = "以 DataTable 作为数据层，Blueprint 作为执行层，UMG 作为表现层——三层解耦，各自独立迭代。"
-          implementation = "DataTable 存储对话文本、选项列表、变量读写与跳转 ID；Widget 只负责渲染与动效；脚本管理器 Blueprint 负责状态机与事件分发。"
-          outcome        = "新增一幕剧情只需填写 DataTable，无需改动蓝图；UI 动效可独立迭代；墨晕材质参数化，转场风格可快速调整。"
-        >}}
+        在 Unreal Engine 中，对应关系如下：
+
+        | Twine | UE |
+        |------|----|
+        | Node | DataTable Row |
+        | Choice | Button Widget |
+        | Variable | Blueprint Variable |
+        | Transition | Node ID Jump |
+
+        这样实现了：
+
+        👉 **叙事设计（Twine） → 数据结构（CSV/DataTable） → UE 运行时系统**
+
     design:
       columns: '1'
 
+  # ── BACK ─────────────────────────────────────────────
   - block: markdown
     content:
-      title: ''
+      title: ""
       text: |-
-        {{< back-nav >}}
+        <div style="text-align:center; padding:1rem 0 2rem;">
+          <a href="/" style="display:inline-block; padding:0.6rem 1.8rem; border:1px solid #3d3d5a; color:#94a3b8; border-radius:6px; font-size:0.85rem; text-decoration:none;">
+            ← Back to Portfolio
+          </a>
+        </div>
     design:
       columns: '1'
+
+---
