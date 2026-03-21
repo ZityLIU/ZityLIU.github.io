@@ -72,16 +72,16 @@ sections:
   - block: markdown
     content:
       title: Demo 演示
-      subtitle: Full Playthrough
       text: |-
-        <video controls playsinline style="width:100%; border-radius:10px; border:1px solid #2d2d4a;">
-          <source src="/media/shota-demo.mp4" type="video/mp4"/>
-        </video>
-        <p style="text-align:center; font-size:0.82rem; color:#64748b; margin-top:0.75rem;">
-          《寿塔》完整演示 — 对话交互 · 分支选择 · 转场动效 · HUD 变量反馈
-        </p>
+        {{</* media-gif
+          src      = "/media/shotademo.gif"
+          caption  = "《寿塔》完整演示demo移步youtube/bilibili链接- 对话交互·分支选择·转场动效·HUD变量反馈"
+          youtube  = "https://youtu.be/J-VjvylSdaQ"
+          bilibili = "https://www.bilibili.com/video/BV1kMAwziEfx/?share_source=copy_web&vd_source=99833786c26a35502e644b54c08f7345"
+        */>}}
     design:
       columns: '1'
+      
 
   # ── UMG DESIGN ────────────────────────────────────────────────
   - block: markdown
@@ -152,14 +152,12 @@ sections:
           </div>
         </div>
 
-        <video controls muted loop playsinline style="width:100%; border-radius:10px; border:1px solid #2d2d4a;">
-          <source src="/media/ink-demo.mp4" type="video/mp4"/>
-        </video>
-        <p style="text-align:center; font-size:0.82rem; color:#64748b; margin-top:0.75rem;">
-          材质 Demo：墨晕转场完整演示，展示参数驱动与 UI/关卡切换的触发联动
-        </p>
-    design:
-      columns: '1'
+       {{</* media-gif
+      src="/media/shadermake.gif"
+      caption="材质 Demo：墨晕shader制作流程，展示参数驱动与 UI/关卡切换的触发联动"
+    */>}}
+design:
+  columns: '1'
 
   # ── BREAKDOWN ─────────────────────────────────────────────────
   - block: markdown
