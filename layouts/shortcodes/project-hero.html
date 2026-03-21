@@ -1,0 +1,31 @@
+{{/*
+  项目页顶部 Hero 区块：返回按钮 + 副标签 + 大标题 + 一句话描述 + tag 列表。
+  tags 用英文逗号分隔，例如 "Unreal Engine 5,UMG Widget,Shader"
+  
+  用法：
+  {{< project-hero
+    subtitle = "UE5 · UMG Motion · Blueprint · Shader"
+    title    = "寿塔 · The Longevity Pagoda"
+    desc     = "UE5 插画式视觉小说 | 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
+    tags     = "Unreal Engine 5,UMG Widget,Material Shader,Blueprint,DataTable"
+  >}}
+*/}}
+<div style="padding:3rem 0 2rem;text-align:center;">
+  <a href="/" style="display:inline-flex;align-items:center;gap:0.4rem;color:#94a3b8;font-size:0.82rem;text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:2rem;">
+    ← Back to Portfolio
+  </a>
+  <p style="font-size:0.8rem;color:#a78bfa;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:1rem;">
+    {{ .Get "subtitle" }}
+  </p>
+  <h1 style="font-size:2.6rem;font-weight:700;color:#f1f5f9;margin:0 0 0.75rem;line-height:1.2;">
+    {{ .Get "title" }}
+  </h1>
+  <p style="font-size:1.05rem;color:#94a3b8;max-width:620px;margin:0 auto 2rem;line-height:1.8;">
+    {{ .Get "desc" }}
+  </p>
+  <div style="display:flex;justify-content:center;gap:0.75rem;flex-wrap:wrap;">
+    {{ range (split (.Get "tags") ",") }}
+    <span style="padding:4px 14px;border:1px solid #3d3d5a;border-radius:20px;font-size:0.75rem;color:#c4b5fd;">{{ . | strings.TrimSpace }}</span>
+    {{ end }}
+  </div>
+</div>

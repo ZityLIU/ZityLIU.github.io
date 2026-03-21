@@ -1,0 +1,24 @@
+{{/*
+  四格 Breakdown 卡片：Problem / Solution / Implementation / Outcome
+  
+  用法：
+  {{< breakdown
+    problem        = "叙事内容与演出逻辑耦合在同一 Blueprint 中，新增剧情须修改蓝图..."
+    solution       = "以 DataTable 作为数据层，Blueprint 作为执行层，UMG 作为表现层..."
+    implementation = "DataTable 存储对话文本、选项列表、变量读写与跳转 ID..."
+    outcome        = "新增一幕剧情只需填写 DataTable，无需改动蓝图..."
+  >}}
+*/}}
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:1rem 0 1.5rem;">
+  {{ range $i, $item := slice
+    (dict "n" "01" "label" "Problem"        "text" (.Get "problem"))
+    (dict "n" "02" "label" "Solution"       "text" (.Get "solution"))
+    (dict "n" "03" "label" "Implementation" "text" (.Get "implementation"))
+    (dict "n" "04" "label" "Outcome"        "text" (.Get "outcome"))
+  }}
+  <div style="background:#0d0d1a;border-left:3px solid #a78bfa;border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
+    <div style="font-size:0.72rem;color:#a78bfa;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.5rem;">{{ .n }} · {{ .label }}</div>
+    <p style="color:#cbd5e1;font-size:0.9rem;line-height:1.7;margin:0;">{{ .text }}</p>
+  </div>
+  {{ end }}
+</div>

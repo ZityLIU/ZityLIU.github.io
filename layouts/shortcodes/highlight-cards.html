@@ -1,0 +1,29 @@
+{{/*
+  项目亮点卡片组（3或4个），每个卡片有 emoji、标题、说明。
+  支持 3 或 4 个卡片，通过填写 icon4/title4/desc4 决定是否显示第四张。
+  
+  用法（3张）：
+  {{< highlight-cards
+    icon1="📊" title1="DATA-DRIVEN" desc1="DataTable 管理剧情节点、分支与变量"
+    icon2="🎬" title2="UMG MOTION"  desc2="统一的动效语言：对话框、选项、打字机效果"
+    icon3="🖋" title3="INK SHADER"  desc3="Noise 贴图驱动墨晕遮罩，参数化控制过场节奏"
+  >}}
+  
+  用法（4张）：多加一组 icon4/title4/desc4 即可。
+*/}}
+{{ $cols := "repeat(3,1fr)" }}
+{{ if .Get "icon4" }}{{ $cols = "repeat(4,1fr)" }}{{ end }}
+<div style="display:grid;grid-template-columns:{{ $cols }};gap:1rem;margin:1.5rem 0 1rem;text-align:center;">
+  {{ range $i, $n := slice 1 2 3 4 }}
+  {{ $icon  := $.Get (printf "icon%d"  $n) }}
+  {{ $title := $.Get (printf "title%d" $n) }}
+  {{ $desc  := $.Get (printf "desc%d"  $n) }}
+  {{ if $icon }}
+  <div style="background:#0d0d1a;border:1px solid #2d2d4a;border-radius:8px;padding:1.1rem 0.75rem;">
+    <div style="font-size:1.5rem;margin-bottom:0.35rem;">{{ $icon }}</div>
+    <div style="font-size:0.72rem;color:#a78bfa;font-weight:600;margin-bottom:0.25rem;letter-spacing:0.05em;">{{ $title }}</div>
+    <div style="font-size:0.78rem;color:#94a3b8;line-height:1.4;">{{ $desc }}</div>
+  </div>
+  {{ end }}
+  {{ end }}
+</div>

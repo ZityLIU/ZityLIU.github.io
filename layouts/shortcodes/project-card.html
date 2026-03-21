@@ -1,0 +1,24 @@
+{{/*
+  用法：
+  {{< project-card
+    link   = "/project/01_shota/"
+    gif    = "/media/umg-widget.gif"
+    tags   = "UE5 · UMG · Shader"
+    title  = "寿塔 · The Longevity Pagoda"
+    desc   = "UE5 插画式视觉小说 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
+  >}}
+*/}}
+<a href="{{ .Get "link" }}" style="text-decoration:none;color:inherit;">
+  <div style="background:#0f0f1a;border:1px solid #2d2d4a;border-radius:12px;overflow:hidden;transition:transform 0.2s,box-shadow 0.2s;"
+       onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(167,139,250,0.18)'"
+       onmouseout="this.style.transform='';this.style.boxShadow=''">
+    <img src="{{ .Get "gif" }}" alt="{{ .Get "title" }}" style="width:100%;height:200px;object-fit:cover;"/>
+    <div style="padding:1.25rem 1.5rem 1.5rem;">
+      <div style="margin-bottom:0.5rem;">
+        <span style="font-size:0.7rem;color:#a78bfa;letter-spacing:0.1em;text-transform:uppercase;border:1px solid #a78bfa;padding:2px 8px;border-radius:20px;">{{ .Get "tags" }}</span>
+      </div>
+      <h3 style="margin:0 0 0.5rem;font-size:1.2rem;color:#f1f5f9;">{{ .Get "title" }}</h3>
+      <p style="margin:0;font-size:0.88rem;color:#94a3b8;line-height:1.6;">{{ .Get "desc" }}</p>
+    </div>
+  </div>
+</a>

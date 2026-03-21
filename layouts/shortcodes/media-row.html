@@ -1,0 +1,27 @@
+{{/*
+  两栏并排媒体（图片/GIF），每格有独立图注。
+  
+  用法：
+  {{< media-row
+    src1     = "/media/umg-design.png"
+    caption1 = "UI 版式设计：对话框 · 名字栏 · 选项按钮"
+    src2     = "/media/umg-widget.gif"
+    caption2 = "动效演示：立绘入场 · 对话框渐显"
+  >}}
+*/}}
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1rem 0 1.5rem;">
+  <div>
+    <img src="{{ .Get "src1" }}" alt="{{ .Get "caption1" }}"
+         style="width:100%;border-radius:8px;border:1px solid #2d2d4a;display:block;"/>
+    {{ with .Get "caption1" }}
+    <p style="font-size:0.8rem;color:#64748b;margin:0.5rem 0 0;text-align:center;">{{ . }}</p>
+    {{ end }}
+  </div>
+  <div>
+    <img src="{{ .Get "src2" }}" alt="{{ .Get "caption2" }}"
+         style="width:100%;border-radius:8px;border:1px solid #2d2d4a;display:block;"/>
+    {{ with .Get "caption2" }}
+    <p style="font-size:0.8rem;color:#64748b;margin:0.5rem 0 0;text-align:center;">{{ . }}</p>
+    {{ end }}
+  </div>
+</div>

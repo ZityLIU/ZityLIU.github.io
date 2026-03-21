@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Technical Artist (UE) Candidate
+role: CMA Mphil
 
 # Organizations/Affiliations to display in Biography blox
 organizations:

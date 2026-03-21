@@ -1,0 +1,16 @@
+{{/*
+  展示一张图片（全宽）。
+  
+  用法：
+  {{< media-img
+    src     = "/media/umg-design.png"
+    caption = "UI 版式设计：对话框 · 名字栏 · 选项按钮 · HUD 提示层级"
+  >}}
+*/}}
+<div style="margin:1rem 0 1.5rem;">
+  <img src="{{ .Get "src" }}" alt="{{ .Get "caption" }}"
+       style="width:100%;border-radius:10px;border:1px solid #2d2d4a;display:block;"/>
+  {{ with .Get "caption" }}
+  <p style="text-align:center;font-size:0.82rem;color:#64748b;margin:0.6rem 0 0;">{{ . }}</p>
+  {{ end }}
+</div>

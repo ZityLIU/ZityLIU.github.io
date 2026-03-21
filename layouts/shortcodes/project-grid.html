@@ -1,0 +1,48 @@
+{{/*
+  首页项目卡片网格，支持 2–4 个项目。
+  每个项目填写：link / gif / tags / title / desc
+  不填 link3 则只显示两个卡片。
+
+  用法：
+  {{< project-grid
+    link1="/project/01_shota/"  gif1="/media/umg-widget.gif"
+    tags1="UE5 · UMG · Shader"
+    title1="寿塔 · The Longevity Pagoda"
+    desc1="UE5 插画式视觉小说 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
+
+    link2="/project/02_hourglass/"  gif2="/media/hourglass-bts.gif"
+    tags2="XR · Virtual Production · Sequencer"
+    title2="古罗马的沙漏 · The Hourglass of Ancient Rome"
+    desc2="XR 虚拟制片实践 — 虚拟场景搭建 + LED 拍摄流程 + 镜头调度"
+
+    link3="/project/03_twine/"  gif3="/media/twine-overview.png"
+    tags3="Twine · Narrative Design · Data-Driven"
+    title3="Twine 互动叙事脚本设计"
+    desc3="分支结构与变量系统 — 从脚本原型到可落地的引擎数据"
+  >}}
+*/}}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:1.5rem;">
+  {{ range $i, $n := slice 1 2 3 4 }}
+  {{ $link  := $.Get (printf "link%d"  $n) }}
+  {{ $gif   := $.Get (printf "gif%d"   $n) }}
+  {{ $tags  := $.Get (printf "tags%d"  $n) }}
+  {{ $title := $.Get (printf "title%d" $n) }}
+  {{ $desc  := $.Get (printf "desc%d"  $n) }}
+  {{ if $link }}
+  <a href="{{ $link }}" style="text-decoration:none;color:inherit;">
+    <div style="background:#0f0f1a;border:1px solid #2d2d4a;border-radius:12px;overflow:hidden;transition:transform 0.2s,box-shadow 0.2s;"
+         onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(167,139,250,0.18)'"
+         onmouseout="this.style.transform='';this.style.boxShadow=''">
+      <img src="{{ $gif }}" alt="{{ $title }}" style="width:100%;height:200px;object-fit:cover;"/>
+      <div style="padding:1.25rem 1.5rem 1.5rem;">
+        <div style="margin-bottom:0.5rem;">
+          <span style="font-size:0.7rem;color:#a78bfa;letter-spacing:0.1em;text-transform:uppercase;border:1px solid #a78bfa;padding:2px 8px;border-radius:20px;">{{ $tags }}</span>
+        </div>
+        <h3 style="margin:0 0 0.5rem;font-size:1.2rem;color:#f1f5f9;">{{ $title }}</h3>
+        <p style="margin:0;font-size:0.88rem;color:#94a3b8;line-height:1.6;">{{ $desc }}</p>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+  {{ end }}
+</div>
