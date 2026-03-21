@@ -46,7 +46,7 @@ work:
     company_name: NIO
     company_url: 'www.icbc.com'
     date_start: 2023-05-01
-    date_end: '2023-06-31'
+    date_end: '2023-06-30'
     summary: |
       Responsible for producing promotional animations for NIO.
 
