@@ -108,7 +108,7 @@ sections:
       subtitle: Playable Prototype
       text: |-
         {{< github-download
-          repo  = "https://github.com/ztyliu/your-repo-name"
+          repo  = "https://github.com/ZityLIU/twine/tree/main"
           label = "下载 Twine 试玩包"
           note  = "解压后在浏览器中打开 HTML 文件，即可体验完整的分支叙事原型。无需安装任何软件 · 支持所有现代浏览器"
           emoji = "🎮"

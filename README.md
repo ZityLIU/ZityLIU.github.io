@@ -3,6 +3,8 @@
 个人作品集主页，基于 [Hugo Blox](https://hugoblox.com/) 构建。
 本文档说明如何维护网站内容，**无需懂代码**，像填表格一样操作即可。
 
+![image-20260322160649081](C:/Users/JackDu/AppData/Roaming/Typora/typora-user-images/image-20260322160649081.png)
+
 ---
 
 ## 目录
@@ -212,7 +214,7 @@ sections:
       title: 下载 / 试玩
       text: |-
         {{</* github-download
-          repo  = "https://github.com/ztyliu/your-repo-name"
+          repo  = "https://github.com/ZityLIU/twine"
           label = "下载试玩包 / 查看源码"
           note  = "点击跳转 GitHub，下载后按 README 运行。"
           emoji = "🎮"
