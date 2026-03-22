@@ -75,13 +75,13 @@ sections:
           desc1="UE5 插画式视觉小说 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
 
           link2="/project/02_hourglass/"
-          gif2="/media/pianduan5.gif"
+          gif2="/media/pianduan2.gif"
           tags2="XR · Virtual Production · Sequencer"
           title2="古罗马的沙漏 · The Hourglass of Ancient Rome"
           desc2="XR 虚拟制片实践 — 虚拟场景搭建 + LED 拍摄流程 + 镜头调度"
 
           link3="/project/03_twine/"
-          gif3="/media/twine-overview.png"
+          gif3="/media/twinedemo.gif"
           tags3="Twine · Narrative Design · Data-Driven"
           title3="Twine 互动叙事脚本设计"
           desc3="分支结构与变量系统 — 从脚本原型到可落地的引擎数据"
