@@ -136,11 +136,29 @@ sections:
     design:
       columns: '1'
 
-  # 【多张 GIF】在参数后面加数字（1/2/3...），有几张填几组，数量不限：
+  # 【多张 GIF · 共用图注和视频链接（最常用）】
+  # 多张 GIF 排列展示，底部统一显示一行图注 + 视频按钮
+  - block: markdown
+    content:
+      title: Demo 演示（多张 · 共用链接）
+      text: |-
+        {{</* media-gif
+          src1     = "/media/demo-clip-1.gif"
+          src2     = "/media/demo-clip-2.gif"
+          src3     = "/media/demo-clip-3.gif"
+          caption  = "所有 GIF 共用的图注，显示在最后一张图下方"
+          youtube  = "https://youtu.be/xxxxxx"
+          bilibili = "https://www.bilibili.com/video/BVxxxxxx"
+        */>}}
+    design:
+      columns: '1'
+
+  # 【多张 GIF · 每张独立图注和视频链接】
+  # 在参数后面加数字（1/2/3...），有几张填几组，数量不限
   # youtube 和 bilibili 均为可选，不填则不显示对应按钮
   - block: markdown
     content:
-      title: Demo 演示（多张）
+      title: Demo 演示（多张 · 独立链接）
       text: |-
         {{</* media-gif
           src1      = "/media/demo-clip-1.gif"
@@ -339,7 +357,20 @@ bilibili = "https://www.bilibili.com/video/BVxxxxxx"      ← 不填则不显示
 | `youtube` | YouTube 链接（可选，不填不显示按钮） |
 | `bilibili` | Bilibili 链接（可选，不填不显示按钮） |
 
-**多张时：在参数后加数字，有几张填几组，数量不限：**
+**多张 GIF · 共用图注和视频链接（最常用）：**
+
+填 `src1` / `src2` / `src3`…，图注和链接不带数字，会统一显示在最后一张图下方：
+
+| 参数 | 说明 |
+|------|------|
+| `src1` / `src2` / `src3`… | 各张 GIF 路径 |
+| `caption` | 所有 GIF 共用的图注（可选） |
+| `youtube` | 共用 YouTube 链接（可选） |
+| `bilibili` | 共用 Bilibili 链接（可选） |
+
+**多张 GIF · 每张独立图注和视频链接：**
+
+在参数后加数字，有几张填几组，数量不限：
 
 | 参数 | 说明 |
 |------|------|
@@ -357,8 +388,9 @@ bilibili = "https://www.bilibili.com/video/BVxxxxxx"      ← 不填则不显示
 ### `media-row` — 两张图片并排
 | 参数 | 说明 |
 |------|------|
-| `src1` / `caption1` | 左侧图片路径 / 图注 |
-| `src2` / `caption2` | 右侧图片路径 / 图注 |
+| `src1` / `caption1` | 左侧图片路径 / 图注（独立图注） |
+| `src2` / `caption2` | 右侧图片路径 / 图注（独立图注） |
+| `caption` | 两张图共用图注（不填 caption1/caption2 时生效，显示在两图正下方） |
 
 ### `highlight-cards` — 亮点卡片组（3 或 4 张）
 | 参数 | 说明 |

@@ -11,7 +11,7 @@
   >}}
 
   ────────────────────────────────────────────────────────────
-  多张 GIF（在参数后加数字，有几张填几组，数量不限）：
+  多张 GIF，每张独立图注和视频链接：
   {{< media-gif
     src1      = "/media/demo-1.gif"
     caption1  = "第一张图注"
@@ -27,10 +27,23 @@
   >}}
 
   ────────────────────────────────────────────────────────────
+  多张 GIF，共用一个图注 + 共用一组视频按钮（最常用）：
+  {{< media-gif
+    src1     = "/media/demo-1.gif"
+    src2     = "/media/demo-2.gif"
+    src3     = "/media/demo-3.gif"
+    caption  = "所有 GIF 共用的图注，显示在最后一张图下方"
+    youtube  = "https://youtu.be/xxxxxx"
+    bilibili = "https://www.bilibili.com/video/BVxxxxxx"
+  >}}
+
+  ────────────────────────────────────────────────────────────
   规则：
+  - 优先检测 src1 是否存在，存在则走多张模式，否则走单张模式
+  - 多张模式下：
+      · captionN / youtubeN / bilibiliN  → 属于第 N 张，显示在该 GIF 下方
+      · caption  / youtube  / bilibili   → 共享参数，显示在所有 GIF 的最后
   - youtube / bilibili 均为可选，不填则不显示对应按钮
-  - 单张模式（只填 src）和多张模式（填 src1/src2/...）可以混用：
-    优先检测 src1 是否存在，存在则走多张模式，否则走单张模式
 */}}
 
 {{ if .Get "src1" }}
@@ -64,6 +77,34 @@
       </div>
       {{ end }}
     </div>
+  {{ end }}
+
+  {{/* ── 共享图注 + 共享视频按钮（显示在所有 GIF 之后） ── */}}
+  {{ $sharedCap  := .Get "caption" }}
+  {{ $sharedYt   := .Get "youtube" }}
+  {{ $sharedBili := .Get "bilibili" }}
+  {{ if or $sharedCap $sharedYt $sharedBili }}
+  <div style="margin:-0.5rem 0 1.5rem;">
+    {{ with $sharedCap }}
+    <p style="text-align:center;font-size:0.82rem;color:#64748b;margin:0 0 0.75rem;">{{ . }}</p>
+    {{ end }}
+    {{ if or $sharedYt $sharedBili }}
+    <div style="display:flex;justify-content:center;gap:0.75rem;flex-wrap:wrap;">
+      {{ if $sharedYt }}
+      <a href="{{ $sharedYt }}" target="_blank" rel="noopener"
+         style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1.2rem;border:1px solid #a78bfa;border-radius:6px;color:#ddd6fe;font-size:0.82rem;text-decoration:none;letter-spacing:0.04em;">
+        ▶&nbsp; Watch on YouTube
+      </a>
+      {{ end }}
+      {{ if $sharedBili }}
+      <a href="{{ $sharedBili }}" target="_blank" rel="noopener"
+         style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1.2rem;border:1px solid #a78bfa;border-radius:6px;color:#ddd6fe;font-size:0.82rem;text-decoration:none;letter-spacing:0.04em;">
+        ▶&nbsp; 在 Bilibili 观看
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
   {{ end }}
 
 {{ else }}
