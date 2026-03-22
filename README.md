@@ -119,10 +119,10 @@ sections:
  
  
 
-  # ── GIF 展示区（可复制多个此区块） ─────────────────────────
-  # 修改：src 换成 /media/你的文件名.gif
-  # 修改：caption 换成图注说明
-  # 修改：youtube / bilibili 填入视频链接（不填则不显示按钮）
+  # ── GIF 展示区 ──────────────────────────────────────────────
+  # 支持在同一个区块里放任意数量的 GIF，每张各自有独立图注和链接按钮。
+  #
+  # 【只有一张 GIF】直接填 src / caption / youtube / bilibili：
   - block: markdown
     content:
       title: Demo 演示
@@ -132,6 +132,28 @@ sections:
           caption  = "这里写图注说明"
           youtube  = "https://youtu.be/your-video-id"
           bilibili = "https://www.bilibili.com/video/BVxxxxxxxx"
+        */>}}
+    design:
+      columns: '1'
+
+  # 【多张 GIF】在参数后面加数字（1/2/3...），有几张填几组，数量不限：
+  # youtube 和 bilibili 均为可选，不填则不显示对应按钮
+  - block: markdown
+    content:
+      title: Demo 演示（多张）
+      text: |-
+        {{</* media-gif
+          src1      = "/media/demo-clip-1.gif"
+          caption1  = "第一张图注"
+          youtube1  = "https://youtu.be/xxxxxx"
+          bilibili1 = "https://www.bilibili.com/video/BVxxxxxx"
+
+          src2      = "/media/demo-clip-2.gif"
+          caption2  = "第二张图注"
+          youtube2  = "https://youtu.be/yyyyyy"
+
+          src3      = "/media/demo-clip-3.gif"
+          caption3  = "第三张图注（没有视频链接就不填）"
         */>}}
     design:
       columns: '1'
@@ -306,13 +328,25 @@ bilibili = "https://www.bilibili.com/video/BVxxxxxx"      ← 不填则不显示
 | `desc` | 一句话描述 |
 | `tags` | 技能标签，英文逗号分隔 |
 
-### `media-gif` — GIF 预览 + 视频链接按钮
+### `media-gif` — GIF 预览 + 视频链接按钮（支持多张）
+
+**只有一张时：**
+
 | 参数 | 说明 |
 |------|------|
 | `src` | GIF 路径，如 `/media/xxx.gif` |
 | `caption` | 图注说明（可选） |
 | `youtube` | YouTube 链接（可选，不填不显示按钮） |
 | `bilibili` | Bilibili 链接（可选，不填不显示按钮） |
+
+**多张时：在参数后加数字，有几张填几组，数量不限：**
+
+| 参数 | 说明 |
+|------|------|
+| `src1` / `src2` / `src3`… | 各张 GIF 路径 |
+| `caption1` / `caption2`… | 各张图注（可选） |
+| `youtube1` / `youtube2`… | 各张 YouTube 链接（可选） |
+| `bilibili1` / `bilibili2`… | 各张 Bilibili 链接（可选） |
 
 ### `media-img` — 单张全宽图片
 | 参数 | 说明 |

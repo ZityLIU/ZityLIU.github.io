@@ -1,40 +1,98 @@
 {{/*
-  展示一张 GIF，下方附 YouTube 和/或 Bilibili 跳转按钮。
-  
-  用法：
+  展示一张或多张 GIF，每张下方可独立附 YouTube 和/或 Bilibili 跳转按钮。
+
+  ────────────────────────────────────────────────────────────
+  只有一张 GIF：
   {{< media-gif
-    src      = "/media/umg-widget.gif"
-    caption  = "UMG 动效演示 — 立绘入场 · 对话框渐显 · 选项 hover/click 反馈"
+    src      = "/media/demo.gif"
+    caption  = "图注说明"
     youtube  = "https://youtu.be/xxxxxx"
     bilibili = "https://www.bilibili.com/video/BVxxxxxx"
   >}}
-  
-  youtube 和 bilibili 均为可选，不填则不显示对应按钮。
-*/}}
-<div style="margin:1rem 0 1.5rem;">
-  <img src="{{ .Get "src" }}" alt="{{ .Get "caption" }}"
-       style="width:100%;border-radius:10px;border:1px solid #2d2d4a;display:block;"/>
 
-  {{ with .Get "caption" }}
-  <p style="text-align:center;font-size:0.82rem;color:#64748b;margin:0.6rem 0 0.9rem;">{{ . }}</p>
+  ────────────────────────────────────────────────────────────
+  多张 GIF（在参数后加数字，有几张填几组，数量不限）：
+  {{< media-gif
+    src1      = "/media/demo-1.gif"
+    caption1  = "第一张图注"
+    youtube1  = "https://youtu.be/xxxxxx"
+    bilibili1 = "https://www.bilibili.com/video/BVxxxxxx"
+
+    src2      = "/media/demo-2.gif"
+    caption2  = "第二张图注"
+    youtube2  = "https://youtu.be/yyyyyy"
+
+    src3      = "/media/demo-3.gif"
+    caption3  = "第三张图注（没有视频链接就不填）"
+  >}}
+
+  ────────────────────────────────────────────────────────────
+  规则：
+  - youtube / bilibili 均为可选，不填则不显示对应按钮
+  - 单张模式（只填 src）和多张模式（填 src1/src2/...）可以混用：
+    优先检测 src1 是否存在，存在则走多张模式，否则走单张模式
+*/}}
+
+{{ if .Get "src1" }}
+  {{/* ── 多张模式 ── */}}
+  {{ range seq 1 99 }}
+    {{ $src  := $.Get (printf "src%d"      .) }}
+    {{ if not $src }}{{ break }}{{ end }}
+    {{ $cap  := $.Get (printf "caption%d"  .) }}
+    {{ $yt   := $.Get (printf "youtube%d"  .) }}
+    {{ $bili := $.Get (printf "bilibili%d" .) }}
+    <div style="margin:1rem 0 1.75rem;">
+      <img src="{{ $src }}" alt="{{ $cap }}"
+           style="width:100%;border-radius:10px;border:1px solid #2d2d4a;display:block;"/>
+      {{ with $cap }}
+      <p style="text-align:center;font-size:0.82rem;color:#64748b;margin:0.6rem 0 0.75rem;">{{ . }}</p>
+      {{ end }}
+      {{ if or $yt $bili }}
+      <div style="display:flex;justify-content:center;gap:0.75rem;flex-wrap:wrap;margin-top:0.25rem;">
+        {{ if $yt }}
+        <a href="{{ $yt }}" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1.2rem;border:1px solid #a78bfa;border-radius:6px;color:#ddd6fe;font-size:0.82rem;text-decoration:none;letter-spacing:0.04em;">
+          ▶&nbsp; Watch on YouTube
+        </a>
+        {{ end }}
+        {{ if $bili }}
+        <a href="{{ $bili }}" target="_blank" rel="noopener"
+           style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1.2rem;border:1px solid #a78bfa;border-radius:6px;color:#ddd6fe;font-size:0.82rem;text-decoration:none;letter-spacing:0.04em;">
+          ▶&nbsp; 在 Bilibili 观看
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
   {{ end }}
 
-  {{ $yt := .Get "youtube" }}
+{{ else }}
+  {{/* ── 单张模式（向下兼容，原有写法无需改动） ── */}}
+  {{ $src  := .Get "src" }}
+  {{ $cap  := .Get "caption" }}
+  {{ $yt   := .Get "youtube" }}
   {{ $bili := .Get "bilibili" }}
-  {{ if or $yt $bili }}
-  <div style="display:flex;justify-content:center;gap:0.75rem;flex-wrap:wrap;margin-top:0.25rem;">
-    {{ if $yt }}
-    <a href="{{ $yt }}" target="_blank" rel="noopener"
-       style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1.2rem;border:1px solid #a78bfa;border-radius:6px;color:#ddd6fe;font-size:0.82rem;text-decoration:none;letter-spacing:0.04em;">
-      ▶&nbsp; Watch on YouTube
-    </a>
+  <div style="margin:1rem 0 1.5rem;">
+    <img src="{{ $src }}" alt="{{ $cap }}"
+         style="width:100%;border-radius:10px;border:1px solid #2d2d4a;display:block;"/>
+    {{ with $cap }}
+    <p style="text-align:center;font-size:0.82rem;color:#64748b;margin:0.6rem 0 0.9rem;">{{ . }}</p>
     {{ end }}
-    {{ if $bili }}
-    <a href="{{ $bili }}" target="_blank" rel="noopener"
-       style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1.2rem;border:1px solid #a78bfa;border-radius:6px;color:#ddd6fe;font-size:0.82rem;text-decoration:none;letter-spacing:0.04em;">
-      ▶&nbsp; 在 Bilibili 观看
-    </a>
+    {{ if or $yt $bili }}
+    <div style="display:flex;justify-content:center;gap:0.75rem;flex-wrap:wrap;margin-top:0.25rem;">
+      {{ if $yt }}
+      <a href="{{ $yt }}" target="_blank" rel="noopener"
+         style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1.2rem;border:1px solid #a78bfa;border-radius:6px;color:#ddd6fe;font-size:0.82rem;text-decoration:none;letter-spacing:0.04em;">
+        ▶&nbsp; Watch on YouTube
+      </a>
+      {{ end }}
+      {{ if $bili }}
+      <a href="{{ $bili }}" target="_blank" rel="noopener"
+         style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.45rem 1.2rem;border:1px solid #a78bfa;border-radius:6px;color:#ddd6fe;font-size:0.82rem;text-decoration:none;letter-spacing:0.04em;">
+        ▶&nbsp; 在 Bilibili 观看
+      </a>
+      {{ end }}
+    </div>
     {{ end }}
   </div>
-  {{ end }}
-</div>
+{{ end }}

@@ -44,23 +44,27 @@ sections:
     design:
       columns: '1'
 
-  # ────────────────────────────────────────────────────────────
-  # 成片 GIF + 视频链接
-  # ← 修改：src 换成成片的 GIF 预览；填入 YouTube / Bilibili 链接
-  # ────────────────────────────────────────────────────────────
+
   - block: markdown
     content:
       title: 成片 · Final Film
       text: |-
-        {{< media-gif
-          src     = "/media/pianduan1.gif"
-          caption  = "最终成片——虚拟场景与真实表演融合呈现，光照氛围与镜头节奏"
-          youtube  = "https://youtu.be/your-final-film-id"
-          bilibili = "https://www.bilibili.com/video/BVxxxxxxxx"
-        >}}
+        {{</* media-gif
+          src1      = "/media/pianduan1.gif"
+          caption1  = ""
+
+          src2      = "/media/pianduan2.gif"
+          caption2  = ""
+
+
+          src3      = "/media/pianduan5.gif"
+          caption3  = "最终成片——虚拟场景与真实表演融合呈现，光照氛围与镜头节奏"
+
+          youtube1  = "https://youtu.be/xxxxxx"
+          bilibili1 = "https://www.bilibili.com/video/BVxxxxxx"
+        */>}}
     design:
       columns: '1'
-
   # ────────────────────────────────────────────────────────────
   # 花絮 GIF + 视频链接
   # ← 修改：src 换成花絮的 GIF 预览；填入 YouTube / Bilibili 链接
