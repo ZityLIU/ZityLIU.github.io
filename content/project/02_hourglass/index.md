@@ -61,8 +61,8 @@ sections:
 
           src4     = "/media/pianduan5.gif"
           caption  = "最终成片——虚拟场景与真实表演融合呈现，光照氛围与镜头节奏"
-          youtube  = "https://youtu.be/xxxxxx"
-          bilibili = "https://www.bilibili.com/video/BVxxxxxx"
+          youtube  = "https://www.youtube.com/watch?v=2zigGMD2HkA"
+          bilibili = "https://www.bilibili.com/video/BV1TjAgzPEq5?spm_id_from=333.788.videopod.sections&vd_source=948e8d8225e28bc4e2bd6bda1e82917c"
         >}}
     design:
       columns: '1'
@@ -79,6 +79,8 @@ sections:
           src1     = "/media/huaxv2.gif"
           src2     = "/media/huaxv1.gif"
           caption  = "拍摄花絮——LED 现场流程、UE 虚拟场景与摄影机配合的完整工作方式"
+          youtube  = "https://www.youtube.com/watch?v=QPs5rCfC7iQ"
+          bilibili = "https://www.bilibili.com/video/BV1hTAgzuEj1/?spm_id_from=333.1387.homepage.video_card.click&vd_source=948e8d8225e28bc4e2bd6bda1e82917c"
         >}}
     design:
       columns: '1'
