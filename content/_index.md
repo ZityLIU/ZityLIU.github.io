@@ -72,7 +72,7 @@ sections:
           gif1="/media/umg-widget.gif"
           tags1="UE5 · UMG · Shader"
           title1="寿塔 · The Longevity Pagoda"
-          desc1="UE5 插画式视觉小说 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
+          desc1="UE5 叙事交互视觉小说独立游戏 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
 
           link2="/project/02_hourglass/"
           gif2="/media/pianduan2.gif"
