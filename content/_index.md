@@ -85,6 +85,13 @@ sections:
           tags3="Twine · Narrative Design · Data-Driven"
           title3="Twine 互动叙事脚本设计"
           desc3="分支结构与变量系统 — 从脚本原型到可落地的引擎数据"
+
+          link4="/project/04_aigc_invest_video/"
+          gif4="/media/aigc-invest.gif"
+          tags4="AIGC · Motion Design · IP Workflow"
+          title4="AIGC驱动的投资教学科普短片创作"
+          desc4="2h快速交付的AIGC叙事短片实践 — 专业知识降维 +真人 × AI 对话叙事+ AI角色IP设计 + 可复用微动效素材流程"
+
         >}}
     design:
       columns: "1"
