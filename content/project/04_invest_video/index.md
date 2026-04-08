@@ -125,7 +125,7 @@ sections:
             <img src="/media/aigc-abao-design.png" alt="A宝角色设计图"
                  style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
             <p style="font-size:0.8rem; color:#64748b; margin-top:0.5rem; text-align:center;">
-              A宝角色设定：蓝白科技感 + 轻陪伴属性 + 符号化金融元素
+              A宝角色设定：蓝白科技感 + 聚宽logo & 符号化金融元素 + 轻陪伴属性
             </p>
           </div>
           <div>
@@ -138,7 +138,7 @@ sections:
         </div>
 
         **角色定位：** A宝不是单纯的视觉装饰，而是视频中承担“打断、提醒、解释、缓冲节奏”功能的 AI 投资助手。  
-        在视觉上，我围绕“亲和力 + 科技感 + 可系列化复用”快速迭代提示词，使其既适合知识型内容，又不会显得过度卡通化。
+        在视觉上，我融入了聚宽logo元素作为头部装饰，增强了IP与品牌的联结。围绕“亲和力 + 科技感 + 可系列化复用”快速迭代提示词，使其既适合知识型内容，又不会显得过度卡通化。
 
         ---
 
