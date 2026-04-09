@@ -86,16 +86,10 @@ sections:
           title3="古罗马的沙漏 · The Hourglass of Ancient Rome"
           desc3="XR 虚拟制片实践 — 虚拟场景搭建 + LED 拍摄流程 + 镜头调度"
 
-          link4="/project/03_twine/"
-          gif4="/media/twinedemo.gif"
-          tags4="Twine · Narrative Design · Data-Driven"
-          title4="Twine 互动叙事脚本设计"
-          desc4="分支结构与变量系统 — 从脚本原型到可落地的引擎数据"
-
-          link5="/project/04_invest_video/"
-          gif5="/media/aigc-invest-demo.gif"
-          tags5="AIGC · Motion Design · IP Workflow"
-          title5="AIGC驱动的投资教学科普短片创作"
+          link4="/project/04_invest_video/"
+          gif4="/media/aigc-invest-demo.gif"
+          tags4="AIGC · Motion Design · IP Workflow"
+          title4="AIGC驱动的投资教学科普短片创作"
           desc5="2h快速交付的AIGC叙事短片实践 — 专业知识降维 +真人 × AI 对话叙事+ AI角色IP设计 + 可复用微动效素材流程"
 
         >}}
