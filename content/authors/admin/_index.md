@@ -24,7 +24,7 @@ role: CMA Mphil
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: HKUST (Guangzhou)
+  - name: HKUST (GZ)
     url: https://www.hkust-gz.edu.cn/
 
 # Social network links
@@ -46,7 +46,7 @@ work:
     company_name: NIO
     company_url: 'www.icbc.com'
     date_start: 2023-05-01
-    date_end: '2023-06-30'
+    date_end: '2023-09-30'
     summary: |
       Responsible for producing promotional animations for NIO.
 
@@ -126,24 +126,27 @@ awards:
 
 ## About Me
 
-I'm **Zhiting Liu (刘芷汀)**, a Technical Artist candidate at [HKUST (Guangzhou)](https://www.hkust-gz.edu.cn/) studying Computational Media Arts. My work bridges **UE engineering and visual storytelling** — I specialize in building reusable, data-driven narrative systems powered by UMG motion design, custom shaders, and Blueprint logic.
+<p>I'm <strong>Zhiting Liu (刘芷汀)</strong>, a <strong>Game UI Motion Design</strong> candidate at <a href="https://www.hkust-gz.edu.cn/">HKUST (Guangzhou)</a>, studying <strong>Computational Media Arts</strong>. I specialize in <strong>UE5 interface motion</strong>, <strong>Widget Blueprint interaction</strong>, and <strong>data-driven narrative UI</strong>, building playable demos from interaction structure and motion rhythm to in-engine implementation.</p>
 
-I'm passionate about making illustrated stories **interactive, cinematic, and technically polished** — from ink-dissolve transitions to branching narrative prototypes and XR virtual production.
+<p>My experience includes <strong>button feedback</strong>, <strong>dialogue presentation</strong>, <strong>page transitions</strong>, <strong>HUD prompts</strong>, <strong>typewriter effects</strong>, and <strong>portrait switching</strong>, with a focus on making interfaces feel clear, responsive, and emotionally engaging.</p>
 
-<div style="border: 2px solid #000000; background-color: #99FFFC; color: #000000; padding: 15px; margin-top: 20px; margin-bottom: 20px; border-radius: 10px; font-size: 16px;">
+<p>I also create <strong>material-based UI effects</strong> using <strong>noise</strong>, <strong>mask</strong>, <strong>lerp</strong>, and parameterized shaders to achieve <strong>light trails</strong>, <strong>dynamic glow patterns</strong>, <strong>dust particles</strong>, <strong>volumetric fog</strong>, <strong>water ripple effects</strong>, and <strong>ink-dissolve transitions</strong>. I aim to deliver UI that is both <strong>stylized</strong> and <strong>ready for production</strong>.</p>
+
+<div style="border: 2px solid #000000; background-color: #E9DDFB; color: #000000; padding: 15px; margin-top: 20px; margin-bottom: 20px; border-radius: 10px; font-size: 16px;">
   <strong style="color: #111111;">📢 News:</strong>
   <div style="max-height: 180px; overflow-y: auto; margin-top: 10px; padding-right: 5px;">
     <ul style="margin: 0; padding-left: 20px; list-style-type: disc;">
-		    <li style="margin-bottom: 8px; line-height: 1.4;">
-        <strong style="color: #111111;">[Pinned]</strong> 
-        <span style="color: #EA517F; font-weight: bold;">
-            Open to internships in UE Technical Art / UI Motion Design.
-						Feel free to reach out via 📮 zliu256@connect.hkust-gz.edu.cn
+      <li style="margin-bottom: 8px; line-height: 1.5;">
+        <strong style="color: #111111;">[Pinned]</strong>
+        <span style="color: #C64F8C; font-weight: bold;">
+          Open to internships in Game UI Motion Design / Interactive UI Design.
+          Feel free to reach out via 📮 zliu256@connect.hkust-gz.edu.cn
         </span>
-    </li>
+      </li>
     </ul>
   </div>
-  <div style="text-align: center; margin-top: 8px; font-size: 12px; color: #666;">
-    ↕️ Scroll down to view more messages
+  <div style="text-align: center; margin-top: 8px; font-size: 12px; color: #666666;">
+    ↕ Scroll down to view more messages
   </div>
 </div>
+
