@@ -68,8 +68,8 @@ sections:
       subtitle: "Selected Works"
       text: |-
         {{< project-grid
-          link1="/project/05_Opening/"
-          gif1="/media/Opening.gif"
+          link1="/project/05_opening/"
+          gif1="/media/动态呼吸.gif"
           tags1="UE5 · UI Motion · Blueprint · Shader"
           title1="惊动花信 · Lavender Reverie"
           desc1="UE5 独立开发关卡开场界面动效设计 — 动态呼吸、光纹材质、流动雾、水波纹与粒子氛围的统一演出系统"
