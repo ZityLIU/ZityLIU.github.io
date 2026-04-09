@@ -80,7 +80,7 @@ sections:
     design:
       columns: '1'
 
-  # ── FX SYSTEM DESIGN ──────────────────────────────────────────
+  # ── UI FX SYSTEM ──────────────────────────────────────────────
   - block: markdown
     content:
       title: UI FX System Design
@@ -112,7 +112,7 @@ sections:
             <img src="/media/动态光路材质蓝图.png" alt="动态光路材质蓝图"
                  style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
             <p style="font-size:0.8rem; color:#64748b; margin-top:0.5rem; text-align:center;">
-              菜单动态光路材质：以参数化方式控制流速、亮度、宽度与拖尾衰减，用于 hover/聚焦反馈
+              菜单动态光路材质：以参数化方式控制流速、亮度、宽度与拖尾衰减，用于 hover / 聚焦反馈
             </p>
           </div>
           <div>
@@ -130,9 +130,9 @@ sections:
   - block: markdown
     content:
       title: 光纹材质探索
-      subtitle: Color Language · Layering · Stylization
+      subtitle: Color Language · Layering · Blueprint Breakdown
       text: |-
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:1.25rem;">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:1.5rem;">
           <div>
             <img src="/media/绯狐品红光纹材质.gif" alt="绯狐品红光纹材质"
                  style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
@@ -149,31 +149,37 @@ sections:
           </div>
         </div>
 
-        <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:1.25rem; margin-top:1rem;">
-          <div>
+        <div style="display:flex; flex-direction:column; gap:2rem; margin-top:1.5rem;">
+          <div style="max-width:980px; margin:0 auto;">
             <img src="/media/碧漪金盏光纹材质蓝图.png" alt="碧漪金盏光纹材质蓝图"
-                 style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
-            <p style="font-size:0.78rem; color:#64748b; margin-top:0.5rem; text-align:center;">
-              金色光斑/条纹版本蓝图
+                 style="width:100%; border-radius:10px; border:1px solid #2d2d4a;"/>
+            <p style="font-size:0.86rem; color:#64748b; margin-top:0.75rem; text-align:center; line-height:1.7;">
+              金色光斑 / 条纹版本蓝图：用于标题底纹与重点 UI 区域的高光塑形，强调贵气、柔和与视觉聚焦
             </p>
           </div>
-          <div>
+
+          <div style="max-width:980px; margin:0 auto;">
             <img src="/media/月光银光纹材质蓝图.gif" alt="月光银光纹材质蓝图"
-                 style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
-            <p style="font-size:0.78rem; color:#64748b; margin-top:0.5rem; text-align:center;">
-              月光银色版本：偏冷调、强调清透和拖尾感
+                 style="width:100%; border-radius:10px; border:1px solid #2d2d4a;"/>
+            <p style="font-size:0.86rem; color:#64748b; margin-top:0.75rem; text-align:center; line-height:1.7;">
+              月光银版本蓝图：偏冷调、强调通透感与拖尾层次，适合更清冷、静谧的界面语境
             </p>
           </div>
-          <div>
+
+          <div style="max-width:980px; margin:0 auto;">
             <img src="/media/凝夜紫光纹材质蓝图.gif" alt="凝夜紫光纹材质蓝图"
-                 style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
-            <p style="font-size:0.78rem; color:#64748b; margin-top:0.5rem; text-align:center;">
-              凝夜紫版本：更适合梦境、神秘、夜间氛围的界面语言
+                 style="width:100%; border-radius:10px; border:1px solid #2d2d4a;"/>
+            <p style="font-size:0.86rem; color:#64748b; margin-top:0.75rem; text-align:center; line-height:1.7;">
+              凝夜紫版本蓝图：更适合梦境、神秘、夜间氛围的界面语言，用于验证同一套节点系统的情绪迁移能力
             </p>
           </div>
         </div>
 
-        我在这一阶段重点验证的不是“某个颜色更好看”，而是**一套 UI 光纹材质系统能否支持多种情绪语义的迁移**：同样的节点框架，通过颜色、宽度、节奏与粒子层的调整，就可以适配不同 UI 语境，而不是每种效果都重做一遍。
+        <div style="max-width:980px; margin:2rem auto 0;">
+          <p style="font-size:1.02rem; color:#cbd5e1; line-height:2; margin:0;">
+            我在这一阶段重点验证的不是“某个颜色更好看”，而是<strong style="color:#f8fafc;">一套 UI 光纹材质系统能否支持多种情绪语义的迁移</strong>：同样的节点框架，通过颜色、宽度、节奏与粒子层的调整，就可以适配不同 UI 语境，而不是每种效果都重做一遍。
+          </p>
+        </div>
     design:
       columns: '1'
 
