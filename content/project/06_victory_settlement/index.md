@@ -167,7 +167,7 @@ sections:
             </p>
           </div>
           <div>
-            <img src="/media/victory-glitch-detail.gif" alt="Glitch Slice and Glow Detail"
+            <img src="/media/victory-glitch-detail.png" alt="Glitch Slice and Glow Detail"
                  style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
             <p style="font-size:0.8rem; color:#64748b; margin-top:0.5rem; text-align:center;">
               故障切片与横向辉光：用错位闪烁、切片遮挡和高亮扫过强化赛博朋克式数字不稳定感
