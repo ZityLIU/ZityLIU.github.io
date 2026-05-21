@@ -12,7 +12,68 @@ sections:
   - block: resume-biography-3
     content:
       username: admin
-      text: ""
+      text: |-
+  <style>
+    /* Reduce homepage avatar size without changing the theme layout */
+    #profile img,
+    .profile img,
+    .avatar,
+    .avatar-circle,
+    img.avatar,
+    img[alt="Zhiting Liu"],
+    img[src*="avatar"] {
+      width: clamp(180px, 18vw, 280px) !important;
+      height: clamp(180px, 18vw, 280px) !important;
+      max-width: 280px !important;
+      max-height: 280px !important;
+      object-fit: cover !important;
+    }
+
+    @media (max-width: 900px) {
+      #profile img,
+      .profile img,
+      .avatar,
+      .avatar-circle,
+      img.avatar,
+      img[alt="Zhiting Liu"],
+      img[src*="avatar"] {
+        width: 220px !important;
+        height: 220px !important;
+        max-width: 220px !important;
+        max-height: 220px !important;
+      }
+    }
+
+    @media (max-width: 600px) {
+      #profile img,
+      .profile img,
+      .avatar,
+      .avatar-circle,
+      img.avatar,
+      img[alt="Zhiting Liu"],
+      img[src*="avatar"] {
+        width: 180px !important;
+        height: 180px !important;
+        max-width: 180px !important;
+        max-height: 180px !important;
+      }
+    }
+
+    @media (max-width: 420px) {
+      #profile img,
+      .profile img,
+      .avatar,
+      .avatar-circle,
+      img.avatar,
+      img[alt="Zhiting Liu"],
+      img[src*="avatar"] {
+        width: 165px !important;
+        height: 165px !important;
+        max-width: 165px !important;
+        max-height: 165px !important;
+      }
+    }
+  </style>
       button:
         text: "📮 Contact Me"
         url: "/#contact"
