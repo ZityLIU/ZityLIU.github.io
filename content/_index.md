@@ -13,67 +13,67 @@ sections:
     content:
       username: admin
       text: |-
-  <style>
-    /* Reduce homepage avatar size without changing the theme layout */
-    #profile img,
-    .profile img,
-    .avatar,
-    .avatar-circle,
-    img.avatar,
-    img[alt="Zhiting Liu"],
-    img[src*="avatar"] {
-      width: clamp(180px, 18vw, 280px) !important;
-      height: clamp(180px, 18vw, 280px) !important;
-      max-width: 280px !important;
-      max-height: 280px !important;
-      object-fit: cover !important;
-    }
+        <style>
+          /* Reduce homepage avatar size without changing the theme layout */
+          #profile img,
+          .profile img,
+          .avatar,
+          .avatar-circle,
+          img.avatar,
+          img[alt="Zhiting Liu"],
+          img[src*="avatar"] {
+            width: clamp(180px, 18vw, 280px) !important;
+            height: clamp(180px, 18vw, 280px) !important;
+            max-width: 280px !important;
+            max-height: 280px !important;
+            object-fit: cover !important;
+          }
 
-    @media (max-width: 900px) {
-      #profile img,
-      .profile img,
-      .avatar,
-      .avatar-circle,
-      img.avatar,
-      img[alt="Zhiting Liu"],
-      img[src*="avatar"] {
-        width: 220px !important;
-        height: 220px !important;
-        max-width: 220px !important;
-        max-height: 220px !important;
-      }
-    }
+          @media (max-width: 900px) {
+            #profile img,
+            .profile img,
+            .avatar,
+            .avatar-circle,
+            img.avatar,
+            img[alt="Zhiting Liu"],
+            img[src*="avatar"] {
+              width: 220px !important;
+              height: 220px !important;
+              max-width: 220px !important;
+              max-height: 220px !important;
+            }
+          }
 
-    @media (max-width: 600px) {
-      #profile img,
-      .profile img,
-      .avatar,
-      .avatar-circle,
-      img.avatar,
-      img[alt="Zhiting Liu"],
-      img[src*="avatar"] {
-        width: 180px !important;
-        height: 180px !important;
-        max-width: 180px !important;
-        max-height: 180px !important;
-      }
-    }
+          @media (max-width: 600px) {
+            #profile img,
+            .profile img,
+            .avatar,
+            .avatar-circle,
+            img.avatar,
+            img[alt="Zhiting Liu"],
+            img[src*="avatar"] {
+              width: 180px !important;
+              height: 180px !important;
+              max-width: 180px !important;
+              max-height: 180px !important;
+            }
+          }
 
-    @media (max-width: 420px) {
-      #profile img,
-      .profile img,
-      .avatar,
-      .avatar-circle,
-      img.avatar,
-      img[alt="Zhiting Liu"],
-      img[src*="avatar"] {
-        width: 165px !important;
-        height: 165px !important;
-        max-width: 165px !important;
-        max-height: 165px !important;
-      }
-    }
-  </style>
+          @media (max-width: 420px) {
+            #profile img,
+            .profile img,
+            .avatar,
+            .avatar-circle,
+            img.avatar,
+            img[alt="Zhiting Liu"],
+            img[src*="avatar"] {
+              width: 165px !important;
+              height: 165px !important;
+              max-width: 165px !important;
+              max-height: 165px !important;
+            }
+          }
+        </style>
       button:
         text: "📮 Contact Me"
         url: "/#contact"
@@ -197,7 +197,7 @@ sections:
       text: |-
         <div style="max-width:560px;margin:0 auto;text-align:center;padding:1rem 0 2rem;">
           <p style="color:#94a3b8;font-size:0.95rem;line-height:1.8;margin-bottom:1.5rem;">
-            欢迎联系我探讨 UE 引擎中 UI 动效设计、 UI 蓝图设计与互动叙事相关的实习与合作机会。
+            欢迎联系我探讨 UE 引擎中 UI 动效设计、UI 蓝图设计与互动叙事相关的实习与合作机会。
           </p>
           <a href="mailto:zliu256@connect.hkust-gz.edu.cn"
              style="display:inline-block;padding:0.65rem 1.8rem;background:transparent;border:1px solid #a78bfa;color:#ddd6fe;border-radius:6px;font-size:0.9rem;text-decoration:none;letter-spacing:0.05em;">
