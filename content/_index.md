@@ -7,14 +7,36 @@ design:
 sections:
 
   # ────────────────────────────────────────────────────────────
-  # HERO 区块  ← 不需要修改（个人信息在 content/authors/admin/_index.md 里改）
+  # HERO 区块  ← 个人信息和个人概述来自 content/authors/admin/_index.md
   # ────────────────────────────────────────────────────────────
   - block: resume-biography-3
     content:
       username: admin
+      text: ""
+      button:
+        text: "📮 Contact Me"
+        url: "/#contact"
+    design:
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: stacked-peaks.svg
+          filters:
+            brightness: 0.6
+          size: cover
+          position: center
+          parallax: false
+
+  # ────────────────────────────────────────────────────────────
+  # STYLE PATCH  ← 只负责缩小头像，不覆盖个人概述
+  # ────────────────────────────────────────────────────────────
+  - block: markdown
+    content:
+      title: ""
       text: |-
         <style>
-          /* Reduce homepage avatar size without changing the theme layout */
+          /* Reduce homepage avatar size without overriding biography text */
           #profile img,
           .profile img,
           .avatar,
@@ -74,23 +96,11 @@ sections:
             }
           }
         </style>
-      button:
-        text: "📮 Contact Me"
-        url: "/#contact"
     design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 0.6
-          size: cover
-          position: center
-          parallax: false
+      columns: "1"
 
   # ────────────────────────────────────────────────────────────
-  # TAGLINE  ← 修改这里：技能关键词一行 + 一句话定位
+  # TAGLINE
   # ────────────────────────────────────────────────────────────
   - block: markdown
     content:
@@ -109,18 +119,7 @@ sections:
       columns: "1"
 
   # ════════════════════════════════════════════════════════════
-  # PROJECTS  ← 重点修改区域
-  #
-  # 每个项目填写以下字段（复制一组 link/gif/tags/title/desc 即可新增项目）：
-  #
-  #   linkN  = 项目详情页路径，如 "/project/04_newproject/"
-  #   gifN   = 卡片封面图/GIF，上传到 static/media/ 后填文件名
-  #            例："/media/my-new-gif.gif"
-  #   tagsN  = 技术标签，用 · 分隔
-  #   titleN = 项目标题（中英均可）
-  #   descN  = 一句话描述
-  #
-  # 目前支持多个项目卡片，继续填写 link5/gif5/tags5/title5/desc5、link6/... 即可
+  # PROJECTS
   # ════════════════════════════════════════════════════════════
   - block: markdown
     id: projects
@@ -164,7 +163,7 @@ sections:
       columns: "1"
 
   # ────────────────────────────────────────────────────────────
-  # SKILLS & EXPERIENCE  ← 在 content/authors/admin/_index.md 里修改
+  # SKILLS & EXPERIENCE
   # ────────────────────────────────────────────────────────────
   - block: resume-skills
     id: about
@@ -188,7 +187,7 @@ sections:
       username: admin
 
   # ────────────────────────────────────────────────────────────
-  # CONTACT  ← 修改这里：联系描述文字和邮箱
+  # CONTACT
   # ────────────────────────────────────────────────────────────
   - block: markdown
     id: contact
