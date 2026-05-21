@@ -66,18 +66,7 @@ work:
     summary: |
       Designed official account visuals, event materials, and promotional graphics, strengthening information layout, visual consistency, and content communication skills.
 
-education:
-  - area: Master of Philosophy in Computational Media and Arts (CMA)
-    institution: The Hong Kong University of Science and Technology (Guangzhou)
-    date_start: 2025-08-01
-    date_end: 2027-06-30
-    summary: "Red Bird MPhil · Full Scholarship · Focused on UE5 Technical Art, realtime UI motion, and interactive media design."
-
-  - area: Bachelor of International Business Economics
-    institution: The University of Nottingham Ningbo China
-    date_start: 2021-09-01
-    date_end: 2025-06-30
-    summary: "GPA: 3.8/4.0 · Top 5%"
+education: []
 
 # Skills
 skills:

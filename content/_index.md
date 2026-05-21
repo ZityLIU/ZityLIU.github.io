@@ -7,7 +7,7 @@ design:
 sections:
 
   # ────────────────────────────────────────────────────────────
-  # HERO 区块  ← 个人信息和个人概述来自 content/authors/admin/_index.md
+  # HERO 区块：个人信息和个人概述来自 content/authors/admin/_index.md
   # ────────────────────────────────────────────────────────────
   - block: resume-biography-3
     content:
@@ -29,14 +29,14 @@ sections:
           parallax: false
 
   # ────────────────────────────────────────────────────────────
-  # STYLE PATCH  ← 只负责缩小头像，不覆盖个人概述
+  # STYLE PATCH：缩小头像 + 手机端居中
   # ────────────────────────────────────────────────────────────
   - block: markdown
     content:
       title: ""
       text: |-
         <style>
-          /* Reduce homepage avatar size without overriding biography text */
+          /* Reduce homepage avatar size and keep it centered */
           #profile img,
           .profile img,
           .avatar,
@@ -49,6 +49,9 @@ sections:
             max-width: 280px !important;
             max-height: 280px !important;
             object-fit: cover !important;
+            display: block !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
           }
 
           @media (max-width: 900px) {
@@ -67,6 +70,21 @@ sections:
           }
 
           @media (max-width: 600px) {
+            #profile,
+            .profile,
+            .portrait-title,
+            .resume-biography,
+            .blox-resume-biography,
+            .blox-resume-biography-3 {
+              width: 100% !important;
+              max-width: 100% !important;
+              margin-left: auto !important;
+              margin-right: auto !important;
+              text-align: center !important;
+              align-items: center !important;
+              justify-content: center !important;
+            }
+
             #profile img,
             .profile img,
             .avatar,
@@ -78,6 +96,30 @@ sections:
               height: 180px !important;
               max-width: 180px !important;
               max-height: 180px !important;
+              margin-left: auto !important;
+              margin-right: auto !important;
+              display: block !important;
+            }
+
+            #profile .portrait-title,
+            .portrait-title,
+            #profile h1,
+            #profile h2,
+            #profile h3,
+            #profile .network-icon,
+            .network-icon {
+              text-align: center !important;
+              justify-content: center !important;
+              margin-left: auto !important;
+              margin-right: auto !important;
+            }
+
+            #profile ul,
+            .network-icon {
+              display: flex !important;
+              justify-content: center !important;
+              align-items: center !important;
+              padding-left: 0 !important;
             }
           }
 
@@ -179,7 +221,7 @@ sections:
       username: admin
     design:
       date_format: "Jan 2006"
-      is_education_first: true
+      is_education_first: false
 
   - block: resume-languages
     content:
