@@ -42,8 +42,8 @@ jobs:
 
       - name: Install Tailwind / Parcel dependencies
         run: |
-          npm install
-          npm install @parcel/watcher @parcel/watcher-linux-x64-glibc --no-save
+          npm install --include=optional
+          npm install @parcel/watcher @parcel/watcher-linux-x64-glibc @tailwindcss/typography --no-save
 
       - uses: actions/cache@v3
         with:
