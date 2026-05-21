@@ -71,7 +71,7 @@ sections:
           link1="/project/06_victory_settlement/"
           gif1="/media/victory-final-demo.gif"
           tags1="UE5 · UMG Motion · Blueprint · Material FX"
-          title1="Victory Settlement Motion UI System"
+          title1="战至终章结算动效 · Victory Settlement Motion UI System"
           desc1="竞技游戏胜利结算实时 UI 动效系统 — AE 动效预演 + UE5 UMG 落地 + 材质驱动特效 + 点击转场与滚轮结算交互"
 
           link2="/project/05_opening/"
