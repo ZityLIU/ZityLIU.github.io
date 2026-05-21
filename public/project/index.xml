@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Zhiting Liu（刘芷汀）</title>
+    <link>//localhost:1313/project/</link>
+      <atom:link href="//localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Projects</title>
+      <link>//localhost:1313/project/</link>
+    </image>
+    
+    <item>
+      <title>惊动花信 · Lavender Reverie</title>
+      <link>//localhost:1313/project/05_opening/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/05_opening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AIGC投教短片 · AIGC-Powered Finance Explainer</title>
+      <link>//localhost:1313/project/04_invest_video/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/04_invest_video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>寿塔 · The Longevity Pagoda</title>
+      <link>//localhost:1313/project/01_shota/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/01_shota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>古罗马的沙漏 · The Hourglass of Ancient Rome</title>
+      <link>//localhost:1313/project/02_hourglass/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/02_hourglass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twine 互动叙事脚本设计</title>
+      <link>//localhost:1313/project/03_twine/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/03_twine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -59,7 +59,7 @@ sections:
   #   titleN = 项目标题（中英均可）
   #   descN  = 一句话描述
   #
-  # 目前支持最多 4 个项目卡片（N = 1/2/3/4）
+  # 目前支持多个项目卡片，继续填写 link5/gif5/tags5/title5/desc5、link6/... 即可
   # ════════════════════════════════════════════════════════════
   - block: markdown
     id: projects
@@ -68,29 +68,35 @@ sections:
       subtitle: "Selected Works"
       text: |-
         {{< project-grid
-          link1="/project/05_opening/"
-          gif1="/media/动态呼吸.gif"
-          tags1="UE5 · UI Motion · Blueprint · Shader"
-          title1="惊动花信 · Lavender Reverie"
-          desc1="UE5 独立开发关卡开场界面动效设计 — 动态呼吸、光纹材质、流动雾、水波纹与粒子氛围的统一演出系统"
+          link1="/project/06_victory_settlement/"
+          gif1="/media/victory-final-demo.gif"
+          tags1="UE5 · UMG Motion · Blueprint · Material FX"
+          title1="Victory Settlement Motion UI System"
+          desc1="竞技游戏胜利结算实时 UI 动效系统 — AE 动效预演 + UE5 UMG 落地 + 材质驱动特效 + 点击转场与滚轮结算交互"
 
-          link2="/project/01_shota/"
-          gif2="/media/umg-widget.gif"
-          tags2="UE5 · UMG · Shader"
-          title2="寿塔 · The Longevity Pagoda"
-          desc2="UE5 叙事交互视觉小说独立游戏 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
+          link2="/project/05_opening/"
+          gif2="/media/动态呼吸.gif"
+          tags2="UE5 · UI Motion · Blueprint · Shader"
+          title2="惊动花信 · Lavender Reverie"
+          desc2="UE5 独立开发关卡开场界面动效设计 — 动态呼吸、光纹材质、流动雾、水波纹与粒子氛围的统一演出系统"
 
-          link3="/project/02_hourglass/"
-          gif3="/media/pianduan2.gif"
-          tags3="XR · Virtual Production · Sequencer"
-          title3="古罗马的沙漏 · The Hourglass of Ancient Rome"
-          desc3="XR 虚拟制片实践 — 虚拟场景搭建 + LED 拍摄流程 + 镜头调度"
+          link3="/project/01_shota/"
+          gif3="/media/umg-widget.gif"
+          tags3="UE5 · UMG · Shader"
+          title3="寿塔 · The Longevity Pagoda"
+          desc3="UE5 叙事交互视觉小说独立游戏 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
 
-          link4="/project/04_invest_video/"
-          gif4="/media/aigc-invest-demo.gif"
-          tags4="AIGC · Motion Design · IP Workflow"
-          title4="AIGC驱动的投资教学科普短片创作"
-          desc4="2h快速交付的AIGC叙事短片实践 — 专业知识降维 +真人 × AI 对话叙事+ AI角色IP设计 + 可复用微动效素材流程"
+          link4="/project/02_hourglass/"
+          gif4="/media/pianduan2.gif"
+          tags4="XR · Virtual Production · Sequencer"
+          title4="古罗马的沙漏 · The Hourglass of Ancient Rome"
+          desc4="XR 虚拟制片实践 — 虚拟场景搭建 + LED 拍摄流程 + 镜头调度"
+
+          link5="/project/04_invest_video/"
+          gif5="/media/aigc-invest-demo.gif"
+          tags5="AIGC · Motion Design · IP Workflow"
+          title5="AIGC驱动的投资教学科普短片创作"
+          desc5="2h快速交付的AIGC叙事短片实践 — 专业知识降维 +真人 × AI 对话叙事+ AI角色IP设计 + 可复用微动效素材流程"
 
         >}}
     design:

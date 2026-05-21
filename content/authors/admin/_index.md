@@ -66,13 +66,13 @@ education:
     institution: Master of Philosophy in Computational Media and Arts (CMA)
     date_start: 2025-09-01
     date_end: 2027-06-30
-    summary: |
+    summary: ""
 
   - area: The University of Nottingham-Ningbo
     institution: Bachelor of International Business of Economic
     date_start: 2021-09-01
     date_end: 2025-06-30
-    summary: |
+    summary: ""
       
 
 # Skills
