@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: CMA Mphil
+role: Game UI Motion Design / Technical Art
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -36,101 +36,104 @@ profiles:
     url: https://github.com/ztyliu
 
 interests:
-  - UMG Motion Design
-  - Shader & Material Programming
-  - Data-Driven Narrative Systems
-  - XR / Virtual Production
+  - Realtime UI Motion Design
+  - Material-driven UI FX
+  - AE-to-UE5 Motion Workflow
+  - AI-assisted UX Prototyping
 
 work:
+  - position: UI/UX Intern (AI-oriented)
+    company_name: JoinQuant
+    company_url: 'https://www.joinquant.com/'
+    date_start: 2026-04-17
+    date_end: ""
+    summary: |
+      Worked on Web UI/UX design and front-end prototype iteration for product pages and comparison pages. Used Cursor and Claude Code to accelerate page structure, interaction details, visual hierarchy, and delivery-oriented interface refinement.
+
   - position: Art & Promotional Design Intern
     company_name: NIO
-    company_url: 'www.icbc.com'
+    company_url: 'https://www.nio.cn/'
     date_start: 2023-05-01
     date_end: '2023-09-30'
     summary: |
-      Responsible for producing promotional animations for NIO.
+      Produced brand promotional animations, visual assets, and livestream presentation materials, gaining practical experience in commercial motion packaging, visual rhythm, and cross-platform content delivery.
 
   - position: Art & Promotional Design Intern
     company_name: Industrial and Commercial Bank of China, Jizhou Branch
-    company_url: 'https://www.nio.cn/'
+    company_url: 'https://www.icbc.com.cn/'
     date_start: 2022-06-11
     date_end: '2022-08-13'
     summary: |
-      ICBC Official Account Image Rendering
-
-
-
+      Designed official account visuals, event materials, and promotional graphics, strengthening information layout, visual consistency, and content communication skills.
 
 education:
-  - area: The Hong Kong University of Science and Technology (Guangzhou)
-    institution: Master of Philosophy in Computational Media and Arts (CMA)
-    date_start: 2025-09-01
+  - area: Master of Philosophy in Computational Media and Arts (CMA)
+    institution: The Hong Kong University of Science and Technology (Guangzhou)
+    date_start: 2025-08-01
     date_end: 2027-06-30
-    summary: ""
+    summary: "Red Bird MPhil · Full Scholarship · Focused on UE5 Technical Art, realtime UI motion, and interactive media design."
 
-  - area: The University of Nottingham-Ningbo
-    institution: Bachelor of International Business of Economic
+  - area: Bachelor of International Business Economics
+    institution: The University of Nottingham Ningbo China
     date_start: 2021-09-01
     date_end: 2025-06-30
-    summary: ""
-      
+    summary: "GPA: 3.8/4.0 · Top 5%"
 
 # Skills
 skills:
-  - name: Engine & Tools
+  - name: Engine & UI Implementation
     items:
       - name: Unreal Engine 5
         description: 'UMG · Blueprint · Sequencer · Niagara'
-        percent: 90
+        percent: 92
         icon: code-bracket
-      - name: Material / Shader
-        description: 'HLSL · UE Material Editor'
-        percent: 85
-        icon: sparkles
-      - name: C4D / AE / PR
-        description: 'Motion Graphics & Post'
-        percent: 75
-        icon: film
+      - name: UMG / Blueprint UI
+        description: 'HUD · Dialogue UI · Settlement Panel · Scroll Interaction'
+        percent: 90
+        icon: cursor-arrow-rays
+      - name: Game UI Prototyping
+        description: 'Click Trigger · State Switch · Animation Control'
+        percent: 88
+        icon: command-line
 
-  - name: Creative Interests
+  - name: Motion & Technical Art
     color: '#a78bfa'
     color_border: '#ddd6fe'
     items:
-      - name: Illustrated Storytelling
-        description: ''
-        percent: 100
-        icon: book-open
-      - name: Real-time Rendering
-        description: ''
+      - name: AE-to-UE5 Motion
+        description: 'Reveal · Glow · Glitch · Mask · Timing'
         percent: 90
+        icon: film
+      - name: Material-driven UI FX
+        description: 'Noise · Mask · Lerp · UV Panning · Glow'
+        percent: 88
+        icon: sparkles
+      - name: AI-assisted Workflow
+        description: 'Cursor · Claude Code · AIGC Prototyping'
+        percent: 86
         icon: cpu-chip
-      - name: XR & Virtual Production
-        description: ''
-        percent: 80
-        icon: camera
-
 
 languages:
   - name: Chinese
     percent: 100
   - name: English
-    percent: 85
+    percent: 100
 
 awards:
-  - title: MSc — Computational Media Arts
-    date: '2024-09-01'
+  - title: Red Bird MPhil Full Scholarship
+    date: '2025-08-01'
     awarder: HKUST (Guangzhou)
     summary: |
-      Specializing in UE Technical Art and interactive media design.
+      Research-oriented MPhil in Computational Media and Arts, focusing on UE Technical Art, interactive media, and realtime interface motion design.
 ---
 
 ## About Me
 
-<p>I'm <strong>Zhiting Liu (刘芷汀)</strong>, a <strong>Game UI Motion Design</strong> candidate at <a href="https://www.hkust-gz.edu.cn/">HKUST (Guangzhou)</a>, studying <strong>Computational Media Arts</strong>. I specialize in <strong>UE5 interface motion</strong>, <strong>Widget Blueprint interaction</strong>, and <strong>data-driven narrative UI</strong>, building playable demos from interaction structure and motion rhythm to in-engine implementation.</p>
+<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>计算媒体与艺术方向研究型硕士</strong>，目前聚焦 <strong>游戏 UI 动效 / Technical Art / UE5 实时交互界面</strong>。我的优势不是只做视觉包装，而是能把 <strong>Motion Design、UMG 结构、Blueprint 交互、材质驱动 UI FX</strong> 串成完整的引擎内可运行原型。</p>
 
-<p>My experience includes <strong>button feedback</strong>, <strong>dialogue presentation</strong>, <strong>page transitions</strong>, <strong>HUD prompts</strong>, <strong>typewriter effects</strong>, and <strong>portrait switching</strong>, with a focus on making interfaces feel clear, responsive, and emotionally engaging.</p>
+<p>我擅长将 AE 中的离线动效拆解并落地到 UE5：包括 <strong>Victory 结算页、HUD、按钮反馈、页面转场、对话 UI、滚动面板、标题 Reveal、火焰侵蚀、故障切片、流光扫过与水墨溶解</strong> 等高频游戏 UI 场景。近期独立完成的胜利结算动效项目，覆盖从视觉方向、AE 预演、特效分层、UMG 搭建、材质还原到 Blueprint 交互的完整流程。</p>
 
-<p>I also create <strong>material-based UI effects</strong> using <strong>noise</strong>, <strong>mask</strong>, <strong>lerp</strong>, and parameterized shaders to achieve <strong>light trails</strong>, <strong>dynamic glow patterns</strong>, <strong>dust particles</strong>, <strong>volumetric fog</strong>, <strong>water ripple effects</strong>, and <strong>ink-dissolve transitions</strong>. I aim to deliver UI that is both <strong>stylized</strong> and <strong>ready for production</strong>.</p>
+<p>同时，我在 <strong>JoinQuant UI/UX 实习</strong>中参与 Web 页面与产品对比页设计，并使用 <strong>Cursor / Claude Code</strong> 辅助前端原型和交互迭代。我也是重度游戏玩家，长期关注竞技反馈、结算页、叙事 UI 与风格化界面动效；个人内容账号累计 <strong>1000万+ 播放量、20万+ 粉丝</strong>，具备较强的审美判断、传播表达和快速迭代能力。</p>
 
 <div style="border: 2px solid #000000; background-color: #E9DDFB; color: #000000; padding: 15px; margin-top: 20px; margin-bottom: 20px; border-radius: 10px; font-size: 16px;">
   <strong style="color: #111111;">📢 News:</strong>
@@ -139,7 +142,7 @@ awards:
       <li style="margin-bottom: 8px; line-height: 1.5;">
         <strong style="color: #111111;">[Pinned]</strong>
         <span style="color: #C64F8C; font-weight: bold;">
-          Open to internships in Game UI Motion Design / Interactive UI Design.
+          Open to internships in Game UI Motion Design / Technical Art / Interactive UI Design.
           Feel free to reach out via 📮 zliu256@connect.hkust-gz.edu.cn
         </span>
       </li>
@@ -149,4 +152,3 @@ awards:
     ↕ Scroll down to view more messages
   </div>
 </div>
-
