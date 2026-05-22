@@ -43,7 +43,7 @@ sections:
     content:
       title: Overview
       text: |-
-        本项目面向竞技游戏赛后结算场景，设计并实现了一套具有强烈**赛事感、潮流感与胜利打击反馈**的 **Victory Settlement Motion UI System**。项目并不是单纯制作一段离线胜利动画，而是将“胜利情绪爆发 → 高能转场 → 数据结算面板 → 玩家实时交互”组织成一套可以在 UE5 中运行的实时 UI 动效原型。
+        本项目面向竞技游戏赛后结算场景，设计并实现了一套具有强烈**赛事感、潮流感与胜利打击反馈**的 **Victory Settlement Motion UI System**。整个项目由我**个人独立制作**。项目并不是单纯制作一段离线胜利动画，而是将“胜利情绪爆发 → 高能转场 → 数据结算面板 → 玩家实时交互”组织成一套可以在 UE5 中运行的实时 UI 动效原型。
 
         在制作流程上，我首先使用 **After Effects** 完成动效预演，对 Victory 标题入场、两翼展开、故障闪切、横向辉光、点阵爆散、火焰侵蚀转场和随机遮罩节奏进行分层设计；随后将 AE 中的离线视觉目标拆解为 **UE5 UMG 结构、Blueprint 状态切换、参数化材质、遮罩 Reveal 与缓动曲线控制**，实现从 Victory 氛围页到数据结算面板的完整交互闭环。
 
@@ -76,7 +76,7 @@ sections:
       text: |-
         {{< media-gif
           src="/media/victory-final-demo.gif"
-          caption="UE5 最终实时交互演示 —— Victory 情绪反馈、火焰侵蚀转场、数据结算面板出现与滚轮交互 · 约 0:17 / 513F"
+          caption="UE5 最终实时交互演示 —— Victory 情绪反馈、Saber光效转场、数据结算面板出现与滚轮交互 · 约 0:17 / 513F"
           bilibili="https://www.bilibili.com/video/BV13ELm68Edb/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=948e8d8225e28bc4e2bd6bda1e82917c"
         >}}
     design:
@@ -98,7 +98,7 @@ sections:
 
         <div style="max-width:980px; margin:1.5rem auto 1.25rem;">
           <img src="/media/victory-preburst-dispersion.png" alt="Pre-burst dot sparkle dispersion detail"
-               style="width:100%; border-radius:10px; border:1px solid #2d2d4a;"/>
+               style="display:block; width:60%; height:auto; margin:0 auto; border-radius:10px; border:1px solid #2d2d4a;"/>
           <p style="font-size:0.86rem; color:#64748b; margin-top:0.75rem; text-align:center; line-height:1.7;">
             爆炸铺垫帧：通过中心点状星芒、色散渐变、高饱和霓虹边缘和暗场留白，提前积累能量感，为后续 Victory Reveal 的爆发建立视觉预期。
           </p>
@@ -170,7 +170,7 @@ sections:
             <img src="/media/victory-glitch-detail.png" alt="Glitch Slice and Glow Detail"
                  style="width:100%; border-radius:8px; border:1px solid #2d2d4a;"/>
             <p style="font-size:0.8rem; color:#64748b; margin-top:0.5rem; text-align:center;">
-              故障切片与横向辉光：用错位闪烁、切片遮挡和高亮扫过强化赛博朋克式数字不稳定感
+              故障切片与横向辉光：用错位闪烁、切片遮挡和随机三角形遮罩强化赛博朋克式数字不稳定感
             </p>
           </div>
         </div>
