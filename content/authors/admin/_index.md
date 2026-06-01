@@ -24,7 +24,7 @@ role: Game UI Motion Design
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: HKUST (GZ)
+  - name: HKUST (GZ) Fully Funded MPhil
     url: https://www.hkust-gz.edu.cn/
 
 # Social network links
@@ -118,9 +118,9 @@ awards:
 
 ## About Me
 
-<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>计算媒体与艺术方向研究型硕士</strong>，目前聚焦 <strong>游戏 UI 动效 / Technical Art / UE5 实时交互界面</strong>。我致力于将 <strong>Motion Design、UMG 结构、Blueprint 交互、材质驱动 UI FX</strong> 转化为完整的引擎内可实时运行、可交互、可调参的游戏UI 原型。</p>
+<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>数字媒体与艺术方向的全奖研究型硕士</strong>，目前聚焦 <strong>游戏 UI 动效 / Technical Art / UE5 实时交互界面</strong>。我致力于将 <strong>Motion Design、UMG 结构、Blueprint 交互、材质驱动 UI FX</strong> 转化为完整的引擎内可实时运行、可交互、可调参的游戏UI 原型。</p>
 
-<p>我擅长将 AE 中的离线动效拆解并落地到 UE5：包括 <strong>Victory 结算页、HUD、按钮反馈、页面转场、对话 UI、滚动面板、标题 Reveal、火焰侵蚀、故障切片、流光扫过与水墨溶解</strong> 等高频游戏 UI 场景。近期独立完成的胜利结算动效项目，覆盖从视觉方向、AE 预演、特效分层、UMG 搭建、材质还原到 Blueprint 交互的完整流程。</p>
+<p>我擅长将 <strong>AE 中的离线动效拆解并落地到 UE5 </strong>：包括结算面板、HUD、按钮反馈、页面转场、对话 UI、滚动面板、标题 Reveal、火焰侵蚀、故障切片、流光扫过与水墨溶解等高频游戏 UI 场景。近期独立开发的游戏项目，覆盖从视觉方向、AE 预演、特效分层、UMG 搭建、材质还原到 Blueprint 交互的完整流程。</p>
 
 <p>同时，我熟悉AI 辅助设计与开发工作流，常使用 <strong>Cursor / Claude Code</strong> 等AIGC工具提升原型与视觉迭代效率。我也是重度游戏玩家，长期关注竞技反馈、结算页、叙事 UI 与风格化界面动效；个人内容账号累计 <strong>1000万+ 播放量、20万+ 粉丝</strong>，具备较强的审美判断、传播表达和快速迭代能力。</p>
 
