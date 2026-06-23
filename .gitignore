@@ -1,2 +1,7 @@
 static/media/twine-demo.zip
 static/media/shota-demo.mp4
+.DS_Store
+.ppt-venv/
+venv/
+.venv/
+__pycache__/
