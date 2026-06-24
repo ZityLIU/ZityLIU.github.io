@@ -1,0 +1,61 @@
+/* =====================================================================
+   Site-wide custom CSS (loaded by the theme on every page via
+   assets/css/custom.css). Use this file for global tweaks.
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   Mobile responsiveness for project pages
+   ---------------------------------------------------------------------
+   The project landing pages render hardcoded inline grids
+   (grid-template-columns:repeat(3|4|5,1fr) and 1fr 1fr). These never
+   collapse on narrow screens, so on phones the columns get squeezed and
+   the content overflows / gets cut off. Inline styles can only be
+   overridden with !important, so we re-flow them at the breakpoints
+   below. This covers every project page + the breakdown / media-row
+   shortcodes, which all share the same grid patterns.
+   --------------------------------------------------------------------- */
+
+/* Safety net: never allow horizontal scrolling on small screens. */
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Five-column layer stack -> three columns on tablet. */
+  [style*="grid-template-columns:repeat(5"] {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  /* Four-column card rows -> two columns on tablet. */
+  [style*="grid-template-columns:repeat(4"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Phone */
+@media (max-width: 560px) {
+  /* All multi-column card grids collapse to two compact columns. */
+  [style*="grid-template-columns:repeat(5"],
+  [style*="grid-template-columns:repeat(4"],
+  [style*="grid-template-columns:repeat(3"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Paired image / detail blocks stack vertically so they stay legible. */
+  [style*="grid-template-columns:1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Tighten the oversized hero headline so it fits the viewport. */
+  [style*="font-size:2.6rem"] {
+    font-size: 1.9rem !important;
+  }
+}
+
+/* Small phone: single column for text-heavy three-up grids. */
+@media (max-width: 400px) {
+  [style*="grid-template-columns:repeat(3"] {
+    grid-template-columns: 1fr !important;
+  }
+}
