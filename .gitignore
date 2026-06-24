@@ -1,5 +1,7 @@
 static/media/twine-demo.zip
 static/media/shota-demo.mp4
+*.orig.webp.bak
+*.orig.webp
 .DS_Store
 .ppt-venv/
 venv/

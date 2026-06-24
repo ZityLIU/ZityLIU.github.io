@@ -1,0 +1,100 @@
+{{/* Homepage hero decorations (home page only, decorative, pointer-events:none).
+     - Top-right looping animation (hero-decoration.webp)
+     - Butterfly overlay (top-left)  -> #section-resume-biography-3::before
+     - Bottom dust transition        -> #section-resume-biography-3::after
+     Desktop only for the heavy overlays; hidden on small screens. */}}
+{{ if .IsHome }}
+<div class="hero-fx" aria-hidden="true">
+  <div class="hero-fx__deco"></div>
+</div>
+
+<style>
+  .hero-fx{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    max-width:100vw;
+    overflow:hidden;
+    pointer-events:none;
+    z-index:5;
+  }
+
+  /* Top-right looping decoration animation (enlarged) */
+  .hero-fx__deco{
+    position:absolute;
+    top:4.5rem;
+    right:2rem;
+    width:clamp(220px, 22vw, 380px);
+    height:clamp(280px, 30vw, 480px);
+    background:url('/media/hero-decoration.webp') no-repeat top right;
+    background-size:contain;
+    opacity:.9;
+    mix-blend-mode:screen;
+  }
+
+  /* ---- Butterfly overlay: top-left of the black hero section ---- */
+  #section-resume-biography-3::before{
+    content:"";
+    position:absolute;
+    top:3.5rem;
+    left:5%;
+    width:clamp(150px, 18vw, 300px);
+    height:clamp(100px, 11vw, 185px);
+    background:url('/media/butterfly-overlay.webp') no-repeat left -5px top -4px;
+    background-size:108%;
+    filter:drop-shadow(0 0 5px rgba(196,205,255,.35));
+    pointer-events:none;
+    overflow:hidden;
+    z-index:2;
+    opacity:0;
+    animation:hf-appear-bf 1.4s ease .3s forwards;
+  }
+  @keyframes hf-appear-bf{to{opacity:.95;}}
+
+  /* ---- Bottom dust transition: flush to the bottom edge of the section ---- */
+  #section-resume-biography-3::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:clamp(150px, 22vh, 300px);
+    background:url('/media/bottom-transition.webp') no-repeat bottom center;
+    background-size:cover;
+    mix-blend-mode:screen;
+    pointer-events:none;
+    z-index:2;
+    opacity:0;
+    animation:hf-appear-bt 1.6s ease .4s forwards;
+  }
+  @keyframes hf-appear-bt{to{opacity:.9;}}
+
+  /* Tablet: shrink + fade the top-right decoration */
+  @media (max-width:900px){
+    .hero-fx__deco{
+      width:clamp(140px, 24vw, 200px);
+      height:clamp(180px, 30vw, 260px);
+      top:4.5rem;
+      right:1rem;
+      opacity:.55;
+    }
+    /* Heavy overlays are desktop-only */
+    #section-resume-biography-3::before,
+    #section-resume-biography-3::after{display:none;}
+  }
+
+  /* Phone: drop the top-right decoration too */
+  @media (max-width:600px){
+    .hero-fx__deco{display:none;}
+  }
+
+  /* Respect reduced-motion preference */
+  @media (prefers-reduced-motion:reduce){
+    #section-resume-biography-3::before{animation:none;opacity:.92;}
+    #section-resume-biography-3::after{animation:none;opacity:.9;}
+  }
+</style>
+{{ end }}

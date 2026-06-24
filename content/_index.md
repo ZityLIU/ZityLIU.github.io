@@ -20,13 +20,6 @@ sections:
       css_class: dark
       background:
         color: black
-        image:
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 0.6
-          size: cover
-          position: center
-          parallax: false
 
   # ────────────────────────────────────────────────────────────
   # STYLE PATCH：缩小头像 + 手机端居中
@@ -171,37 +164,37 @@ sections:
       text: |-
         {{< project-grid
           link1="/project/07_matching_page/"
-          gif1="/media/matchingpage_page1.gif"
+          gif1="/media/matchingpage_page1.mp4"
           tags1="After Effects · Motion Design · Saber · Track Matte"
           title1="金铲铲风格过场动效 · Matchmaking UI Motion Design"
           desc1="金铲铲 / 云顶之弈风格匹配页动效设计 — 从主界面到匹配页的完整动效链路 + 点击蓄力转场 + 晶球翻转换景 + 进度环状态反馈"
 
           link2="/project/06_victory_settlement/"
-          gif2="/media/victory-final-demo.gif"
+          gif2="/media/victory-final-demo.mp4"
           tags2="UE5 · UMG Motion · Blueprint · Material FX"
           title2="战至终章结算动效 · Victory Settlement Motion UI System"
           desc2="竞技游戏胜利结算实时 UI 动效系统 — AE 动效预演 + UE5 UMG 落地 + 材质驱动特效 + 点击转场与滚轮结算交互"
 
           link3="/project/05_opening/"
-          gif3="/media/动态呼吸.gif"
+          gif3="/media/动态呼吸.mp4"
           tags3="UE5 · UI Motion · Blueprint · Shader"
           title3="惊动花信 · Lavender Reverie"
           desc3="UE5 独立开发关卡开场界面动效设计 — 动态呼吸、光纹材质、流动雾、水波纹与粒子氛围的统一演出系统"
 
           link4="/project/01_shota/"
-          gif4="/media/umg-widget.gif"
+          gif4="/media/umg-widget.mp4"
           tags4="UE5 · UMG · Shader"
           title4="寿塔 · The Longevity Pagoda"
           desc4="UE5 叙事交互视觉小说独立游戏 — 数据驱动分支叙事 + UMG 动效 + 水墨材质转场"
 
           link5="/project/02_hourglass/"
-          gif5="/media/pianduan2.gif"
+          gif5="/media/pianduan2.mp4"
           tags5="XR · Virtual Production · Sequencer"
           title5="古罗马的沙漏 · The Hourglass of Ancient Rome"
           desc5="XR 虚拟制片实践 — 虚拟场景搭建 + LED 拍摄流程 + 镜头调度"
 
           link6="/project/04_invest_video/"
-          gif6="/media/aigc-invest-demo.gif"
+          gif6="/media/aigc-invest-demo.mp4"
           tags6="AIGC · Motion Design · IP Workflow"
           title6="AIGC驱动的投资教学科普短片创作"
           desc6="2h快速交付的AIGC叙事短片实践 — 专业知识降维 +真人 × AI 对话叙事+ AI角色IP设计 + 可复用微动效素材流程"
