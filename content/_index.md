@@ -239,7 +239,7 @@ sections:
           <p style="color:#94a3b8;font-size:0.95rem;line-height:1.8;margin-bottom:1.5rem;">
             目前面向 2027 届秋招 / 春招，持续关注游戏动效设计、游戏特效设计与 Technical Art 相关机会，也欢迎就 UE 引擎中的 UI 动效与互动叙事交流合作。
           </p>
-          <a href="mailto:zityliu@gmail.com"
+          <a href="mailto:zityliu@gmail.com" class="link-accent"
              style="display:inline-block;padding:0.65rem 1.8rem;background:transparent;border:1px solid #a78bfa;color:#ddd6fe;border-radius:6px;font-size:0.9rem;text-decoration:none;letter-spacing:0.05em;">
             📮 zityliu@gmail.com
           </a>

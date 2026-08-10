@@ -43,12 +43,12 @@ interests:
 
 work:
   - position: Game UI Motion Design Intern
-    company_name: '<a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网" style="text-decoration:underline">Tencent</a> · <a href="https://x.com/__lightspeed___?lang=en" target="_blank" rel="noopener" title="LIGHTSPEED Studios on X" style="text-decoration:underline">LIGHTSPEED Studios</a>（<a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网" style="text-decoration:underline">腾讯科技</a> · <a href="https://x.com/__lightspeed___?lang=en" target="_blank" rel="noopener" title="LIGHTSPEED Studios on X" style="text-decoration:underline">光子工作室</a>）'
+    company_name: '<a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网" class="link-accent">Tencent</a> · <a href="https://x.com/__lightspeed___?lang=en" target="_blank" rel="noopener" title="LIGHTSPEED Studios on X" class="link-accent">LIGHTSPEED Studios</a>（<a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网" class="link-accent">腾讯科技</a> · <a href="https://x.com/__lightspeed___?lang=en" target="_blank" rel="noopener" title="LIGHTSPEED Studios on X" class="link-accent">光子工作室</a>）'
     company_url: 'https://www.tencent.com/zh-cn/'
     date_start: 2026-07-01
     date_end: ""
     summary: |
-      Design style-consistent in-game UI motion driven by project needs, translating art direction into shippable UMG animation and interface FX for live titles including the UE-based tactical shooter *Game for Peace*（和平精英） and the AAA wuxia action game *Sword Snow Stride*（雪中悍刀行）.
+      Design style-consistent in-game UI motion driven by project needs, translating art direction into shippable UMG animation and interface FX for live titles including the UE-based tactical shooter <a href="https://gp.qq.com/main.shtml" target="_blank" rel="noopener" title="和平精英官网" class="link-accent"><em>Game for Peace</em></a>（<a href="https://gp.qq.com/main.shtml" target="_blank" rel="noopener" title="和平精英官网" class="link-accent">和平精英</a>） and the AAA wuxia action game *Sword Snow Stride*（雪中悍刀行）.
 
   - position: UI/UX Intern (AI-oriented)
     company_name: JoinQuant
@@ -126,13 +126,13 @@ awards:
 
 ## About Me
 
-<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>数字媒体与艺术方向全奖研究型硕士</strong>，目前专注于 <strong>游戏动效设计、游戏特效与 Technical Art</strong>。2026 年加入 <a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网"><strong>腾讯科技有限公司</strong></a>担任<strong>游戏动效实习生</strong>，先后参与国民级战术竞技手游《<strong>和平精英</strong>》及 3A 武侠动作 ACT 游戏《<strong>雪中悍刀行</strong>》相关项目的 UI 动效设计与制作。</p>
+<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>数字媒体与艺术方向全奖研究型硕士</strong>，目前专注于 <strong>游戏动效设计、游戏特效与 Technical Art</strong>。2026 年加入 <a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网" class="link-accent"><strong>腾讯科技有限公司</strong></a>担任<strong>游戏动效实习生</strong>，先后参与国民级战术竞技手游《<a href="https://gp.qq.com/main.shtml" target="_blank" rel="noopener" title="和平精英官网" class="link-accent"><strong>和平精英</strong></a>》及 3A 武侠动作 ACT 游戏《<strong>雪中悍刀行</strong>》相关项目的 UI 动效设计与制作。</p>
 
 <p>我擅长 <strong>AE → UE5 的实时动效工作流</strong>，能够完成从动效预演、特效拆解到 <strong>UMG、材质与 Blueprint 交互</strong>落地的完整制作流程，并具备独立完成游戏 UI 动效原型与引擎内效果还原的能力。</p>
 
 <p>此外，我熟悉 AI 辅助设计与开发工作流，能够使用 <strong>Cursor / Claude Code</strong> 等工具提升原型开发与视觉迭代效率。长期的游戏与内容创作经历也让我对竞技反馈、叙事 UI 与风格化视觉表达保持高度敏感；个人内容账号累计 <strong>1000 万+播放量、20 万+粉丝</strong>，具备良好的审美判断、内容表达与快速迭代能力。</p>
 
-<p>我预计于 <strong>2027 年 8 月毕业</strong>，目前面向 <strong>2027 届秋招 / 春招</strong>，持续关注 <strong>游戏动效设计、游戏特效设计及 Technical Art</strong> 相关机会，欢迎通过邮件 <a href="mailto:zityliu@gmail.com"><strong>zityliu@gmail.com</strong></a> 与我联系。</p>
+<p>我预计于 <strong>2027 年 8 月毕业</strong>，目前面向 <strong>2027 届秋招 / 春招</strong>，持续关注 <strong>游戏动效设计、游戏特效设计及 Technical Art</strong> 相关机会，欢迎通过邮件 <a href="mailto:zityliu@gmail.com" class="link-accent"><strong>zityliu@gmail.com</strong></a> 与我联系。</p>
 
 <div style="border: 2px solid #000000; background-color: #E9DDFB; color: #000000; padding: 15px; margin-top: 20px; margin-bottom: 20px; border-radius: 10px; font-size: 16px;">
   <strong style="color: #111111;">📢 News:</strong>

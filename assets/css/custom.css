@@ -4,6 +4,40 @@
    ===================================================================== */
 
 /* ---------------------------------------------------------------------
+   Text link hover colour
+   ---------------------------------------------------------------------
+   Inline text links pick up the light purple already used by the tagline
+   and contact button (secondary-300, #c4b5fd) on hover.
+
+   `.link-accent` is for links that sit outside a `.prose` container or
+   that carry an inline `color`, which would otherwise win over a plain
+   stylesheet rule — hence the !important on the hover state only.
+
+   The `.prose a:hover` rule deliberately omits !important so the project
+   grid cards, which set `color:inherit` inline, keep their own styling.
+   --------------------------------------------------------------------- */
+
+.link-accent {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.link-accent,
+.prose a {
+  transition: color 0.2s ease;
+}
+
+.link-accent:hover,
+.link-accent:focus-visible {
+  color: #c4b5fd !important;
+}
+
+.prose a:hover,
+.prose a:focus-visible {
+  color: #c4b5fd;
+}
+
+/* ---------------------------------------------------------------------
    Mobile responsiveness for project pages
    ---------------------------------------------------------------------
    The project landing pages render hardcoded inline grids
