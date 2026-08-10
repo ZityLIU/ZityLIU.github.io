@@ -237,11 +237,11 @@ sections:
       text: |-
         <div style="max-width:560px;margin:0 auto;text-align:center;padding:1rem 0 2rem;">
           <p style="color:#94a3b8;font-size:0.95rem;line-height:1.8;margin-bottom:1.5rem;">
-            欢迎联系我探讨 UE 引擎中 UI 动效设计、UI 蓝图设计与互动叙事相关的实习与合作机会。
+            目前面向 2027 届秋招 / 春招，持续关注游戏动效设计、游戏特效设计与 Technical Art 相关机会，也欢迎就 UE 引擎中的 UI 动效与互动叙事交流合作。
           </p>
-          <a href="mailto:zliu256@connect.hkust-gz.edu.cn"
+          <a href="mailto:zityliu@gmail.com"
              style="display:inline-block;padding:0.65rem 1.8rem;background:transparent;border:1px solid #a78bfa;color:#ddd6fe;border-radius:6px;font-size:0.9rem;text-decoration:none;letter-spacing:0.05em;">
-            📮 zliu256@connect.hkust-gz.edu.cn
+            📮 zityliu@gmail.com
           </a>
         </div>
     design:

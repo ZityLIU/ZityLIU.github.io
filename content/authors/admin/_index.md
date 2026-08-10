@@ -30,7 +30,7 @@ organizations:
 # Social network links
 profiles:
   - icon: at-symbol
-    url: 'mailto:zliu256@connect.hkust-gz.edu.cn'
+    url: 'mailto:zityliu@gmail.com'
     label: Email Me
   - icon: brands/github
     url: https://github.com/ztyliu
@@ -42,11 +42,19 @@ interests:
   - AI-assisted UX Prototyping
 
 work:
+  - position: Game UI Motion Design Intern
+    company_name: Tencent · LIGHTSPEED Studios（腾讯科技 · 光子工作室）
+    company_url: 'https://www.tencent.com/'
+    date_start: 2026-07-01
+    date_end: ""
+    summary: |
+      Design style-consistent in-game UI motion driven by project needs, translating art direction into shippable UMG animation and interface FX for live titles including the UE-based tactical shooter *Game for Peace*（和平精英） and the AAA wuxia action game *Sword Snow Stride*（雪中悍刀行）.
+
   - position: UI/UX Intern (AI-oriented)
     company_name: JoinQuant
     company_url: 'https://www.joinquant.com/'
     date_start: 2026-04-17
-    date_end: ""
+    date_end: '2026-07-31'
     summary: |
       Worked on Web UI/UX design and front-end prototype iteration for product pages and comparison pages. Used Cursor and Claude Code to accelerate page structure, interaction details, visual hierarchy, and delivery-oriented interface refinement.
 
@@ -118,11 +126,13 @@ awards:
 
 ## About Me
 
-<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>数字媒体与艺术方向的全奖研究型硕士</strong>，目前聚焦 <strong>游戏 UI 动效 / Technical Art / UE5 实时交互界面</strong>。我致力于将 <strong>Motion Design、UMG 结构、Blueprint 交互、材质驱动 UI FX</strong> 转化为完整的引擎内可实时运行、可交互、可调参的游戏UI 原型。</p>
+<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>数字媒体与艺术方向全奖研究型硕士</strong>，目前专注于 <strong>游戏动效设计、游戏特效与 Technical Art</strong>。2026 年加入 <strong>腾讯科技有限公司</strong>担任<strong>游戏动效实习生</strong>，先后参与国民级战术竞技手游《<strong>和平精英</strong>》及 3A 武侠动作 ACT 游戏《<strong>雪中悍刀行</strong>》相关项目的 UI 动效设计与制作。</p>
 
-<p>我擅长将 <strong>AE 中的离线动效拆解并落地到 UE5 </strong>：包括结算面板、HUD、按钮反馈、页面转场、对话 UI、滚动面板、标题 Reveal、火焰侵蚀、故障切片、流光扫过与水墨溶解等高频游戏 UI 场景。近期独立开发的游戏项目，覆盖从视觉方向、AE 预演、特效分层、UMG 搭建、材质还原到 Blueprint 交互的完整流程。</p>
+<p>我擅长 <strong>AE → UE5 的实时动效工作流</strong>，能够完成从动效预演、特效拆解到 <strong>UMG、材质与 Blueprint 交互</strong>落地的完整制作流程，并具备独立完成游戏 UI 动效原型与引擎内效果还原的能力。</p>
 
-<p>同时，我熟悉AI 辅助设计与开发工作流，常使用 <strong>Cursor / Claude Code</strong> 等AIGC工具提升原型与视觉迭代效率。我也是重度游戏玩家，长期关注竞技反馈、结算页、叙事 UI 与风格化界面动效；个人内容账号累计 <strong>1000万+ 播放量、20万+ 粉丝</strong>，具备较强的审美判断、传播表达和快速迭代能力。</p>
+<p>此外，我熟悉 AI 辅助设计与开发工作流，能够使用 <strong>Cursor / Claude Code</strong> 等工具提升原型开发与视觉迭代效率。长期的游戏与内容创作经历也让我对竞技反馈、叙事 UI 与风格化视觉表达保持高度敏感；个人内容账号累计 <strong>1000 万+播放量、20 万+粉丝</strong>，具备良好的审美判断、内容表达与快速迭代能力。</p>
+
+<p>我预计于 <strong>2027 年 8 月毕业</strong>，目前面向 <strong>2027 届秋招 / 春招</strong>，持续关注 <strong>游戏动效设计、游戏特效设计及 Technical Art</strong> 相关机会，欢迎通过邮件 <a href="mailto:zityliu@gmail.com"><strong>zityliu@gmail.com</strong></a> 与我联系。</p>
 
 <div style="border: 2px solid #000000; background-color: #E9DDFB; color: #000000; padding: 15px; margin-top: 20px; margin-bottom: 20px; border-radius: 10px; font-size: 16px;">
   <strong style="color: #111111;">📢 News:</strong>
@@ -131,8 +141,8 @@ awards:
       <li style="margin-bottom: 8px; line-height: 1.5;">
         <strong style="color: #111111;">[Pinned]</strong>
         <span style="color: #C64F8C; font-weight: bold;">
-          Open to internships in Game UI Motion Design / Technical Art / Interactive UI Design.
-          Feel free to reach out via 📮 zliu256@connect.hkust-gz.edu.cn
+          Open to 2027 graduate opportunities in Game UI Motion Design / Game VFX / Technical Art.
+          Feel free to reach out via 📮 zityliu@gmail.com
         </span>
       </li>
     </ul>
