@@ -43,8 +43,8 @@ interests:
 
 work:
   - position: Game UI Motion Design Intern
-    company_name: Tencent · LIGHTSPEED Studios（腾讯科技 · 光子工作室）
-    company_url: 'https://www.tencent.com/'
+    company_name: '<a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网" style="text-decoration:underline">Tencent</a> · <a href="https://x.com/__lightspeed___?lang=en" target="_blank" rel="noopener" title="LIGHTSPEED Studios on X" style="text-decoration:underline">LIGHTSPEED Studios</a>（<a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网" style="text-decoration:underline">腾讯科技</a> · <a href="https://x.com/__lightspeed___?lang=en" target="_blank" rel="noopener" title="LIGHTSPEED Studios on X" style="text-decoration:underline">光子工作室</a>）'
+    company_url: 'https://www.tencent.com/zh-cn/'
     date_start: 2026-07-01
     date_end: ""
     summary: |
@@ -126,7 +126,7 @@ awards:
 
 ## About Me
 
-<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>数字媒体与艺术方向全奖研究型硕士</strong>，目前专注于 <strong>游戏动效设计、游戏特效与 Technical Art</strong>。2026 年加入 <strong>腾讯科技有限公司</strong>担任<strong>游戏动效实习生</strong>，先后参与国民级战术竞技手游《<strong>和平精英</strong>》及 3A 武侠动作 ACT 游戏《<strong>雪中悍刀行</strong>》相关项目的 UI 动效设计与制作。</p>
+<p>我是 <strong>刘芷汀（Zhiting Liu）</strong>，香港科技大学（广州）<strong>数字媒体与艺术方向全奖研究型硕士</strong>，目前专注于 <strong>游戏动效设计、游戏特效与 Technical Art</strong>。2026 年加入 <a href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener" title="腾讯官网"><strong>腾讯科技有限公司</strong></a>担任<strong>游戏动效实习生</strong>，先后参与国民级战术竞技手游《<strong>和平精英</strong>》及 3A 武侠动作 ACT 游戏《<strong>雪中悍刀行</strong>》相关项目的 UI 动效设计与制作。</p>
 
 <p>我擅长 <strong>AE → UE5 的实时动效工作流</strong>，能够完成从动效预演、特效拆解到 <strong>UMG、材质与 Blueprint 交互</strong>落地的完整制作流程，并具备独立完成游戏 UI 动效原型与引擎内效果还原的能力。</p>
 
