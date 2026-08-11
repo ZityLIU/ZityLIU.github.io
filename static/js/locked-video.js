@@ -10,10 +10,11 @@
 (function () {
   'use strict';
 
+  // The password is deliberately never persisted: every page load must ask for
+  // it again.
   var ITERATIONS = 250000;
   var SALT_BYTES = 16;
   var IV_BYTES = 12;
-  var SESSION_KEY = 'lockedVideoPassword';
 
   function h(tag, style, text) {
     var el = document.createElement(tag);
@@ -188,11 +189,9 @@
           p.ui.status.style.color = '#f87171';
         });
         if (origin) origin.ui.input.focus();
-        try { sessionStorage.removeItem(SESSION_KEY); } catch (e) { /* private mode */ }
         return;
       }
 
-      try { sessionStorage.setItem(SESSION_KEY, password); } catch (e) { /* private mode */ }
       results.forEach(function (r) {
         if (r.url) reveal(r.panel.node, r.url);
         else {
@@ -217,10 +216,6 @@
         if (e.key === 'Enter') submit(e);
       });
     });
-
-    var remembered = null;
-    try { remembered = sessionStorage.getItem(SESSION_KEY); } catch (e) { /* private mode */ }
-    if (remembered) unlockAll(remembered, null);
   }
 
   if (document.readyState === 'loading') {
