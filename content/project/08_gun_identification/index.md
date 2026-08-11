@@ -108,7 +108,7 @@ sections:
           </p>
         </div>
 
-        <script src="/js/locked-video.js" defer></script>
+        <script src="/js/locked-video.js?v=2" defer></script>
     design:
       columns: '1'
 
