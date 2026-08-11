@@ -38,6 +38,32 @@
 }
 
 /* ---------------------------------------------------------------------
+   Full-bleed media inside project pages
+   ---------------------------------------------------------------------
+   Project landing pages render inside a narrow prose column, which is
+   right for body copy but far too cramped for the ultrawide demo videos
+   and the AE workspace screenshots — at column width they are unreadable.
+
+   `.wide-media` breaks a block out of that column and re-centres it on
+   the page axis, capped so it never outgrows the viewport.
+   --------------------------------------------------------------------- */
+
+.wide-media {
+  width: min(1180px, 94vw);
+  max-width: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .wide-media {
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+}
+
+/* ---------------------------------------------------------------------
    Mobile responsiveness for project pages
    ---------------------------------------------------------------------
    The project landing pages render hardcoded inline grids
