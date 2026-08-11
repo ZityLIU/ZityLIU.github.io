@@ -80,13 +80,17 @@ sections:
       text: |-
         两版**前 8 秒完全一致，差异集中在鉴定段**。建议先看普通版建立基线，再看品质版感受被放大的部分。
 
+        <p style="font-size:0.82rem; color:#94a3b8; background:#161626; border-left:2px solid #a78bfa; padding:0.7rem 1rem; border-radius:4px; line-height:1.75;">
+          两段完整成片尚未公开，已加密存放，输入密码后可在页面内直接播放（一次解锁两段）。需要访问权限请邮件联系 <a href="mailto:zityliu@gmail.com" class="link-accent">zityliu@gmail.com</a>。
+        </p>
+
         <div class="wide-media" style="margin-top:1.25rem; margin-bottom:2rem;">
           <div style="font-size:0.75rem; color:#94a3b8; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:0.6rem;">普通版 · Common Tier</div>
-          <video controls muted loop playsinline preload="metadata"
-                 poster="/media/gun-still-normal.jpg"
-                 style="width:100%; border-radius:10px; border:1px solid #2d2d4a; display:block; background:#000;">
-            <source src="/media/gun-demo-normal.mp4" type="video/mp4">
-          </video>
+          <div data-locked-video
+               data-enc="/media/gun-demo-normal.enc"
+               data-ratio="1600 / 714"
+               data-accent="#a78bfa"
+               data-border="#2d2d4a"></div>
           <p style="text-align:center; font-size:0.82rem; color:#64748b; margin:0.7rem 0 0;">
             12.4s · 冷白扫描带，单次扫过，扫出冷蓝色线框
           </p>
@@ -94,15 +98,17 @@ sections:
 
         <div class="wide-media" style="margin-bottom:1rem;">
           <div style="font-size:0.75rem; color:#fbbf24; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:0.6rem;">品质版 · Rare Tier</div>
-          <video controls muted loop playsinline preload="metadata"
-                 poster="/media/gun-still-quality.jpg"
-                 style="width:100%; border-radius:10px; border:1px solid #4a3d2d; display:block; background:#000;">
-            <source src="/media/gun-demo-quality.mp4" type="video/mp4">
-          </video>
+          <div data-locked-video
+               data-enc="/media/gun-demo-quality.enc"
+               data-ratio="1600 / 714"
+               data-accent="#fbbf24"
+               data-border="#4a3d2d"></div>
           <p style="text-align:center; font-size:0.82rem; color:#64748b; margin:0.7rem 0 0;">
             13.8s · 高饱和金色扫描带，三次扫过，枪身烧红显形并透出网格结构
           </p>
         </div>
+
+        <script src="/js/locked-video.js" defer></script>
     design:
       columns: '1'
 
