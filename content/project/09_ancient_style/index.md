@@ -173,12 +173,12 @@ sections:
       title: 物品出现 · 七层结构与弥散仙气
       subtitle: Layered Reveal Stack · Sandwich Mask
       text: |-
-        <div class="wide-media" style="margin-bottom:1rem;">
+        <div style="max-width:520px; margin:0 auto 1rem;">
           <video autoplay muted loop playsinline preload="metadata"
                  style="width:100%; border-radius:10px; border:1px solid #2d2d4a; display:block; background:#000;">
             <source src="/media/ancient-item-appear.mp4" type="video/mp4">
           </video>
-          <p style="font-size:0.82rem; color:#64748b; margin-top:0.7rem; text-align:center;">
+          <p style="font-size:0.8rem; color:#64748b; margin-top:0.6rem; text-align:center;">
             品质光晕 → 环境仙气 → 爆发光球 → 物品显形 → 品质框反馈
           </p>
         </div>
@@ -207,12 +207,12 @@ sections:
       title: 流光边框
       subtitle: Sweeping Border Glow
       text: |-
-        <div class="wide-media" style="margin-bottom:1rem;">
+        <div style="max-width:420px; margin:0 auto 1rem;">
           <video autoplay muted loop playsinline preload="metadata"
                  style="width:100%; border-radius:10px; border:1px solid #2d2d4a; display:block; background:#000;">
             <source src="/media/ancient-border-glow.mp4" type="video/mp4">
           </video>
-          <p style="font-size:0.82rem; color:#64748b; margin-top:0.7rem; text-align:center;">
+          <p style="font-size:0.8rem; color:#64748b; margin-top:0.6rem; text-align:center;">
             金色扫光沿框体持续流转，可作独立特效节点复用
           </p>
         </div>
