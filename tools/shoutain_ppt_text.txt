@@ -1,0 +1,99 @@
+Total slides: 17
+=== Slide 1 ===
+1
+The Longevity Pagoda: From Branching Logic to Immersive Reality
+Student Name: Zhiting LIU
+Student ID: 50041200
+=== Slide 2 ===
+2
+→ How The Longevity Pagoda moved from a Twine branching prototype to an UE5 illustrated visual novel.
+Twine story structure & core HUD
+UE5 data-driven implementation + polish
+paper insight: Drama Llama
+From Branching Logic to Immersive Reality
+=== Slide 3 ===
+3
+Story Premise & Core Mechanic
+The story starts when Rebecca Shen enters Longevity Pagoda Village. When she scans the “Shou Contract,” she is registered—“named” by the contract. From that moment, the village begins to “see” her through an ancient, feudal logic: rules, taboos, and
+ritual obligations.
+The whole village carries a deliberate sense of staged authenticity—strict etiquette, heavy rituals, performative 
+      tradition. But you also notice some modern items. This contrast hints that the “heritage ritual” is actually a curated     
+      performance.
+As the player progresses, the mask peels off: the Longevity Pagoda is 
+     not a miracle, but a money-making vessel built by the local. The 
+     villagers' greed made them willing to cover up the deaths at the 
+     construction site, and even send the poor little girl to the altar, in order
+     to gain "longevity" and "wealth".
+Greed turns people cruel
+             — and rituals can become tools for exploitation.
+Core mechanism -- WATCH Value (a variable that changes according to the player's choice): A quantification of "social pressure”:  
+
+     Players have to make a trade-off between "revealing the truth" and
+     "safe advancement".
+=== Slide 4 ===
+4
+Core sub-scene design
+=== Slide 5 ===
+5
+Twine -- Logic Design
+Twine lets me validate logic fast and cheap. 
+The key point is to first verify: whether the player's choices make sense, and whether the clues can lead to the confrontation and climax.
+=== Slide 6 ===
+6
+measurable variable: “Watch” hud
+I turn “suspicion” into a measurable variable: scanning QR, refusing rituals, asking too much all affect Watch. 
+Low Watch = safer pacing;
+     High Watch = riskier branches and different narrative tempo.
+=== Slide 7 ===
+7
+elevating the narrative into immersive Vn
+Twine builds the structure; UE5 delivers the experience.
+=== Slide 8 ===
+8
+UE5 UI Layers
+This supports VN-style staging: character entrance/exit, background swaps, consistent UI.
+=== Slide 9 ===
+9
+clue popover & WBP Design
+Allow players to collect clues as the main storyline progresses during the game, enhancing the sense of immersion.
+=== Slide 10 ===
+10
+ink-bleed shader transitions
+I built a custom ink-bleed shader to match the traditional Chinese tone for transitions. 
+Layered ambience + music supports tension, aligned with Watch Value changes.
+=== Slide 11 ===
+9
+Project 1c Upgrade: Sensory Immersion
+Voice Integration
+Character dialogue is now fully voice-enhanced using ElevenLabs technology. This implementation brings each character to life with unique, high-quality voices that match their distinct personalities and roles within the game world.
+First-Person Village Entrance Video
+A short first-person entrance video is added at the beginning of the game.Instead of only seeing the village as a background image, the player visually “walks into” Longevity Pagoda Village.
+Dynamic In-Game Triggering
+Voice lines are not just static overlays. They are dynamically triggered during gameplay to align perfectly with key story beats and critical player choices.
+KEY IMPACT: Turning text choices into immersive, humanized interactions that deepen player investment in the story and characters.
+=== Slide 12 ===
+Project 1c Experiment: 360° Panoramic Village
+● Experiment: Tested Skybox.AI to generate 360° panoramic scenes of Longevity Pagoda Village.
+● Result: The generated visual style did not fully match the intended gloomy and uncanny atmosphere.
+● Design Insight: Immersion requires not only advanced technology, but also stylistic consistency with the narrative world.
+=== Slide 13 ===
+13
+Problem discover
+This is a scaling problem: writing nodes for every state combination explodes quickly. 
+Question: How can we ensure that players have a certain degree of freedom in exploration without exploding the burden on the author ?
+=== Slide 14 ===
+14
+Research paper: drama llama mechanics
+Triggers are IF-THEN rules based on game state.
+Drama Llama uses triggers plus reusable storylets to assemble narrative dynamically. 
+Player actions hit conditions, and the system selects the next suitable storylet.
+=== Slide 15 ===
+15
+the narrative evolution matrix
+UE tables reduce authorial burden; LLMs may reduce combinatorial explosion even further.
+=== Slide 16 ===
+16
+future：applying drama llama to my story
+Watch can be the main state variable; at high Watch, an LLM can generate more tense dialogue and details. 
+Roadmap: keep core nodes authored, but use storylets for reactive variations and side content.
+=== Slide 17 ===

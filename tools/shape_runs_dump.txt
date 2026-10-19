@@ -1,0 +1,198 @@
+--- S15 TextBox 3 ---
+ P0 align=LEFT (1) level=0
+   R0 text='MAIN PROJECT  ·  主项目' size=139700 bold=True color=22D3EE name=Arial
+--- S15 TextBox 4 ---
+ P0 align=LEFT (1) level=0
+   R0 text='战至终章 · Victory Settlement Motion UI System' size=342900 bold=True color=F1F5F9 name=Arial
+--- S15 Rectangle 6 ---
+ P0 align=CENTER (2) level=0
+   R0 text='▶ GIF' size=101600 bold=True color=22D3EE name=Arial
+--- S15 TextBox 7 ---
+ P0 align=CENTER (2) level=0
+   R0 text='UE5 最终实时交互演示（代表帧）· 完整动图见演讲者备注本地路径 · 约 0:17 / 513F' size=107950 bold=False color=64748B name=Arial
+--- S15 TextBox 8 ---
+ P0 align=LEFT (1) level=0
+   R0 text='竞技游戏胜利结算 UI 动效系统' size=203200 bold=True color=F1F5F9 name=Arial
+ P1 align=LEFT (1) level=0
+   R0 text='设计目标' size=152400 bold=True color=22D3EE name=Arial
+ P2 align=LEFT (1) level=0
+   R0 text='胜利情绪爆发 → 转场降落 → 数据结算阅读' size=184150 bold=True color=F1F5F9 name=Arial
+ P3 align=LEFT (1) level=0
+   R0 text='KEYWORDS' size=152400 bold=True color=22D3EE name=Arial
+ P4 align=LEFT (1) level=0
+   R0 text='◆ ' size=139700 bold=False color=A78BFA name=Arial
+   R1 text='Victory Reveal' size=165100 bold=True color=94A3B8 name=Arial
+ P5 align=LEFT (1) level=0
+   R0 text='◆ ' size=139700 bold=False color=A78BFA name=Arial
+   R1 text='Glitch Slice' size=165100 bold=True color=94A3B8 name=Arial
+ P6 align=LEFT (1) level=0
+   R0 text='◆ ' size=139700 bold=False color=A78BFA name=Arial
+   R1 text='Burning Transition' size=165100 bold=True color=94A3B8 name=Arial
+ P7 align=LEFT (1) level=0
+   R0 text='◆ ' size=139700 bold=False color=A78BFA name=Arial
+   R1 text='Settlement Panel' size=165100 bold=True color=94A3B8 name=Arial
+ P8 align=LEFT (1) level=0
+   R0 text='◆ ' size=139700 bold=False color=A78BFA name=Arial
+   R1 text='Scroll Interaction' size=165100 bold=True color=94A3B8 name=Arial
+--- S15 TextBox 9 ---
+ P0 align=RIGHT (3) level=0
+   R0 text='03' size=139700 bold=True color=22D3EE name=Arial
+   R1 text=' / 07' size=139700 bold=False color=64748B name=Arial
+--- S9 TextBox 3 ---
+ P0 align=LEFT (1) level=0
+   R0 text='07' size=165100 bold=True color=FF6A9A name=Helvetica Neue
+   R1 text='   ATMOSPHERE' size=158750 bold=True color=FF6A9A name=Helvetica Neue
+--- S9 TextBox 4 ---
+ P0 align=LEFT (1) level=0
+   R0 text='爆发氛围 · 粒子飞散' size=381000 bold=True color=F6F3FF name=PingFang SC
+--- S9 TextBox 5 ---
+ P0 align=LEFT (1) level=0
+   R0 text='Burst Atmosphere · Particle Spray' size=171450 bold=False color=A66BFF name=Helvetica Neue
+--- S9 TextBox 7 ---
+ P0 align=LEFT (1) level=0
+   R0 text='在能量爆发的瞬间叠加星点粒子飞散，让爆点更具冲击力，也更精致耐看。' size=184150 bold=False color=D7CEF0 name=PingFang SC
+--- S9 TextBox 10 ---
+ P0 align=LEFT (1) level=0
+   R0 text='atmosphere.gif' size=152400 bold=True color=FF6A9A name=Helvetica Neue
+ P1 align=LEFT (1) level=0
+   R0 text='爆炸氛围：星星点点的粒子向外飞散，是我重点打磨的一处细节，让爆发瞬间更有空气感与精致度。' size=158750 bold=False color=D7CEF0 name=PingFang SC
+--- S9 TextBox 12 ---
+ P0 align=LEFT (1) level=0
+   R0 text='技法拆解' size=203200 bold=True color=F6F3FF name=PingFang SC
+--- S9 TextBox 13 ---
+ P0 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='粒子分' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R2 text='三类' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R3 text='：' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R4 text='丰富光效细节与形态' size=158750 bold=False color=D7CEF0 name=PingFang SC
+ P1 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='叠加' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R2 text=' Glow ' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R3 text='让粒子带光晕呼吸' size=158750 bold=False color=D7CEF0 name=PingFang SC
+ P2 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='飞散方向与爆发力线对齐' size=158750 bold=False color=D7CEF0 name=PingFang SC
+ P3 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='尾段降速衰减，自然过渡到匹配页' size=158750 bold=False color=D7CEF0 name=PingFang SC
+--- S9 TextBox 15 ---
+ P0 align=LEFT (1) level=0
+   R0 text='LAMBY  ·  Matchmaking UI Motion Design' size=114300 bold=False color=AAA0CC name=Helvetica Neue
+--- S9 TextBox 16 ---
+ P0 align=RIGHT (3) level=0
+   R0 text='ATMOSPHERE      ' size=114300 bold=False color=AAA0CC name=Helvetica Neue
+   R1 text='08 / 15' size=114300 bold=True color=52E5EB name=Helvetica Neue
+--- S13 TextBox 3 ---
+ P0 align=LEFT (1) level=0
+   R0 text='11' size=165100 bold=True color=3DC8F0 name=Helvetica Neue
+   R1 text='   PIPELINE' size=158750 bold=True color=3DC8F0 name=Helvetica Neue
+--- S13 TextBox 4 ---
+ P0 align=LEFT (1) level=0
+   R0 text='技术实现 · AE 图层方法' size=381000 bold=True color=F6F3FF name=PingFang SC
+--- S13 TextBox 5 ---
+ P0 align=LEFT (1) level=0
+   R0 text='Implementation · AE Layer Stack' size=171450 bold=False color=A66BFF name=Helvetica Neue
+--- S13 TextBox 7 ---
+ P0 align=LEFT (1) level=0
+   R0 text='用工程化的预合成思维管理图层，让复杂特效可控、可改、可复用。' size=184150 bold=False color=D7CEF0 name=PingFang SC
+--- S13 TextBox 9 ---
+ P0 align=CENTER (2) level=0
+   R0 text='01' size=254000 bold=True color=A66BFF name=Helvetica Neue
+--- S13 TextBox 10 ---
+ P0 align=LEFT (1) level=0
+   R0 text='素材层' size=203200 bold=True color=F6F3FF name=PingFang SC
+ P1 align=LEFT (1) level=0
+   R0 text='Source' size=133350 bold=False color=A66BFF name=Helvetica Neue
+--- S13 TextBox 12 ---
+ P0 align=LEFT (1) level=0
+   R0 text='主界面 / 匹配页 UI 切图与序列帧底层' size=158750 bold=False color=D7CEF0 name=PingFang SC
+--- S13 TextBox 14 ---
+ P0 align=CENTER (2) level=0
+   R0 text='02' size=254000 bold=True color=3DC8F0 name=Helvetica Neue
+--- S13 TextBox 15 ---
+ P0 align=LEFT (1) level=0
+   R0 text='遮罩' size=203200 bold=True color=F6F3FF name=PingFang SC
+   R1 text='层' size=203200 bold=True color=F6F3FF name=PingFang SC
+ P1 align=LEFT (1) level=0
+   R0 text='Track ' size=133350 bold=False color=3DC8F0 name=Helvetica Neue
+   R1 text='Matte' size=133350 bold=False color=3DC8F0 name=Helvetica Neue
+--- S13 TextBox 17 ---
+ P0 align=LEFT (1) level=0
+   R0 text='轨道遮罩换景，高斯模糊增加动感，缓动曲线调节动效进出' size=158750 bold=False color=D7CEF0 name=PingFang SC
+--- S13 TextBox 19 ---
+ P0 align=CENTER (2) level=0
+   R0 text='03' size=254000 bold=True color=52E5EB name=Helvetica Neue
+--- S13 TextBox 20 ---
+ P0 align=LEFT (1) level=0
+   R0 text='光效层' size=203200 bold=True color=F6F3FF name=PingFang SC
+ P1 align=LEFT (1) level=0
+   R0 text='Glow / Saber' size=133350 bold=False color=52E5EB name=Helvetica Neue
+--- S13 TextBox 22 ---
+ P0 align=LEFT (1) level=0
+   R0 text='Saber 与 Glow 叠加流光、扫光与能量爆发' size=158750 bold=False color=D7CEF0 name=PingFang SC
+--- S13 TextBox 24 ---
+ P0 align=CENTER (2) level=0
+   R0 text='04' size=254000 bold=True color=FF6A9A name=Helvetica Neue
+--- S13 TextBox 25 ---
+ P0 align=LEFT (1) level=0
+   R0 text='粒子层' size=203200 bold=True color=F6F3FF name=PingFang SC
+ P1 align=LEFT (1) level=0
+   R0 text='Particles' size=133350 bold=False color=FF6A9A name=Helvetica Neue
+--- S13 TextBox 27 ---
+ P0 align=LEFT (1) level=0
+   R0 text='模拟Particular效果' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R1 text='，' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R2 text='营造碎光、飞散与拖尾氛围' size=158750 bold=False color=D7CEF0 name=PingFang SC
+--- S13 TextBox 29 ---
+ P0 align=CENTER (2) level=0
+   R0 text='05' size=254000 bold=True color=F2C14E name=Helvetica Neue
+--- S13 TextBox 30 ---
+ P0 align=LEFT (1) level=0
+   R0 text='调色层' size=203200 bold=True color=F6F3FF name=PingFang SC
+ P1 align=LEFT (1) level=0
+   R0 text='Grading' size=133350 bold=False color=F2C14E name=Helvetica Neue
+--- S13 TextBox 32 ---
+ P0 align=LEFT (1) level=0
+   R0 text='Lumetri 统一紫蓝色调，锁定整片视觉基调' size=158750 bold=False color=D7CEF0 name=PingFang SC
+--- S13 TextBox 34 ---
+ P0 align=LEFT (1) level=0
+   R0 text='预合成工程化' size=203200 bold=True color=F6F3FF name=PingFang SC
+   R1 text='  Pre-comp' size=152400 bold=False color=3DC8F0 name=Helvetica Neue
+--- S13 TextBox 35 ---
+ P0 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='主界面' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R2 text=' / ' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R3 text='转场' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R4 text=' / ' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R5 text='匹配页分三段预合成，独立调速' size=158750 bold=False color=D7CEF0 name=PingFang SC
+ P1 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='循环态单独成' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R2 text=' ' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R3 text='comp，便于无缝' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R4 text=' Loop ' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R5 text='与复用' size=158750 bold=False color=D7CEF0 name=PingFang SC
+ P2 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='表达式驱动拖尾与呼吸，减少逐帧手' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R2 text=' K' size=158750 bold=False color=D7CEF0 name=PingFang SC
+ P3 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='Time Remap ' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R2 text='微调节奏起落' size=158750 bold=False color=D7CEF0 name=PingFang SC
+ P4 align=LEFT (1) level=0
+   R0 text='· ' size=165100 bold=True color=52E5EB name=Helvetica Neue
+   R1 text='运动' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R2 text='模糊' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R3 text=' + ' size=158750 bold=False color=D7CEF0 name=PingFang SC
+   R4 text='统一缓动曲线，统一整片手感' size=158750 bold=False color=D7CEF0 name=PingFang SC
+--- S13 TextBox 37 ---
+ P0 align=LEFT (1) level=0
+   R0 text='LAMBY  ·  Matchmaking UI Motion Design' size=114300 bold=False color=AAA0CC name=Helvetica Neue
+--- S13 TextBox 38 ---
+ P0 align=RIGHT (3) level=0
+   R0 text='PIPELINE      ' size=114300 bold=False color=AAA0CC name=Helvetica Neue
+   R1 text='12 / 15' size=114300 bold=True color=52E5EB name=Helvetica Neue

@@ -1,0 +1,453 @@
+=== Slide 1 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=PICTURE (13) name='Picture 2' pos=(0,0) size=(12191695,6858000)
+  [2] type=AUTO_SHAPE (1) name='Rectangle 3' pos=(0,0) size=(6949440,6858000) text=''
+  [3] type=AUTO_SHAPE (1) name='Rectangle 4' pos=(822960,1435608) size=(274320,54864) text=''
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(1207008,1325880) size=(8686800,365760) text='TENCENT TiMi  ·  CONTRA  ·  GAME UI MOTION INTERVIEW'
+  [5] type=TEXT_BOX (17) name='TextBox 6' pos=(822960,1874519) size=(6583680,2377440) text='刘芷汀 · 游戏 UI 动效设计 | 面试作品介绍'
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(841248,4160520) size=(5484907,928011) text='UE5 实时UI 动效 · UMG 交互实现 · 材质驱动UI FX · AE-to-UE5 动效落地 · Cursor'
+  [7] type=AUTO_SHAPE (1) name='Rectangle 8' pos=(841248,5532120) size=(274320,45720) text=''
+  [8] type=TEXT_BOX (17) name='TextBox 9' pos=(841248,5650992) size=(6035040,731520) text='Zhiting Liu\u3000|\u3000HKUST(GZ) 全奖研究型硕士 · Technical Art / Game UI Mo'
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(10820095,6355080) size=(1097280,320040) text='01 / 07'
+=== Slide 2 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=TEXT_BOX (17) name='TextBox 2' pos=(566928,384048) size=(10515600,292608) text='POSITIONING · 我的定位与工作链路'
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(566928,658368) size=(11064240,640080) text='从 Motion Design 到 UE 实时 UI，再到 AI-assisted Workflow'
+  [3] type=AUTO_SHAPE (1) name='Rectangle 4' pos=(585216,1298448) size=(566928,50292) text=''
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(603504,1591056) size=(10972800,457200) text='我不是纯视觉，也不是纯程序，而是把动效真正落地进引擎、并用 AI 提速的人。'
+  [5] type=AUTO_SHAPE (1) name='Rectangle 6' pos=(603504,2139696) size=(3535680,914400) text=''
+  [6] type=AUTO_SHAPE (1) name='Rectangle 7' pos=(603504,2139696) size=(54864,914400) text=''
+  [7] type=TEXT_BOX (17) name='TextBox 8' pos=(786384,2249424) size=(3206496,274320) text='不止 AE 视觉'
+  [8] type=TEXT_BOX (17) name='TextBox 9' pos=(786384,2578608) size=(3206496,457200) text='更关注进引擎后的实时运行、交互、复用与调参'
+  [9] type=AUTO_SHAPE (1) name='Rectangle 10' pos=(4322064,2139696) size=(3535680,914400) text=''
+  [10] type=AUTO_SHAPE (1) name='Rectangle 11' pos=(4322064,2139696) size=(54864,914400) text=''
+  [11] type=TEXT_BOX (17) name='TextBox 12' pos=(4504944,2249424) size=(3206496,274320) text='能力链路完整'
+  [12] type=TEXT_BOX (17) name='TextBox 13' pos=(4504944,2578608) size=(3206496,457200) text='视觉方向 → 预演 → 拆解 → 材质 → UMG → Blueprint'
+  [13] type=AUTO_SHAPE (1) name='Rectangle 14' pos=(8040624,2139696) size=(3535680,914400) text=''
+  [14] type=AUTO_SHAPE (1) name='Rectangle 15' pos=(8040624,2139696) size=(54864,914400) text=''
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(8223503,2249424) size=(3206496,274320) text='面向运行环境'
+  [16] type=TEXT_BOX (17) name='TextBox 17' pos=(8223503,2578608) size=(3206496,457200) text='交付的是能在游戏里跑的 UI，而非一段离线视频'
+  [17] type=TEXT_BOX (17) name='TextBox 18' pos=(603504,3310128) size=(7315200,274320) text='核心工作链路 · Pipeline'
+  [18] type=AUTO_SHAPE (1) name='Rounded Rectangle 19' pos=(603504,3712463) size=(1945843,841248) text=''
+  [19] type=TEXT_BOX (17) name='TextBox 20' pos=(694944,3840479) size=(1762963,274320) text='01'
+  [20] type=TEXT_BOX (17) name='TextBox 21' pos=(649224,4133087) size=(1854403,365760) text='AE 动效预演'
+  [21] type=AUTO_SHAPE (1) name='Chevron 22' pos=(2585923,4014215) size=(237744,237744) text=''
+  [22] type=AUTO_SHAPE (1) name='Rounded Rectangle 23' pos=(2860243,3712463) size=(1945843,841248) text=''
+  [23] type=TEXT_BOX (17) name='TextBox 24' pos=(2951683,3840479) size=(1762963,274320) text='02'
+  [24] type=TEXT_BOX (17) name='TextBox 25' pos=(2905963,4133087) size=(1854403,365760) text='UI 层级拆解'
+  [25] type=AUTO_SHAPE (1) name='Chevron 26' pos=(4842662,4014215) size=(237744,237744) text=''
+  [26] type=AUTO_SHAPE (1) name='Rounded Rectangle 27' pos=(5116982,3712463) size=(1945843,841248) text=''
+  [27] type=TEXT_BOX (17) name='TextBox 28' pos=(5208422,3840479) size=(1762963,274320) text='03'
+  [28] type=TEXT_BOX (17) name='TextBox 29' pos=(5162702,4133087) size=(1854403,365760) text='材质 / Shader'
+  [29] type=AUTO_SHAPE (1) name='Chevron 30' pos=(7099401,4014215) size=(237744,237744) text=''
+  [30] type=AUTO_SHAPE (1) name='Rounded Rectangle 31' pos=(7373721,3712463) size=(1945843,841248) text=''
+  [31] type=TEXT_BOX (17) name='TextBox 32' pos=(7465161,3840479) size=(1762963,274320) text='04'
+  [32] type=TEXT_BOX (17) name='TextBox 33' pos=(7419441,4133087) size=(1854403,365760) text='UMG 搭建'
+  [33] type=AUTO_SHAPE (1) name='Chevron 34' pos=(9356140,4014215) size=(237744,237744) text=''
+  [34] type=AUTO_SHAPE (1) name='Rounded Rectangle 35' pos=(9630460,3712463) size=(1945843,841248) text=''
+  [35] type=TEXT_BOX (17) name='TextBox 36' pos=(9721900,3840479) size=(1762963,274320) text='05'
+  [36] type=TEXT_BOX (17) name='TextBox 37' pos=(9676180,4133087) size=(1854403,365760) text='Blueprint 触发'
+  [37] type=AUTO_SHAPE (1) name='Rounded Rectangle 38' pos=(603504,4882896) size=(10972800,969264) text=''
+  [38] type=AUTO_SHAPE (1) name='Rectangle 39' pos=(603504,4882896) size=(73152,969264) text=''
+  [39] type=TEXT_BOX (17) name='TextBox 40' pos=(822960,5029200) size=(10515600,310896) text='AI 贯穿全程  ·  AI-assisted Workflow'
+  [40] type=TEXT_BOX (17) name='TextBox 41' pos=(822960,5358384) size=(10607040,457200) text='AIGC 预演（即梦 / 可灵 / Sora）做风格探索 ·  Cursor / Claude Code 辅助写脚本、整'
+  [41] type=TEXT_BOX (17) name='TextBox 42' pos=(566928,6437376) size=(7315200,274320) text='刘芷汀 · AI-assisted Technical Artist'
+  [42] type=TEXT_BOX (17) name='TextBox 43' pos=(9601200,6437376) size=(2011680,274320) text='02 / 10'
+=== Slide 3 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(305,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,585216) size=(274320,54864) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(1024127,475488) size=(8686800,365760) text='POSITIONING  ·  我的定位'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(640080,914400) size=(10515600,822960) text='从 Motion Design 到 UE UI Implementation'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(640080,1965960) size=(4206240,3510576) text='我不是纯视觉，也不是纯程序， | 而是 UI 动效落地型候选人。 | ▸ 不止 AE 视觉动效 | \u3000\u3000更关注进入引擎后'
+  [5] type=TEXT_BOX (17) name='TextBox 14' pos=(10820095,6355080) size=(1097280,320040) text='02 / 07'
+  [6] type=PICTURE (13) name='图片 17' pos=(7078303,3367260) size=(4715435,3002786)
+  [7] type=PICTURE (13) name='图片 15' pos=(4846320,1878179) size=(3919521,2834293)
+  [8] type=PICTURE (13) name='图片 16' pos=(8075322,475488) size=(3886200,2703919)
+=== Slide 4 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=TEXT_BOX (17) name='TextBox 2' pos=(566928,384048) size=(10515600,292608) text='SUPPORTING 01 · MATCHMAKING FLOW'
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(566928,658368) size=(11064240,640080) text='匹配页动效 · 完整 UI Motion Flow（金铲铲风格）'
+  [3] type=AUTO_SHAPE (1) name='Rectangle 4' pos=(585216,1298448) size=(566928,50292) text=''
+  [4] type=TEXT_BOX (17) name='TextBox 13' pos=(6400800,1645920) size=(5175504,365760) text='拿到需求先拆解：4 大模块 / 15 个可独立打磨的动效单元'
+  [5] type=AUTO_SHAPE (1) name='Rectangle 14' pos=(6400800,2103120) size=(5175504,585216) text=''
+  [6] type=AUTO_SHAPE (1) name='Rectangle 15' pos=(6400800,2103120) size=(54864,585216) text=''
+  [7] type=TEXT_BOX (17) name='TextBox 16' pos=(6583680,2185415) size=(2103120,420624) text='主界面 MAIN'
+  [8] type=TEXT_BOX (17) name='TextBox 17' pos=(8641080,2185415) size=(2798064,420624) text='入场 · 氛围呼吸 · 按钮循环态 · 点击态'
+  [9] type=AUTO_SHAPE (1) name='Rectangle 18' pos=(6400800,2779776) size=(5175504,585216) text=''
+  [10] type=AUTO_SHAPE (1) name='Rectangle 19' pos=(6400800,2779776) size=(54864,585216) text=''
+  [11] type=TEXT_BOX (17) name='TextBox 20' pos=(6583680,2862072) size=(2103120,420624) text='转场 TRANSITION'
+  [12] type=TEXT_BOX (17) name='TextBox 21' pos=(8641080,2862072) size=(2798064,420624) text='退场 · 暗场蓄力 · 能量爆发 · 空间穿梭'
+  [13] type=AUTO_SHAPE (1) name='Rectangle 22' pos=(6400800,3456432) size=(5175504,585216) text=''
+  [14] type=AUTO_SHAPE (1) name='Rectangle 23' pos=(6400800,3456432) size=(54864,585216) text=''
+  [15] type=TEXT_BOX (17) name='TextBox 24' pos=(6583680,3538727) size=(2103120,420624) text='过场 INTERSTITIAL'
+  [16] type=TEXT_BOX (17) name='TextBox 25' pos=(8641080,3538727) size=(2798064,420624) text='扫光遮罩 · 能量爆发 · 氛围特效'
+  [17] type=AUTO_SHAPE (1) name='Rectangle 26' pos=(6400800,4133087) size=(5175504,585216) text=''
+  [18] type=AUTO_SHAPE (1) name='Rectangle 27' pos=(6400800,4133087) size=(54864,585216) text=''
+  [19] type=TEXT_BOX (17) name='TextBox 28' pos=(6583680,4215383) size=(2103120,420624) text='匹配页 MATCHING'
+  [20] type=TEXT_BOX (17) name='TextBox 29' pos=(8641080,4215383) size=(2798064,420624) text='玩家链条 · 进度环 · 匹配数值 · 反馈层'
+  [21] type=AUTO_SHAPE (1) name='Rounded Rectangle 30' pos=(6400800,4882896) size=(5175504,566928) text=''
+  [22] type=TEXT_BOX (17) name='TextBox 31' pos=(6583680,4882896) size=(4809744,566928) text='节奏曲线  Anticipation → Impact → Settle → Loop'
+  [23] type=TEXT_BOX (17) name='TextBox 32' pos=(566928,6437376) size=(7315200,274320) text='刘芷汀 · AI-assisted Technical Artist'
+  [24] type=TEXT_BOX (17) name='TextBox 33' pos=(9601200,6437376) size=(2011680,274320) text='07 / 10'
+  [25] type=GROUP (6) name='组合 35' pos=(1501902,1385075) size=(4219956,4965674)
+=== Slide 5 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='03   RHYTHM'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='最终 Demo · 逐帧节奏拆解'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Final Demo · Beat Breakdown (6.2s @ 30fps)'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='全片 6.2 秒，遵循 Anticipation → Impact → Settle → Loop 的动效节奏曲线。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(598931,2427732) size=(2604439,1501001) text=''
+  [8] type=PICTURE (13) name='Picture 9' pos=(640080,2468880) size=(2522143,1418705)
+  [9] type=AUTO_SHAPE (1) name='Rounded Rectangle 10' pos=(640080,3979025) size=(841248,310896) text=''
+  [10] type=TEXT_BOX (17) name='TextBox 11' pos=(640080,3979025) size=(841248,310896) text='0.3s'
+  [11] type=TEXT_BOX (17) name='TextBox 12' pos=(1554480,3979025) size=(1607743,310896) text='入场 Entrance'
+  [12] type=AUTO_SHAPE (1) name='Rounded Rectangle 13' pos=(3395395,2427732) size=(2604439,1501001) text=''
+  [13] type=PICTURE (13) name='Picture 14' pos=(3436543,2468880) size=(2522143,1418705)
+  [14] type=AUTO_SHAPE (1) name='Rounded Rectangle 15' pos=(3436543,3979025) size=(841248,310896) text=''
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(3436543,3979025) size=(841248,310896) text='1.8s'
+  [16] type=TEXT_BOX (17) name='TextBox 17' pos=(4350943,3979025) size=(1607743,310896) text='氛围·按钮引导'
+  [17] type=AUTO_SHAPE (1) name='Rounded Rectangle 18' pos=(6191859,2427732) size=(2604439,1501001) text=''
+  [18] type=PICTURE (13) name='Picture 19' pos=(6233007,2468880) size=(2522143,1418705)
+  [19] type=AUTO_SHAPE (1) name='Rounded Rectangle 20' pos=(6233007,3979025) size=(841248,310896) text=''
+  [20] type=TEXT_BOX (17) name='TextBox 21' pos=(6233007,3979025) size=(841248,310896) text='2.5s'
+  [21] type=TEXT_BOX (17) name='TextBox 22' pos=(7147407,3979025) size=(1607743,310896) text='点击·暗场蓄力'
+  [22] type=AUTO_SHAPE (1) name='Rounded Rectangle 23' pos=(8988323,2427732) size=(2604439,1501001) text=''
+  [23] type=PICTURE (13) name='Picture 24' pos=(9029471,2468880) size=(2522143,1418705)
+  [24] type=AUTO_SHAPE (1) name='Rounded Rectangle 25' pos=(9029471,3979025) size=(841248,310896) text=''
+  [25] type=TEXT_BOX (17) name='TextBox 26' pos=(9029471,3979025) size=(841248,310896) text='2.9s'
+  [26] type=TEXT_BOX (17) name='TextBox 27' pos=(9943871,4003668) size=(1607743,261610) text='星雨穿梭过场'
+  [27] type=AUTO_SHAPE (1) name='Rounded Rectangle 28' pos=(598931,4559669) size=(2604439,1501001) text=''
+  [28] type=PICTURE (13) name='Picture 29' pos=(640080,4600817) size=(2522143,1418705)
+  [29] type=AUTO_SHAPE (1) name='Rounded Rectangle 30' pos=(640080,6110963) size=(841248,310896) text=''
+  [30] type=TEXT_BOX (17) name='TextBox 31' pos=(640080,6110963) size=(841248,310896) text='3.1s'
+  [31] type=TEXT_BOX (17) name='TextBox 32' pos=(1554480,6110963) size=(1607743,310896) text='晶球翻转 Flip'
+  [32] type=AUTO_SHAPE (1) name='Rounded Rectangle 33' pos=(3395395,4559669) size=(2604439,1501001) text=''
+  [33] type=PICTURE (13) name='Picture 34' pos=(3436543,4600817) size=(2522143,1418705)
+  [34] type=AUTO_SHAPE (1) name='Rounded Rectangle 35' pos=(3436543,6110963) size=(841248,310896) text=''
+  [35] type=TEXT_BOX (17) name='TextBox 36' pos=(3436543,6110963) size=(841248,310896) text='3.4s'
+  [36] type=TEXT_BOX (17) name='TextBox 37' pos=(4350943,6135606) size=(1607743,261610) text='爆发点亮进度环 Settle'
+  [37] type=AUTO_SHAPE (1) name='Rounded Rectangle 38' pos=(6191859,4559669) size=(2604439,1501001) text=''
+  [38] type=PICTURE (13) name='Picture 39' pos=(6233007,4600817) size=(2522143,1418705)
+  [39] type=AUTO_SHAPE (1) name='Rounded Rectangle 40' pos=(6233007,6110963) size=(841248,310896) text=''
+  [40] type=TEXT_BOX (17) name='TextBox 41' pos=(6233007,6110963) size=(841248,310896) text='5.0s'
+  [41] type=TEXT_BOX (17) name='TextBox 42' pos=(7147407,6135606) size=(1607743,261610) text='玩家链条入场'
+  [42] type=AUTO_SHAPE (1) name='Rounded Rectangle 43' pos=(8988323,4559669) size=(2604439,1501001) text=''
+  [43] type=PICTURE (13) name='Picture 44' pos=(9029471,4600817) size=(2522143,1418705)
+  [44] type=AUTO_SHAPE (1) name='Rounded Rectangle 45' pos=(9029471,6110963) size=(841248,310896) text=''
+  [45] type=TEXT_BOX (17) name='TextBox 46' pos=(9029471,6110963) size=(841248,310896) text='5.9s'
+  [46] type=TEXT_BOX (17) name='TextBox 47' pos=(9943871,6135606) size=(1607743,261610) text='玩家链条吸入'
+  [47] type=LINE (9) name='Connector 48' pos=(640080,6419088) size=(10911535,0)
+  [48] type=TEXT_BOX (17) name='TextBox 49' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [49] type=TEXT_BOX (17) name='TextBox 50' pos=(7894015,6455664) size=(3657600,274320) text='RHYTHM      04 / 15'
+=== Slide 6 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='04   MAIN SCENE'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='主界面入场 · 氛围呼吸层'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Entrance & Ambient Breathing Layer'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='用低频呼吸与碎光粒子建立一个活着的界面，让静态主界面拥有持续的生命感。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(1208455,2446020) size=(4044695,3054096) text=''
+  [8] type=PICTURE (13) name='Picture 9' pos=(1249603,2487168) size=(3962399,2971800)
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(1249603,5605272) size=(3962399,706797) text='lightstar.gif | 氛围层碎光粒子明灭洒落，配合低频呼吸与光影摇晃，营造空间纵深与生命感。'
+  [10] type=AUTO_SHAPE (1) name='Rounded Rectangle 11' pos=(6938543,2446020) size=(4044695,3054096) text=''
+  [11] type=PICTURE (13) name='Picture 12' pos=(6979691,2487168) size=(3962399,2971800)
+  [12] type=TEXT_BOX (17) name='TextBox 13' pos=(6979691,5605272) size=(3962399,822960) text='activitywindow.gif | 运营入口的微呼吸与粒子弥散，在不抢主体的前提下增强商业化位的吸引力。'
+  [13] type=LINE (9) name='Connector 14' pos=(640080,6419088) size=(10911535,0)
+  [14] type=TEXT_BOX (17) name='TextBox 15' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(7894015,6455664) size=(3657600,274320) text='MAIN SCENE      05 / 15'
+=== Slide 7 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(-1,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='05   INTERACTION'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='交互反馈 · 点击态与按钮循环态'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Interaction Feedback & Looping Glow'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='点击态给交互即时回应，流光循环态把视线无声地引导到核心玩法入口。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(1028699,2446020) size=(4983480,3145536) text=''
+  [8] type=PICTURE (13) name='Picture 9' pos=(1069847,2487168) size=(4901184,3063240)
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(1069847,5696712) size=(4901184,822960) text='mouse.gif | 鼠标点击态：每次交互都有即时、精致的反馈，是提升操作手感的关键细节。'
+  [10] type=TEXT_BOX (17) name='TextBox 11' pos=(6903720,2468880) size=(4647895,320040) text='按钮循环态  Looping Glow'
+  [11] type=AUTO_SHAPE (1) name='Rounded Rectangle 12' pos=(6862572,2839212) size=(2941242,1271016) text=''
+  [12] type=PICTURE (13) name='Picture 13' pos=(6903720,2880360) size=(2858946,1188720)
+  [13] type=TEXT_BOX (17) name='TextBox 14' pos=(6903720,4142232) size=(4647895,822960) text='button1.gif | 入场按钮 · Saber 多层叠加流光，引导核心玩法入口。'
+  [14] type=AUTO_SHAPE (1) name='Rounded Rectangle 15' pos=(6862572,4594860) size=(2941242,1271016) text=''
+  [15] type=PICTURE (13) name='Picture 16' pos=(6903720,4636008) size=(2858946,1188720)
+  [16] type=TEXT_BOX (17) name='TextBox 17' pos=(6903720,5897880) size=(4647895,822960) text='button2.gif | 匹配按钮 · 呼应主按钮的视觉语言，丰富画面细节。'
+  [17] type=LINE (9) name='Connector 18' pos=(640080,6419088) size=(10911535,0)
+  [18] type=TEXT_BOX (17) name='TextBox 19' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [19] type=TEXT_BOX (17) name='TextBox 20' pos=(7894015,6455664) size=(3657600,274320) text='INTERACTION      06 / 15'
+=== Slide 8 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='06   TRANSITION'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='转场链路 · 暗场蓄力与吸入穿梭'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Charge & Spatial Warp'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='一呼一吸的张力设计：先暗场蓄力压低能量，再瞬间爆发并吸入穿梭，完成场景跃迁。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 10' pos=(530581,2618079) size=(5218023,2974521) text=''
+  [8] type=PICTURE (13) name='Picture 11' pos=(571729,2659227) size=(5135727,2892225)
+  [9] type=AUTO_SHAPE (1) name='Chevron 12' pos=(5924551,3912469) size=(384048,384048) text=''
+  [10] type=GROUP (6) name='组合 18' pos=(6484546,2617233) size=(5341389,3584495)
+  [11] type=TEXT_BOX (17) name='TextBox 14' pos=(571729,5697756) size=(5135727,822960) text='absorbing.gif | 吸入光能：制造空间被吸入、穿梭时空的体验，把玩家从主界面带向匹配页。'
+  [12] type=LINE (9) name='Connector 15' pos=(640080,6419088) size=(10911535,0)
+  [13] type=TEXT_BOX (17) name='TextBox 16' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [14] type=TEXT_BOX (17) name='TextBox 17' pos=(7894015,6455664) size=(3657600,274320) text='TRANSITION      07 / 15'
+=== Slide 9 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='07   ATMOSPHERE'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='爆发氛围 · 粒子飞散'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Burst Atmosphere · Particle Spray'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='在能量爆发的瞬间叠加星点粒子飞散，让爆点更具冲击力，也更精致耐看。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(598931,2473452) size=(6492571,3099815) text=''
+  [8] type=PICTURE (13) name='Picture 9' pos=(640080,2514600) size=(6410275,3017520)
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(640080,5678424) size=(6410275,822960) text='atmosphere.gif | 爆炸氛围：星星点点的粒子向外飞散，是我重点打磨的一处细节，让爆发瞬间更有空气感与精致度'
+  [10] type=AUTO_SHAPE (1) name='Rounded Rectangle 11' pos=(8229600,2560320) size=(3322015,3017520) text=''
+  [11] type=TEXT_BOX (17) name='TextBox 12' pos=(8503920,2788920) size=(2864815,457200) text='技法拆解'
+  [12] type=TEXT_BOX (17) name='TextBox 13' pos=(8503920,3291840) size=(2819095,1267398) text='· 粒子分三类：丰富光效细节与形态 | · 叠加 Glow 让粒子带光晕呼吸 | · 飞散方向与爆发力线对齐 | · 尾'
+  [13] type=LINE (9) name='Connector 14' pos=(640080,6419088) size=(10911535,0)
+  [14] type=TEXT_BOX (17) name='TextBox 15' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(7894015,6455664) size=(3657600,274320) text='ATMOSPHERE      08 / 15'
+=== Slide 10 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(-1,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='08   SIGNATURE'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='高光 · 晶球翻转与扫光遮罩'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Signature · Crystal Flip via Track Matte'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='用扫光做 Track Matte 遮罩驱动晶球翻转到棋盘格，让过场在一次旋转中自然换景。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(736092,2473452) size=(1563624,1563624) text=''
+  [8] type=PICTURE (13) name='Picture 9' pos=(777240,2514600) size=(1481328,1481328)
+  [9] type=AUTO_SHAPE (1) name='Rounded Rectangle 10' pos=(777240,4059936) size=(1481328,292608) text=''
+  [10] type=TEXT_BOX (17) name='TextBox 11' pos=(777240,4059936) size=(1481328,292608) text='翻转 第 1 帧'
+  [11] type=AUTO_SHAPE (1) name='Chevron 12' pos=(2322576,3136392) size=(256032,237744) text=''
+  [12] type=AUTO_SHAPE (1) name='Rounded Rectangle 13' pos=(2601468,2473452) size=(1563624,1563624) text=''
+  [13] type=PICTURE (13) name='Picture 14' pos=(2642616,2514600) size=(1481328,1481328)
+  [14] type=AUTO_SHAPE (1) name='Rounded Rectangle 15' pos=(2642616,4059936) size=(1481328,292608) text=''
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(2642616,4059936) size=(1481328,292608) text='翻转 第 2 帧'
+  [16] type=AUTO_SHAPE (1) name='Chevron 17' pos=(4187952,3136392) size=(256032,237744) text=''
+  [17] type=AUTO_SHAPE (1) name='Rounded Rectangle 18' pos=(4466844,2473452) size=(1563624,1563624) text=''
+  [18] type=PICTURE (13) name='Picture 19' pos=(4507992,2514600) size=(1481328,1481328)
+  [19] type=AUTO_SHAPE (1) name='Rounded Rectangle 20' pos=(4507992,4059936) size=(1481328,292608) text=''
+  [20] type=TEXT_BOX (17) name='TextBox 21' pos=(4507992,4059936) size=(1481328,292608) text='翻转 第 3 帧'
+  [21] type=AUTO_SHAPE (1) name='Chevron 22' pos=(6053328,3136392) size=(256032,237744) text=''
+  [22] type=AUTO_SHAPE (1) name='Rounded Rectangle 23' pos=(6332220,2473452) size=(1563624,1563624) text=''
+  [23] type=PICTURE (13) name='Picture 24' pos=(6373368,2514600) size=(1481328,1481328)
+  [24] type=AUTO_SHAPE (1) name='Rounded Rectangle 25' pos=(6373368,4059936) size=(1481328,292608) text=''
+  [25] type=TEXT_BOX (17) name='TextBox 26' pos=(6373368,4059936) size=(1481328,292608) text='翻转 第 4 帧'
+  [26] type=AUTO_SHAPE (1) name='Rounded Rectangle 27' pos=(8508390,590602) size=(3288386,2653543) text=''
+  [27] type=PICTURE (13) name='Picture 28' pos=(8550141,666074) size=(3184353,2522098)
+  [28] type=TEXT_BOX (17) name='TextBox 29' pos=(736092,4668012) size=(6600996,1368067) text='ball1–4.png  晶球旋转序列帧 | 用一道扫光做 Track Matte 遮罩——扫光扫到哪里，画面就翻到哪里'
+  [29] type=LINE (9) name='Connector 30' pos=(640080,6419088) size=(10911535,0)
+  [30] type=TEXT_BOX (17) name='TextBox 31' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [31] type=TEXT_BOX (17) name='TextBox 32' pos=(7894015,6455664) size=(3657600,274320) text='SIGNATURE      09 / 15'
+=== Slide 11 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='09   MATCHING'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='匹配页 · 状态反馈系统'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Matching Page · State Feedback System'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='等待期不是空白：中心动画与多层状态反馈，让匹配进度始终清晰可读。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(598931,2519172) size=(6084743,3191256) text=''
+  [8] type=PICTURE (13) name='Picture 9' pos=(640080,2560320) size=(6002447,3108960)
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(640080,5815584) size=(6002447,822960) text='center.gif | 棋盘格中心动画：通过层层缩放参数的调节做出重量感，是匹配页的视觉核心。'
+  [10] type=AUTO_SHAPE (1) name='Rounded Rectangle 11' pos=(7269480,2651760) size=(4282135,704088) text=''
+  [11] type=AUTO_SHAPE (1) name='Rectangle 12' pos=(7269480,2651760) size=(109728,704088) text=''
+  [12] type=TEXT_BOX (17) name='TextBox 13' pos=(7562088,2651760) size=(3824935,704088) text='中心动画   层层缩放，砸出重量感'
+  [13] type=AUTO_SHAPE (1) name='Rounded Rectangle 14' pos=(7269480,3575304) size=(4282135,704088) text=''
+  [14] type=AUTO_SHAPE (1) name='Rectangle 15' pos=(7269480,3575304) size=(109728,704088) text=''
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(7562088,3575304) size=(3824935,704088) text='进度环   环形进度，状态一目了然'
+  [16] type=AUTO_SHAPE (1) name='Rounded Rectangle 17' pos=(7269480,4498848) size=(4282135,704088) text=''
+  [17] type=AUTO_SHAPE (1) name='Rectangle 18' pos=(7269480,4498848) size=(109728,704088) text=''
+  [18] type=TEXT_BOX (17) name='TextBox 19' pos=(7562088,4498848) size=(3824935,704088) text='匹配数值   3/8→8/8 实时跳动'
+  [19] type=AUTO_SHAPE (1) name='Rounded Rectangle 20' pos=(7269480,5422392) size=(4282135,704088) text=''
+  [20] type=AUTO_SHAPE (1) name='Rectangle 21' pos=(7269480,5422392) size=(109728,704088) text=''
+  [21] type=TEXT_BOX (17) name='TextBox 22' pos=(7562088,5422392) size=(3824935,704088) text='玩家链条   Teamfight Player 链条入场'
+  [22] type=LINE (9) name='Connector 23' pos=(640080,6419088) size=(10911535,0)
+  [23] type=TEXT_BOX (17) name='TextBox 24' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [24] type=TEXT_BOX (17) name='TextBox 25' pos=(7894015,6455664) size=(3657600,274320) text='MATCHING      10 / 15'
+=== Slide 12 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='10   DETAIL'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='进度环拖尾 · 表达式驱动'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Progress Ring Trail · Expression-Driven'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='用表达式把流光锁定在进度环头部，让拖尾随环流动，无需逐帧手 K。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(781811,2564892) size=(3374136,3374136) text=''
+  [8] type=PICTURE (13) name='Picture 9' pos=(822959,2606040) size=(3291840,3291840)
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(640080,6007608) size=(3657600,365760) text='tail.gif · 进度环头部拖尾光效'
+  [10] type=AUTO_SHAPE (1) name='Rounded Rectangle 11' pos=(4754880,2606040) size=(6796735,3291840) text=''
+  [11] type=TEXT_BOX (17) name='TextBox 12' pos=(5074920,2880360) size=(6248095,457200) text='技法拆解 · Expression'
+  [12] type=TEXT_BOX (17) name='TextBox 13' pos=(5074920,3429000) size=(6156655,1622752) text='01  位置表达式：把流光的位置绑定到进度环头部，环走到哪、光跟到哪。 | 02  旋转表达式：让流光的角度与进度环同步'
+  [13] type=LINE (9) name='Connector 14' pos=(640080,6419088) size=(10911535,0)
+  [14] type=TEXT_BOX (17) name='TextBox 15' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(7894015,6455664) size=(3657600,274320) text='DETAIL      11 / 15'
+  [16] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(6754357,630936) size=(5089865,1609338) text=''
+  [17] type=PICTURE (13) name='图片 17' pos=(6833023,662937) size=(4934418,1545336)
+=== Slide 13 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='11   PIPELINE'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='技术实现 · AE 图层方法'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Implementation · AE Layer Stack'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='用工程化的预合成思维管理图层，让复杂特效可控、可改、可复用。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(640080,2514600) size=(585216,585216) text=''
+  [8] type=TEXT_BOX (17) name='TextBox 9' pos=(640080,2514600) size=(585216,585216) text='01'
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(1499616,2514600) size=(2377440,585216) text='素材层 | Source'
+  [10] type=LINE (9) name='Connector 11' pos=(3922776,2624328) size=(0,365760)
+  [11] type=TEXT_BOX (17) name='TextBox 12' pos=(4105656,2514600) size=(3255264,585216) text='主界面 / 匹配页 UI 切图与序列帧底层'
+  [12] type=AUTO_SHAPE (1) name='Rounded Rectangle 13' pos=(640080,3264408) size=(585216,585216) text=''
+  [13] type=TEXT_BOX (17) name='TextBox 14' pos=(640080,3264408) size=(585216,585216) text='02'
+  [14] type=TEXT_BOX (17) name='TextBox 15' pos=(1499616,3317142) size=(2377440,479747) text='遮罩层 | Track Matte'
+  [15] type=LINE (9) name='Connector 16' pos=(3922776,3374136) size=(0,365760)
+  [16] type=TEXT_BOX (17) name='TextBox 17' pos=(4105656,3318489) size=(3255264,477054) text='轨道遮罩换景，高斯模糊增加动感，缓动曲线调节动效进出'
+  [17] type=AUTO_SHAPE (1) name='Rounded Rectangle 18' pos=(640080,4014216) size=(585216,585216) text=''
+  [18] type=TEXT_BOX (17) name='TextBox 19' pos=(640080,4014216) size=(585216,585216) text='03'
+  [19] type=TEXT_BOX (17) name='TextBox 20' pos=(1499616,4014216) size=(2377440,585216) text='光效层 | Glow / Saber'
+  [20] type=LINE (9) name='Connector 21' pos=(3922776,4123944) size=(0,365760)
+  [21] type=TEXT_BOX (17) name='TextBox 22' pos=(4105656,4014216) size=(3255264,585216) text='Saber 与 Glow 叠加流光、扫光与能量爆发'
+  [22] type=AUTO_SHAPE (1) name='Rounded Rectangle 23' pos=(640080,4764024) size=(585216,585216) text=''
+  [23] type=TEXT_BOX (17) name='TextBox 24' pos=(640080,4764024) size=(585216,585216) text='04'
+  [24] type=TEXT_BOX (17) name='TextBox 25' pos=(1499616,4764024) size=(2377440,585216) text='粒子层 | Particles'
+  [25] type=LINE (9) name='Connector 26' pos=(3922776,4873752) size=(0,365760)
+  [26] type=TEXT_BOX (17) name='TextBox 27' pos=(4105656,4914285) size=(3502152,284693) text='模拟Particular效果，营造碎光、飞散与拖尾氛围'
+  [27] type=AUTO_SHAPE (1) name='Rounded Rectangle 28' pos=(640080,5513832) size=(585216,585216) text=''
+  [28] type=TEXT_BOX (17) name='TextBox 29' pos=(640080,5513832) size=(585216,585216) text='05'
+  [29] type=TEXT_BOX (17) name='TextBox 30' pos=(1499616,5513832) size=(2377440,585216) text='调色层 | Grading'
+  [30] type=LINE (9) name='Connector 31' pos=(3922776,5623560) size=(0,365760)
+  [31] type=TEXT_BOX (17) name='TextBox 32' pos=(4105656,5513832) size=(3255264,585216) text='Lumetri 统一紫蓝色调，锁定整片视觉基调'
+  [32] type=AUTO_SHAPE (1) name='Rounded Rectangle 33' pos=(7863840,2514600) size=(3687775,3584448) text=''
+  [33] type=TEXT_BOX (17) name='TextBox 34' pos=(8156448,2743200) size=(3230575,457200) text='预合成工程化  Pre-comp'
+  [34] type=TEXT_BOX (17) name='TextBox 35' pos=(8156448,3337560) size=(3139135,2788920) text='· 主界面 / 转场 / 匹配页分三段预合成，独立调速 | · 循环态单独成 comp，便于无缝 Loop 与复用 | '
+  [35] type=LINE (9) name='Connector 36' pos=(640080,6419088) size=(10911535,0)
+  [36] type=TEXT_BOX (17) name='TextBox 37' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [37] type=TEXT_BOX (17) name='TextBox 38' pos=(7894015,6455664) size=(3657600,274320) text='PIPELINE      12 / 15'
+=== Slide 14 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,512064) size=(118872,841248) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(914400,457200) size=(9082735,320040) text='12   PROCESS'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(896112,749808) size=(10911535,640080) text='迭代方法 · 设计判断'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(914400,1371600) size=(10911535,365760) text='Iteration & Design Judgement'
+  [5] type=LINE (9) name='Connector 6' pos=(932688,1801368) size=(502920,0)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(914400,1865376) size=(10637215,502920) text='不是一次成型，而是用参考、A/B、多版本比对、节奏调优逐步收敛到最优解。'
+  [7] type=AUTO_SHAPE (1) name='Rounded Rectangle 8' pos=(640080,2560320) size=(2522143,2286000) text=''
+  [8] type=TEXT_BOX (17) name='TextBox 9' pos=(914400,2816352) size=(2064943,731520) text='01'
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(914400,3611880) size=(2064943,457200) text='拆解 & 找参考'
+  [10] type=TEXT_BOX (17) name='TextBox 11' pos=(914400,4114800) size=(2019223,640080) text='按层级搜集素材、参考与灵感'
+  [11] type=AUTO_SHAPE (1) name='Chevron 12' pos=(3180511,3575304) size=(237744,256032) text=''
+  [12] type=AUTO_SHAPE (1) name='Rounded Rectangle 13' pos=(3436543,2560320) size=(2522143,2286000) text=''
+  [13] type=TEXT_BOX (17) name='TextBox 14' pos=(3710863,2816352) size=(2064943,731520) text='02'
+  [14] type=TEXT_BOX (17) name='TextBox 15' pos=(3710863,3611880) size=(2064943,457200) text='多版落地'
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(3710863,4114800) size=(2019223,640080) text='同一效果做多版，快速实现想法'
+  [16] type=AUTO_SHAPE (1) name='Chevron 17' pos=(5976975,3575304) size=(237744,256032) text=''
+  [17] type=AUTO_SHAPE (1) name='Rounded Rectangle 18' pos=(6233007,2560320) size=(2522143,2286000) text=''
+  [18] type=TEXT_BOX (17) name='TextBox 19' pos=(6507327,2816352) size=(2064943,731520) text='03'
+  [19] type=TEXT_BOX (17) name='TextBox 20' pos=(6507327,3611880) size=(2064943,457200) text='A/B 比对'
+  [20] type=TEXT_BOX (17) name='TextBox 21' pos=(6507327,4114800) size=(2019223,640080) text='多版本并排比对，保留最佳'
+  [21] type=AUTO_SHAPE (1) name='Chevron 22' pos=(8773439,3575304) size=(237744,256032) text=''
+  [22] type=AUTO_SHAPE (1) name='Rounded Rectangle 23' pos=(9029471,2560320) size=(2522143,2286000) text=''
+  [23] type=TEXT_BOX (17) name='TextBox 24' pos=(9303791,2816352) size=(2064943,731520) text='04'
+  [24] type=TEXT_BOX (17) name='TextBox 25' pos=(9303791,3611880) size=(2064943,457200) text='节奏调优'
+  [25] type=TEXT_BOX (17) name='TextBox 26' pos=(9303791,4114800) size=(2019223,640080) text='缓动 / 时间重映射收敛手感'
+  [26] type=AUTO_SHAPE (1) name='Rounded Rectangle 27' pos=(640080,5212080) size=(10911535,914400) text=''
+  [27] type=TEXT_BOX (17) name='TextBox 28' pos=(960119,5212080) size=(10271455,914400) text='设计判断   执行力强 + 审美收敛——即便新版本未必更好，也敢于快速试错，用并排比对让最终方案有据可依。'
+  [28] type=LINE (9) name='Connector 29' pos=(640080,6419088) size=(10911535,0)
+  [29] type=TEXT_BOX (17) name='TextBox 30' pos=(640080,6455664) size=(7315200,274320) text='LAMBY  ·  Matchmaking UI Motion Design'
+  [30] type=TEXT_BOX (17) name='TextBox 31' pos=(7894015,6455664) size=(3657600,274320) text='PROCESS      13 / 15'
+=== Slide 15 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,585216) size=(274320,54864) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(1024127,475488) size=(8686800,365760) text='MAIN PROJECT  ·  主项目'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(640080,914400) size=(10515600,822960) text='战至终章 · Victory Settlement Motion UI System'
+  [4] type=AUTO_SHAPE (1) name='Rectangle 6' pos=(713232,1947672) size=(566928,237744) text='▶ GIF'
+  [5] type=TEXT_BOX (17) name='TextBox 7' pos=(640080,5166360) size=(6492240,457200) text='UE5 最终实时交互演示（代表帧）· 完整动图见演讲者备注本地路径 · 约 0:17 / 513F'
+  [6] type=TEXT_BOX (17) name='TextBox 8' pos=(7406640,1828800) size=(4160520,4114800) text='竞技游戏胜利结算 UI 动效系统 | 设计目标 | 胜利情绪爆发 → 转场降落 → 数据结算阅读 | KEYWORDS '
+  [7] type=TEXT_BOX (17) name='TextBox 9' pos=(10820095,6355080) size=(1097280,320040) text='03 / 07'
+  [8] type=PICTURE (13) name='图片 10' pos=(552680,1663853) size=(6667040,4444694)
+=== Slide 16 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,585216) size=(274320,54864) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(1024127,475488) size=(8686800,365760) text='BREAKDOWN 01  ·  AE MOTION PREVIS'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(640080,914400) size=(10515600,822960) text='Victory 拆解：AE 预演与动效节奏'
+  [4] type=TEXT_BOX (17) name='TextBox 5' pos=(640080,1554480) size=(10972800,640080) text='▸ AE 用来确定爆点、停顿、辉光、故障切片、火焰侵蚀转场的视觉目标。 | ▸ 重点不是输出一条视频，而是先把节奏和层级'
+  [5] type=PICTURE (13) name='Picture 6' pos=(2212427,2331720) size=(2250264,1691640)
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(640080,4041648) size=(5394960,457200) text='AE 时间轴分层：标题 / 翼片 / 辉光 / 碎片 / 点阵 / 面板'
+  [7] type=PICTURE (13) name='Picture 8' pos=(7549763,2331720) size=(3005593,1691640)
+  [8] type=AUTO_SHAPE (1) name='Rectangle 9' pos=(7604627,2386584) size=(566928,237744) text='▶ GIF'
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(6355080,4041648) size=(5394960,457200) text='Saber 火焰侵蚀转场（动图）'
+  [10] type=PICTURE (13) name='Picture 11' pos=(1842809,4526280) size=(2989501,1691640)
+  [11] type=TEXT_BOX (17) name='TextBox 12' pos=(640080,6236208) size=(5394960,457200) text='CC Ball Action 点阵爆散星芒'
+  [12] type=PICTURE (13) name='Picture 13' pos=(7534769,4526280) size=(3035581,1691640)
+  [13] type=TEXT_BOX (17) name='TextBox 14' pos=(6355080,6236208) size=(5394960,457200) text='故障切片 + 横向辉光细节'
+  [14] type=TEXT_BOX (17) name='TextBox 15' pos=(10820095,6355080) size=(1097280,320040) text='04 / 07'
+=== Slide 17 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,585216) size=(274320,54864) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(1024127,475488) size=(8686800,365760) text='BREAKDOWN 02  ·  UE5 REALTIME'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(640080,914400) size=(10515600,822960) text='Victory 拆解：UE5 落地模块'
+  [4] type=AUTO_SHAPE (1) name='Rectangle 5' pos=(640080,1783080) size=(3611880,1234440) text=''
+  [5] type=AUTO_SHAPE (1) name='Rectangle 6' pos=(640080,1783080) size=(54864,1234440) text=''
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(896112,1938528) size=(3154680,1005840) text='UMG | 页面层级 · 结算面板 · 两翼结构'
+  [7] type=AUTO_SHAPE (1) name='Rectangle 8' pos=(4480560,1783080) size=(3611880,1234440) text=''
+  [8] type=AUTO_SHAPE (1) name='Rectangle 9' pos=(4480560,1783080) size=(54864,1234440) text=''
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(4736592,1938528) size=(3154680,1005840) text='BLUEPRINT | 点击触发 · 页面状态切换 · 滚轮交互'
+  [10] type=AUTO_SHAPE (1) name='Rectangle 11' pos=(8321040,1783080) size=(3611880,1234440) text=''
+  [11] type=AUTO_SHAPE (1) name='Rectangle 12' pos=(8321040,1783080) size=(54864,1234440) text=''
+  [12] type=TEXT_BOX (17) name='TextBox 13' pos=(8577072,1938528) size=(3154680,1005840) text='MATERIAL FX | Mask Reveal · 粉刷颗粒 · 标题光纹 · 噪声流动 · 辉光强度'
+  [13] type=PICTURE (13) name='Picture 16' pos=(640080,3349889) size=(2103120,1200391)
+  [14] type=TEXT_BOX (17) name='TextBox 17' pos=(612379,4910081) size=(2103120,228139) text='Blueprint 交互'
+  [15] type=PICTURE (13) name='Picture 18' pos=(3072384,3358234) size=(2103120,1192046)
+  [16] type=TEXT_BOX (17) name='TextBox 19' pos=(2999232,4896711) size=(2103120,228139) text='标题内部光纹材质'
+  [17] type=PICTURE (13) name='Picture 20' pos=(5504688,3337580) size=(2103120,1167000)
+  [18] type=TEXT_BOX (17) name='TextBox 21' pos=(5386085,4883341) size=(2103120,228139) text='两翼粉刷颗粒材质'
+  [19] type=PICTURE (13) name='Picture 22' pos=(7891271,3337579) size=(4112663,1725044)
+  [20] type=TEXT_BOX (17) name='TextBox 23' pos=(8577072,5245503) size=(2103120,228139) text='缓动曲线调节'
+  [21] type=TEXT_BOX (17) name='TextBox 24' pos=(10820095,6355080) size=(1097280,320040) text='05 / 07'
+=== Slide 18 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,585216) size=(274320,54864) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(1024127,475488) size=(8686800,365760) text='SUPPORTING WORK  ·  补充项目'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(640080,914400) size=(10515600,822960) text='不同风格下的 UI 动效能力'
+  [4] type=AUTO_SHAPE (1) name='Rectangle 5' pos=(6053328,1783080) size=(18288,4480560) text=''
+  [5] type=TEXT_BOX (17) name='TextBox 6' pos=(640080,1783080) size=(5257800,640080) text='惊动花信 · Lavender Reverie | ATMOSPHERIC · 克制型氛围动效'
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(640080,2395728) size=(5257800,868680) text='▸ 低频呼吸、光纹、流动雾、水波、粒子氛围 | ▸ 证明能控制克制型 / 氛围型 UI 动效'
+  [7] type=PICTURE (13) name='Picture 8' pos=(1720358,3337560) size=(3097243,1737360)
+  [8] type=AUTO_SHAPE (1) name='Rectangle 9' pos=(1775222,3392424) size=(566928,237744) text='▶ GIF'
+  [9] type=PICTURE (13) name='Picture 10' pos=(706023,5257800) size=(2405572,1143000)
+  [10] type=PICTURE (13) name='Picture 11' pos=(3478451,5257800) size=(2301396,1143000)
+  [11] type=TEXT_BOX (17) name='TextBox 12' pos=(6309360,1783080) size=(5257800,640080) text='寿塔 · The Longevity Pagoda | STRUCTURED · 结构化交互能力'
+  [12] type=TEXT_BOX (17) name='TextBox 13' pos=(6309360,2395728) size=(5257800,868680) text='▸ UMG 对话框、选项、hover / click 反馈 | ▸ DataTable / Blueprint / UM'
+  [13] type=PICTURE (13) name='Picture 14' pos=(7680282,3337560) size=(2515954,1737360)
+  [14] type=AUTO_SHAPE (1) name='Rectangle 15' pos=(7735146,3392424) size=(566928,237744) text='▶ GIF'
+  [15] type=PICTURE (13) name='Picture 16' pos=(6489482,5257800) size=(2177215,1143000)
+  [16] type=PICTURE (13) name='Picture 17' pos=(9574530,5257800) size=(1447800,1143000)
+  [17] type=AUTO_SHAPE (1) name='Rectangle 18' pos=(9620250,5303520) size=(566928,237744) text='▶ GIF'
+  [18] type=TEXT_BOX (17) name='TextBox 19' pos=(10820095,6355080) size=(1097280,320040) text='06 / 07'
+=== Slide 19 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(0,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 2' pos=(640080,585216) size=(274320,54864) text=''
+  [2] type=TEXT_BOX (17) name='TextBox 3' pos=(1024127,475488) size=(8686800,169277) text='WHY CONTRA'
+  [3] type=TEXT_BOX (17) name='TextBox 4' pos=(640080,914400) size=(10515600,408894) text='我对UI 动效的理解'
+  [4] type=AUTO_SHAPE (1) name='Rectangle 5' pos=(640080,1965960) size=(3611880,2606040) text=''
+  [5] type=AUTO_SHAPE (1) name='Rectangle 6' pos=(640080,1965960) size=(3611880,54864) text=''
+  [6] type=TEXT_BOX (17) name='TextBox 7' pos=(960119,2286000) size=(2971800,1779974) text='01 | 功能层：信息组织工具 |  | 动效的第一层价值是信息引导和状态反馈，帮助用户建立视觉顺序。'
+  [7] type=AUTO_SHAPE (1) name='Rectangle 8' pos=(4480560,1965960) size=(3611880,2606040) text=''
+  [8] type=AUTO_SHAPE (1) name='Rectangle 9' pos=(4480560,1965960) size=(3611880,54864) text=''
+  [9] type=TEXT_BOX (17) name='TextBox 10' pos=(4800600,2286000) size=(2971800,2072555) text='02 | 情绪层：放大游戏体验 |  | 承担情绪放大的作用。比如结算、抽卡、升级，这些节点本身就有情绪价值，动效要把玩'
+  [10] type=AUTO_SHAPE (1) name='Rectangle 11' pos=(8321040,1965960) size=(3611880,2606040) text=''
+  [11] type=AUTO_SHAPE (1) name='Rectangle 12' pos=(8321040,1965960) size=(3611880,54864) text=''
+  [12] type=TEXT_BOX (17) name='TextBox 13' pos=(8450428,2286000) size=(3611880,1823769) text='03 | 实现层：缓动曲线、节奏和层级 |  | 缓动曲线决定动作的性格，节奏决定玩家的观看路径，层级关系决定动效会不会'
+  [13] type=AUTO_SHAPE (1) name='Rectangle 14' pos=(640080,4983480) size=(10927080,1143000) text=''
+  [14] type=TEXT_BOX (17) name='TextBox 15' pos=(960120,5289473) size=(10332720,613309) text='可深圳线下实习，立即到岗 | zliu256@connect.hkust-gz.edu.cn'
+  [15] type=TEXT_BOX (17) name='TextBox 16' pos=(10820095,6355080) size=(1097280,320040) text='07 / 07'
+=== Slide 20 layout=Blank ===
+  [0] type=AUTO_SHAPE (1) name='Rectangle 1' pos=(305,0) size=(12191695,6858000) text=''
+  [1] type=AUTO_SHAPE (1) name='Rectangle 6' pos=(4290060,3641837) size=(3611880,54864) text=''
+  [2] type=TEXT_BOX (17) name='文本框 4' pos=(4638040,2892997) size=(2915920,646331) text='THANK YOU'

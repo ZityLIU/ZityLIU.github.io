@@ -165,9 +165,9 @@ sections:
         {{< project-grid
           link1="/project/09_ancient_style/"
           gif1="/media/ancient-congrats-final.mp4"
-          tags1="After Effects · Trapcode Particular · Procedural Fog · PSD Pipeline"
+          tags1="After Effects · UE5 UMG · Procedural Fog · PSD Pipeline"
           title1="国风UI特效合集 · Ancient-Style UI FX Collection"
-          desc1="国风手游 UI 特效系统集合 — 恭喜获得 / 大厅页签按钮 / 飞升倒计时 / 任务完成弹窗 / 说书人 Tips，五套共享同一视觉语言的独立动效系统"
+          desc1="国风手游 UI 特效系统集合 — 恭喜获得（AE 预演 + UE 落地）/ 大厅页签按钮 / 月卡首页 / 飞升倒计时 / 任务完成弹窗 / 说书人 Tips，六套共享同一视觉语言的独立动效系统"
 
           link2="/project/08_gun_identification/"
           gif2="/media/gun-cover.mp4"

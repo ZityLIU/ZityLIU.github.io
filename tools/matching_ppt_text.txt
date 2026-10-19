@@ -1,0 +1,280 @@
+Total slides: 15
+=== Slide 1 ===
+TEAMFIGHT TACTICS · MATCHMAKING FLOW
+匹配页动效设计
+Matchmaking UI Motion Design
+从主界面到匹配页的完整动效链路
+After Effects · Saber · 序列帧遮罩 · 表达式驱动
+=== Slide 2 ===
+01   OVERVIEW
+项目目标 · 设计关键词
+Goal & Design Keywords
+把一次点击匹配的等待，重塑为一段有引导、有反馈、有氛围的能量穿梭叙事。
+LAMBY  ·  Matchmaking UI Motion Design
+OVERVIEW      02 / 15
+=== Slide 3 ===
+02   ARCHITECTURE
+动效拆解 · 信息架构
+Motion Breakdown Map
+拿到需求先做层级拆解：把一条链路拆成 4 大模块、14 个可独立打磨的动效单元。
+主界面  MAIN
+入场动效
+Entrance
+氛围呼吸层
+Ambient
+按钮循环态
+Loop
+按钮点击态
+Click
+转场  TRANSITION
+退场动效
+Exit
+暗场蓄力
+Charge
+能量爆发
+Burst
+空间穿梭
+Warp
+过场  INTERSTITIAL
+氛围特效
+FX
+匹配页  MATCHING
+玩家链条
+Chain
+进度环
+Ring
+匹配数值
+Counter
+反馈层
+Feedback
+LAMBY  ·  Matchmaking UI Motion Design
+ARCHITECTURE      03 / 15
+扫光遮罩
+Matte
+能量爆发
+Explosion
+=== Slide 4 ===
+03   RHYTHM
+最终 Demo · 逐帧节奏拆解
+Final Demo · Beat Breakdown (6.2s @ 30fps)
+全片 6.2 秒，遵循 Anticipation → Impact → Settle → Loop 的动效节奏曲线。
+0.3s
+入场 Entrance
+1.8s
+氛围·按钮引导
+2.5s
+点击·暗场蓄力
+2.9s
+星雨穿梭过场
+3.1s
+晶球翻转 Flip
+3.4s
+爆发点亮进度环 Settle
+5.0s
+玩家链条入场
+5.9s
+玩家链条吸入
+LAMBY  ·  Matchmaking UI Motion Design
+RHYTHM      04 / 15
+=== Slide 5 ===
+04   MAIN SCENE
+主界面入场 · 氛围呼吸层
+Entrance & Ambient Breathing Layer
+用低频呼吸与碎光粒子建立一个活着的界面，让静态主界面拥有持续的生命感。
+lightstar.gif
+氛围层碎光粒子明灭洒落，配合低频呼吸与光影摇晃，营造空间纵深与生命感。
+activitywindow.gif
+运营入口的微呼吸与粒子弥散，在不抢主体的前提下增强商业化位的吸引力。
+LAMBY  ·  Matchmaking UI Motion Design
+MAIN SCENE      05 / 15
+=== Slide 6 ===
+05   INTERACTION
+交互反馈 · 点击态与按钮循环态
+Interaction Feedback & Looping Glow
+点击态给交互即时回应，流光循环态把视线无声地引导到核心玩法入口。
+mouse.gif
+鼠标点击态：每次交互都有即时、精致的反馈，是提升操作手感的关键细节。
+按钮循环态  Looping Glow
+button1.gif
+入场按钮 · Saber 多层叠加流光，引导核心玩法入口。
+button2.gif
+匹配按钮 · 呼应主按钮的视觉语言，丰富画面细节。
+LAMBY  ·  Matchmaking UI Motion Design
+INTERACTION      06 / 15
+=== Slide 7 ===
+06   TRANSITION
+转场链路 · 暗场蓄力与吸入穿梭
+Charge & Spatial Warp
+一呼一吸的张力设计：先暗场蓄力压低能量，再瞬间爆发并吸入穿梭，完成场景跃迁。
+absorbing.gif
+吸入光能：制造空间被吸入、穿梭时空的体验，把玩家从主界面带向匹配页。
+LAMBY  ·  Matchmaking UI Motion Design
+TRANSITION      07 / 15
+=== Slide 8 ===
+07   ATMOSPHERE
+爆发氛围 · 粒子飞散
+Burst Atmosphere · Particle Spray
+在能量爆发的瞬间叠加星点粒子飞散，让爆点更具冲击力，也更精致耐看。
+atmosphere.gif
+爆炸氛围：星星点点的粒子向外飞散，是我重点打磨的一处细节，让爆发瞬间更有空气感与精致度。
+技法拆解
+· 粒子分三类：丰富光效细节与形态
+· 叠加 Glow 让粒子带光晕呼吸
+· 飞散方向与爆发力线对齐
+· 尾段降速衰减，自然过渡到匹配页
+LAMBY  ·  Matchmaking UI Motion Design
+ATMOSPHERE      08 / 15
+=== Slide 9 ===
+08   SIGNATURE
+高光 · 晶球翻转与扫光遮罩
+Signature · Crystal Flip via Track Matte
+用扫光做 Track Matte 遮罩驱动晶球翻转到棋盘格，让过场在一次旋转中自然换景。
+翻转 第 1 帧
+翻转 第 2 帧
+翻转 第 3 帧
+翻转 第 4 帧
+ball1–4.png  晶球旋转序列帧
+用一道扫光做 Track Matte 遮罩——扫光扫到哪里，画面就翻到哪里，让晶球在一次旋转中自然翻转成棋盘格图案，过场连贯、不跳切。
+scan.gif  扫光 + 断连粒子
+在过渡瞬间补足画面精致感，是这套换景方案的关键配件。
+LAMBY  ·  Matchmaking UI Motion Design
+SIGNATURE      09 / 15
+=== Slide 10 ===
+09   MATCHING
+匹配页 · 状态反馈系统
+Matching Page · State Feedback System
+等待期不是空白：中心动画与多层状态反馈，让匹配进度始终清晰可读。
+center.gif
+棋盘格中心动画：通过层层缩放参数的调节做出重量感，是匹配页的视觉核心。
+中心动画   层层缩放，砸出重量感
+进度环   环形进度，状态一目了然
+匹配数值   3/8→8/8 实时跳动
+玩家链条   Teamfight Player 链条入场
+LAMBY  ·  Matchmaking UI Motion Design
+MATCHING      10 / 15
+=== Slide 11 ===
+10   DETAIL
+进度环拖尾 · 表达式驱动
+Progress Ring Trail · Expression-Driven
+用表达式把流光锁定在进度环头部，让拖尾随环流动，无需逐帧手 K。
+tail.gif · 进度环头部拖尾光效
+技法拆解 · Expression
+01  位置表达式：把流光的位置绑定到进度环头部，环走到哪、光跟到哪。
+02  旋转表达式：让流光的角度与进度环同步旋转，方向始终贴合切线。
+03  拖尾粒子：头部抛洒粒子并衰减，强化流动的速度感与精致度。
+价值  表达式驱动代替逐帧手 K，改进度、改速度都自动跟随，可复用、可维护，提升画面精致度。
+LAMBY  ·  Matchmaking UI Motion Design
+DETAIL      11 / 15
+=== Slide 12 ===
+11   PIPELINE
+技术实现 · AE 图层方法
+Implementation · AE Layer Stack
+用工程化的预合成思维管理图层，让复杂特效可控、可改、可复用。
+01
+素材层
+Source
+主界面 / 匹配页 UI 切图与序列帧底层
+02
+遮罩层
+Track Matte
+轨道遮罩换景，高斯模糊增加动感，缓动曲线调节动效进出
+03
+光效层
+Glow / Saber
+Saber 与 Glow 叠加流光、扫光与能量爆发
+04
+粒子层
+Particles
+模拟Particular效果，营造碎光、飞散与拖尾氛围
+05
+调色层
+Grading
+Lumetri 统一紫蓝色调，锁定整片视觉基调
+预合成工程化  Pre-comp
+· 主界面 / 转场 / 匹配页分三段预合成，独立调速
+· 循环态单独成 comp，便于无缝 Loop 与复用
+· 表达式驱动拖尾与呼吸，减少逐帧手 K
+· Time Remap 微调节奏起落
+· 运动模糊 + 统一缓动曲线，统一整片手感
+LAMBY  ·  Matchmaking UI Motion Design
+PIPELINE      12 / 15
+=== Slide 13 ===
+12   PROCESS
+迭代方法 · 设计判断
+Iteration & Design Judgement
+不是一次成型，而是用参考、A/B、多版本比对、节奏调优逐步收敛到最优解。
+01
+拆解 & 找参考
+按层级搜集素材、参考与灵感
+02
+多版落地
+同一效果做多版，快速实现想法
+03
+A/B 比对
+多版本并排比对，保留最佳
+04
+节奏调优
+缓动 / 时间重映射收敛手感
+设计判断   执行力强 + 审美收敛——即便新版本未必更好，也敢于快速试错，用并排比对让最终方案有据可依。
+LAMBY  ·  Matchmaking UI Motion Design
+PROCESS      13 / 15
+=== Slide 14 ===
+13   SUMMARY
+项目总结 · 三大亮点
+Summary · Three Highlights
+一条链路、一套反馈、一种风格——把匹配等待做成一段完整的动效体验。
+01
+完整链路
+从主界面到匹配页的状态转译，一镜到底无断点。
+02
+反馈清晰
+点击、转场、匹配进度都有明确、可读的反馈。
+03
+视觉统一
+紫蓝能量 · 粒子 · 流光 · 链条 · 进度环 = 一套语言。
+LAMBY  ·  Matchmaking UI Motion Design
+SUMMARY      14 / 15
+=== Slide 15 ===
+14   APPENDIX
+附录 · 素材索引墙
+Asset Index Wall · 18 Assets
+项目全部 18 个动效素材一览（GIF 原图见 media 文件夹）。
+fulldemo
+总览 Demo
+page1
+主界面总览
+page2
+匹配页总览
+lightstar
+碎光粒子
+activitywindow
+运营入口
+mouse
+点击态
+button1
+入场流光
+button2
+匹配流光
+boom
+蓄力爆发
+absorbing
+吸入穿梭
+atmosphere
+爆炸氛围
+scan
+扫光断连
+center
+中心动画
+tail
+进度环拖尾
+ball1–4.png
+晶球翻转序列帧
+扫光遮罩驱动翻转
+ball1
+ball2
+ball3
+ball4
+18  动效素材
+4 模块 · 15动效单元
+LAMBY  ·  Matchmaking UI Motion Design
+APPENDIX      15 / 15
